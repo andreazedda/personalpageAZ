@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "puppeteer": "^24.22.0"
+  },
+  "devDependencies": {
+    "lighthouse": "^12.3.0"
+  }
+}
