@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%2339ced6'/%3E%3Ctext x='50' y='62' text-anchor='middle' font-size='54' font-family='Segoe UI,Helvetica Neue,Arial' font-weight='700' fill='%23002531'%3EA%3C/text%3E%3C/svg%3E">
 
     <title>Andrea Zedda</title>
 <!--
@@ -15,15 +15,7 @@ Elegance Template
 https://templatemo.com/tm-528-elegance
 -->
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-
-    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
-
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-
-    <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/templatemo-style.css">
 
@@ -49,16 +41,16 @@ https://templatemo.com/tm-528-elegance
                             Andrea Zedda
                         </a>
                         <div class="navigation-row">
-                            <nav id="navigation">
-                                <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-                                <div class="nav-box navbar-collapse">
-                                    <ul class="navigation-menu nav navbar-nav navbars" id="nav">
+                            <nav id="navigation" aria-label="Primary">
+                                <button type="button" class="navbar-toggle" aria-label="Open menu" aria-controls="main-nav" aria-expanded="false">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </button>
+                                <div class="nav-box navbar-collapse" id="main-nav">
+                                    <ul class="navigation-menu nav navbar-nav navbars">
                                         <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
                                         <li data-menuanchor="slide02"><a href="#slide02">About Me</a></li>
                                         <li data-menuanchor="slide03"><a href="#slide03">Services</a></li>
-                                        <!--<li data-menuanchor="slide04"><a href="#slide04">My Skills</a></li>-->
-                                        <li data-menuanchor="slide04"><a href="#slide04">Projects and Collaborations</a></li>
-                                        <!--<li data-menuanchor="slide06"><a href="#slide06">Testimonials</a></li>-->
+                                        <li data-menuanchor="slide04"><a href="#slide04">Projects &amp; Collaborations</a></li>
                                         <li data-menuanchor="slide05"><a href="#slide05">Contact Me</a></li>
                                     </ul>
                         </div>
@@ -68,19 +60,25 @@ https://templatemo.com/tm-528-elegance
         </div>
     </header>
 
-            <div id="fullpage" class="fullpage-default">
+            <main id="main-content">
 
-                <div class="section animated-row" data-section="slide01">
+                <div id="slide01" class="section animated-row" data-section="slide01">
                     <div class="section-inner">
                         <div class="welcome-box">
                             <h1 class="welcome-title animate" data-animate="fadeInUp">Andrea Zedda</h1>
                             <p class="animate" data-animate="fadeInUp">PhD Biomedical Engineer and Investor </p>
-                            <div class="scroll-down next-section animate data-animate=" fadeInUp""><img src="images/mouse-scroll.png" alt=""><span>Scroll Down</span></div>
+                            <div class="hero-actions animate" data-animate="fadeInUp">
+                                <a class="btn btn-primary" href="#slide05">Work with me</a>
+                                <button type="button" class="scroll-down next-section" data-animate="fadeInUp" aria-label="Scroll to the next section">
+                                    <img src="images/mouse-scroll.png" alt="" aria-hidden="true">
+                                    <span>Scroll Down</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="section animated-row" data-section="slide02">
+                <div id="slide02" class="section animated-row" data-section="slide02">
                     <div class="section-inner">
                         <div class="about-section">
                             <div class="row justify-content-center">
@@ -96,37 +94,36 @@ https://templatemo.com/tm-528-elegance
                                                         I am also a <strong> financial markets passionate </strong>, which I deal with in my spare time as an <strong>Investor</strong>.
                                                     </p>
                                                 </div>
-                                                <div class="facts-list owl-carousel">
-                                                    <div class="item animate" data-animate="fadeInUp">
+                                                <ul class="facts-grid" role="list">
+                                                    <li class="fact-card animate" data-animate="fadeInUp">
                                                         <div class="counter-box">
-                                                            <i class="fa fa-graduation-cap counter-icon" aria-hidden="true"></i><span class="count-number"></span> PhD in Biomedial Engineering
+                                                            <i class="fa fa-graduation-cap counter-icon" aria-hidden="true"></i>
+                                                            <span class="fact-text">PhD in Biomedical Engineering</span>
                                                         </div>
-                                                    </div>
-                                                    <div class="item animate" data-animate="fadeInUp">
+                                                    </li>
+                                                    <li class="fact-card animate" data-animate="fadeInUp">
                                                         <div class="counter-box">
-                                                            <i class="fa fa-book counter-icon" aria-hidden="true"></i><span class="count-number"></span> Private Lessons Teacher for Many years
+                                                            <i class="fa fa-book counter-icon" aria-hidden="true"></i>
+                                                            <span class="fact-text">Private lessons teacher for many years</span>
                                                         </div>
-                                                    </div>
-                                                    <div class="item animate" data-animate="fadeInUp">
+                                                    </li>
+                                                    <li class="fact-card animate" data-animate="fadeInUp">
                                                         <div class="counter-box">
-                                                            <i class="fa fa-line-chart counter-icon" aria-hidden="true"></i><span class="count-number"></span> Investor in Financial Markets
+                                                            <i class="fa fa-line-chart counter-icon" aria-hidden="true"></i>
+                                                            <span class="fact-text">Investor in financial markets</span>
                                                         </div>
-                                                    </div>
-                                                    <div class="item animate" data-animate="fadeInUp">
+                                                    </li>
+                                                    <li class="fact-card animate" data-animate="fadeInUp">
                                                         <div class="counter-box">
-                                                            <i class="fa fa-briefcase counter-icon" aria-hidden="true"></i><span class="count-number"></span> Bioengineering Expertise in Enterprise and University contexts
+                                                            <i class="fa fa-briefcase counter-icon" aria-hidden="true"></i>
+                                                            <span class="fact-text">Bioengineering expertise in enterprise and university contexts</span>
                                                         </div>
-                                                    </div>
-                                                    <!-- <div class="item animate" data-animate="fadeInUp">
-                                                        <div class="counter-box">
-                                                            <i class="fa fa-certificate counter-icon" aria-hidden="true"></i><span class="count-number"></span> 
-                                                        </div>
-                                                    </div> -->
-                                                </div>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <figure class="about-img animate" data-animate="fadeInUp"><img src="images/foto_profilo (2).jpg" class="rounded" alt=""></figure>
+                                            <figure class="about-img animate" data-animate="fadeInUp"><img src="images/foto_profilo (2).jpg" class="rounded" alt="Portrait of Andrea Zedda" loading="lazy"></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -135,7 +132,7 @@ https://templatemo.com/tm-528-elegance
                     </div>
                 </div>
 
-                <div class="section animated-row" data-section="slide03">
+                <div id="slide03" class="section animated-row" data-section="slide03">
                     <div class="section-inner">
                         <div class="row justify-content-center">
                             <div class="col-md-8 wide-col-laptop">
@@ -144,65 +141,37 @@ https://templatemo.com/tm-528-elegance
                                     <h2>What I Do?</h2>
                                 </div>
                                 <div class="services-section">
-                                    <div class="services-list owl-carousel">
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="service-box">
-                                                <span class="service-icon"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
-                                                <h3>Consultancy in the Bioengineering field</h3>
-                                                <p> It would be a pleasure for me to help you in design, develop and validate your bioengineering solution. </p>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="service-box">
-                                                <span class="service-icon"><i class="fa fa-search-plus" aria-hidden="true"></i></span>
-                                                <h3>Research and Development</h3>
-                                                <p> Contact me if you want to code something or to be helped in writing your patent, paper or thesis.</p>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="service-box">
-                                                <span class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
-                                                <h3>Programming Expertise</h3>
-                                                <p>I have worked several time in technological development, I am not worried about developing.</p>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="service-box">
-                                                <span class="service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
-                                                <h3>Smart</h3>
-                                                <p>I use my phone for: my research activities, planning and managing work. It allows me to work 24h each day.
-                                                    Contact me so we can start now.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="service-box">
-                                                <span class="service-icon"><i class="fa fa-comments" aria-hidden="true"></i></span>
-                                                <h3>Fast Support</h3>
-                                                <p>Contact me, we will plan instantly what to do.</p>
-                                            </div>
-                                        </div>
-                                        <!-- <div class="item animate" data-animate="fadeInUp">
-                                            <div class="service-box">
-                                                <span class="service-icon"><i class="fa fa-database" aria-hidden="true"></i></span>
-                                                <h3>24-hour Up Time</h3>
-                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                            </div>
-                                        </div>  -->
-                                        <!-- <div class="item animate" data-animate="fadeInUp">
-                                            <div class="service-box">
-                                                <span class="service-icon"><i class="fa fa-bell" aria-hidden="true"></i></span>
-                                                <h3>Instant Upgrades</h3>
-                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                            </div>
-                                        </div> -->
-                                        <!-- <div class="item animate" data-animate="fadeInUp">
-                                            <div class="service-box">
-                                                <span class="service-icon"><i class="fa fa-camera" aria-hidden="true"></i></span>
-                                                <h3>Always Monitoring</h3>
-                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                            </div>
-                                        </div> -->
+                                    <div class="services-grid" role="list">
+                                        <article class="service-box animate" data-animate="fadeInUp" role="listitem">
+                                            <span class="service-icon"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                                            <h3>Consultancy in the bioengineering field</h3>
+                                            <p>It would be a pleasure for me to help you design, develop, and validate your bioengineering solution.</p>
+                                        </article>
+                                        <article class="service-box animate" data-animate="fadeInUp" role="listitem">
+                                            <span class="service-icon"><i class="fa fa-search-plus" aria-hidden="true"></i></span>
+                                            <h3>Research and development</h3>
+                                            <p>Contact me if you want to code something or need support writing your patent, paper, or thesis.</p>
+                                        </article>
+                                        <article class="service-box animate" data-animate="fadeInUp" role="listitem">
+                                            <span class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
+                                            <h3>Programming expertise</h3>
+                                            <p>I have led multiple technology development projects and can accelerate software delivery.</p>
+                                        </article>
+                                        <article class="service-box animate" data-animate="fadeInUp" role="listitem">
+                                            <span class="service-icon"><i class="fa fa-comments" aria-hidden="true"></i></span>
+                                            <h3>Fast support</h3>
+                                            <p>Reach out and we will immediately plan the next steps together.</p>
+                                        </article>
+                                        <article class="service-box secondary-service animate" data-animate="fadeInUp" role="listitem">
+                                            <span class="service-icon"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></span>
+                                            <h3>Strategic guidance</h3>
+                                            <p>I connect research insights with market needs to de-risk product and venture decisions.</p>
+                                        </article>
+                                        <article class="service-box secondary-service animate" data-animate="fadeInUp" role="listitem">
+                                            <span class="service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                                            <h3>Mobile-first collaboration</h3>
+                                            <p>I stay responsive across time zones so your projects keep momentum.</p>
+                                        </article>
                                     </div>
                                 </div>
                             </div>
@@ -257,117 +226,69 @@ https://templatemo.com/tm-528-elegance
                     </div>
                 </div>-->
 
-                <div class="section animated-row" data-section="slide04">
+                <div id="slide04" class="section animated-row" data-section="slide04">
                     <div class="section-inner">
                         <div class="row justify-content-center">
                             <div class="col-md-8 wide-col-laptop">
                                 <div class="title-block animate" data-animate="fadeInUp">
                                     <span></span>
-                                    <h2>Studies and Experience</h2>
+                                    <h2>Projects &amp; Collaborations</h2>
                                 </div>
-                                <div class="gallery-section">
-                                    <div class="gallery-list owl-carousel">
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="portfolio-item">
-                                                <div class="thumb">
-                                                    <img src="images/BMI logo.png" alt="">
-                                                </div>
-                                                <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                    <h4>Bioingegneria Modulare Italiana</h4>
-                                                    <p>BMI is an open source community that works in the bioengineering field to innovate</p>
-                                                </div>
-                                            </div>
+                                <div class="projects-grid" role="list">
+                                    <article class="portfolio-item animate" data-animate="fadeInUp" role="listitem">
+                                        <div class="thumb">
+                                            <img src="images/BMI logo.png" alt="Bioingegneria Modulare Italiana logo" loading="lazy">
                                         </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="portfolio-item">
-                                                <div class="thumb">
-                                                    <img src="images/OJB no bg.png" alt="">
-                                                </div>
-                                                <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                    <h4>Orange Jelly Beans - Thinking Process</h4>
-                                                    <p>OJB-TP is an ecommerce of solved scholar exercises</p>
-                                                </div>
-                                            </div>
+                                        <div class="thumb-inner">
+                                            <h4>Bioingegneria Modulare Italiana</h4>
+                                            <p>Open-source bioengineering community innovating modular medical solutions.</p>
                                         </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="portfolio-item">
-                                                <div class="thumb">
-                                                    <img src="images/aura.jpg" alt="">
-                                                </div>
-                                                <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                    <h4>Aura</h4>
-                                                    <p>Aura is a startup working to make wearable and stimulating devices for the vagus nerve to treat headaches.
-                                                        I have established a friendship with them and I help them to implement this type of technology.                                                    </p>
-                                                </div>
-                                            </div>
+                                    </article>
+                                    <article class="portfolio-item animate" data-animate="fadeInUp" role="listitem">
+                                        <div class="thumb">
+                                            <img src="images/OJB no bg.png" alt="Orange Jelly Beans Thinking Process logo" loading="lazy">
                                         </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="portfolio-item">
-                                                <div class="thumb">
-                                                    <img src="images/unicablbg.jpg" alt="">
-                                                </div>
-                                                <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                    <h4>University of Cagliari</h4>
-                                                    <p>At the University of Cagliari I did my bachelor's degree and the doctoral course. Here I participated in several projects, especially in the field of telemedicine.</p>
-                                                </div>
-                                            </div>
+                                        <div class="thumb-inner">
+                                            <h4>Orange Jelly Beans – Thinking Process</h4>
+                                            <p>E-commerce platform delivering curated academic problem-solving resources.</p>
                                         </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="portfolio-item">
-                                                <div class="thumb">
-                                                    <img src="images/yntnobgun.jpg" alt="">
-                                                </div>
-                                                <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                    <h4>YouAndTech</h4>
-                                                    <p>This is a company specialized in building your new technology. I am working here in collaboration with the University of Cagliari</p>
-                                                </div>
-                                            </div>
+                                    </article>
+                                    <article class="portfolio-item animate" data-animate="fadeInUp" role="listitem">
+                                        <div class="thumb">
+                                            <img src="images/aura.jpg" alt="Aura wearable concept" loading="lazy">
                                         </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="portfolio-item">
-                                                <div class="thumb">
-                                                    <img src="images/unige (2).png" alt="">
-                                                </div>
-                                                <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                    <h4>University of Genoa</h4>
-                                                    <p>here I took my master's degree and did a PhD course in collaboration with the University of Cagliari</p>
-                                                </div>
-                                            </div>
+                                        <div class="thumb-inner">
+                                            <h4>Aura</h4>
+                                            <p>Startup developing wearable vagus-nerve stimulation for headache relief; I advise on the technology roadmap.</p>
                                         </div>
-                                        <!-- <div class="item animate" data-animate="fadeInUp">
-                                            <div class="portfolio-item">
-                                                <div class="thumb">
-                                                    <img src="images/hereiam.bmp" alt="">
-                                                </div>
-                                                <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                    <h4>templatemo is the best</h4>
-                                                    <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                                </div>
-                                            </div>
+                                    </article>
+                                    <article class="portfolio-item animate" data-animate="fadeInUp" role="listitem">
+                                        <div class="thumb">
+                                            <img src="images/unicablbg.jpg" alt="University of Cagliari campus" loading="lazy">
                                         </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="portfolio-item">
-                                                <div class="thumb">
-                                                    <img src="images/domomea.png" alt="">
-                                                </div>
-                                                <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                    <h4>templatemo is the best</h4>
-                                                    <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                                </div>
-                                            </div>
+                                        <div class="thumb-inner">
+                                            <h4>University of Cagliari</h4>
+                                            <p>Doctoral research and telemedicine collaborations spanning multiple EU projects.</p>
                                         </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="portfolio-item">
-                                                <div class="thumb">
-                                                    <img src="images/item-3.jpg" alt="">
-                                                </div>
-                                                <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                    <h4>templatemo is the best</h4>
-                                                    <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                    </div>
+                                    </article>
+                                    <article class="portfolio-item animate" data-animate="fadeInUp" role="listitem">
+                                        <div class="thumb">
+                                            <img src="images/yntnobgun.jpg" alt="YouAndTech team photo" loading="lazy">
+                                        </div>
+                                        <div class="thumb-inner">
+                                            <h4>YouAndTech</h4>
+                                            <p>Product development partnership building custom biomedical and IoT solutions.</p>
+                                        </div>
+                                    </article>
+                                    <article class="portfolio-item animate" data-animate="fadeInUp" role="listitem">
+                                        <div class="thumb">
+                                            <img src="images/unige (2).png" alt="University of Genoa logo" loading="lazy">
+                                        </div>
+                                        <div class="thumb-inner">
+                                            <h4>University of Genoa</h4>
+                                            <p>Master’s studies and joint PhD activities bridging research between Genoa and Cagliari.</p>
+                                        </div>
+                                    </article>
                                 </div>
                             </div>
                         </div>
@@ -429,7 +350,7 @@ https://templatemo.com/tm-528-elegance
         </div>
     </div>-->
 
-                <div class="section animated-row" data-section="slide05">
+                <div id="slide05" class="section animated-row" data-section="slide05">
                     <div class="section-inner">
                         <div class="row justify-content-center">
                             <div class="col-md-7 wide-col-laptop">
@@ -455,17 +376,20 @@ https://templatemo.com/tm-528-elegance
                                         <div class="col-md-6 animate" data-animate="fadeInUp">
                                             <form id="ajax-contact" method="post" action="#">
                                                 <div class="input-field">
-                                                    <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
+                                                    <label for="name">Name</label>
+                                                    <input type="text" class="form-control" name="name" id="name" autocomplete="name" required>
                                                 </div>
                                                 <div class="input-field">
-                                                    <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
+                                                    <label for="email">Email</label>
+                                                    <input type="email" class="form-control" name="email" id="email" autocomplete="email" required>
                                                 </div>
                                                 <div class="input-field">
-                                                    <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
+                                                    <label for="message">How can I help?</label>
+                                                    <textarea class="form-control" name="message" id="message" rows="4" required></textarea>
                                                 </div>
-                                                <button class="btn" type="submit">Submit</button>
+                                                <button class="btn btn-primary" type="submit">Submit</button>
                                             </form>
-                                            <div id="form-messages" class="mt-3"></div>
+                                            <div id="form-messages" class="mt-3" role="status" aria-live="polite" aria-atomic="true"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -473,35 +397,25 @@ https://templatemo.com/tm-528-elegance
                         </div>
                     </div>
                 </div>
-            </div>
+            </main>
 
                 <div id="social-icons">
                     <div class="text-right">
                         <ul class="social-icons">
-                            <li><a href="https://www.facebook.com/andrea.zedda1991" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/Andrea_Zedda_Il?s=09" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/andrea-zedda/" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/zeddaandrea91/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/andrea.zedda1991" aria-label="Facebook"><span class="sr-only">Facebook</span><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/Andrea_Zedda_Il?s=09" aria-label="Twitter"><span class="sr-only">Twitter</span><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/andrea-zedda/" aria-label="LinkedIn"><span class="sr-only">LinkedIn</span><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/zeddaandrea91/" aria-label="Instagram"><span class="sr-only">Instagram</span><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <script src="js/jquery.js"></script>
+            <script src="js/jquery.js" defer></script>
 
-            <script src="js/bootstrap.min.js"></script>
+            <script src="js/form.js" defer></script>
 
-            <script src="js/fullpage.min.js"></script>
-
-            <script src="js/scrolloverflow.js"></script>
-
-            <script src="js/owl.carousel.min.js"></script>
-
-            <script src="js/jquery.inview.min.js"></script>
-
-            <script src="js/form.js"></script>
-
-            <script src="js/custom.js"></script>
+            <script src="js/custom.js" defer></script>
 
 
 </body>
