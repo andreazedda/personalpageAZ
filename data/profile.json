@@ -1,0 +1,490 @@
+{
+  "person": {
+    "name": "Andrea Zedda",
+    "title": "PhD Bioengineer · R&D ML Architect",
+    "location": "Cagliari, Sardinia, Italy",
+    "email": "andrea.zedda@outlook.it",
+    "tagline": "I design data-driven decision systems: causal inference + interpretable predictive modeling for business intelligence, and sensor-fusion motion analytics for bioengineering."
+  },
+  "hero": {
+    "greeting": "Andrea Zedda",
+    "subtitle": "PhD Bioengineer · R&D ML Architect",
+    "cta": "Explore my work",
+    "highlights": [
+      "Decision intelligence: interpretable ML + driver analysis (SHAP)",
+      "Causal discovery/inference for decision support and strategy",
+      "Motion analytics: sensor fusion and biomechanical metrics (IMU/EMG)"
+    ]
+  },
+  "focusNow": {
+    "role": "R&D ML Architect",
+    "company": "Sketchdata Srl",
+    "period": "Jan 2024 – Present",
+    "description": "Building ML solutions for business intelligence services: interpretable forecasting, explainability, and causal discovery for decision support.",
+    "activities": [
+      "Interpretable forecasting and business driver analysis",
+      "Explainability tooling (e.g., SHAP) to understand variable impact",
+      "Microservices-oriented web interfaces to deliver analytics to clients",
+      "Causal discovery / causal inference to support strategic decisions"
+    ],
+    "keywords": ["Python", "Django", "Microservices", "ML", "SHAP", "Causal Discovery", "Causal Inference"]
+  },
+  "education": [
+    {
+      "degree": "PhD in Bioengineering & Robotics",
+      "institution": "University of Genoa",
+      "period": "Oct 2017 – Jul 2021",
+      "notes": [
+        "Research focus: telerehabilitation with biofeedback (non-immersive VR)",
+        "Worked with EMG signals to construct rehabilitative biofeedback, including idiopathic scoliosis context",
+        "Platforms/languages: Android, Unity (C#), Python, C++, Django, Matlab"
+      ],
+      "tags": ["Bioengineering", "Robotics", "Telerehabilitation", "Biofeedback", "EMG", "Android", "Unity", "Python", "C++", "Django", "Matlab"]
+    },
+    {
+      "degree": "Master's Degree in Bioengineering — Biomedical Technologies and Engineering for Health",
+      "institution": "University of Genoa",
+      "period": "2014 – 2017",
+      "notes": [
+        "Grade: 110/110",
+        "Curriculum in Biomedical Technologies and Engineering for Health",
+        "Skills across biomedical data/signal analysis, biomedical informatics, bioimaging, perceptual/interactive systems, clinical engineering, and health information systems"
+      ],
+      "tags": ["Bioengineering", "Biomedical Signals", "Biomedical Informatics", "Bioimaging", "Clinical Engineering", "Health Information Systems", "Matlab", "Web Development", "C++", "Shell Scripting", "VB.NET"]
+    },
+    {
+      "degree": "Bachelor's Degree in Bioengineering",
+      "institution": "University of Cagliari",
+      "period": "2010 – 2014",
+      "notes": [
+        "Grade: 105",
+        "Thesis: Android application for visualization and real-time processing of pressure values measured with flexible transducers (Electromedical Instrumentation 2)",
+        "Activities: student representative; first-year tutor"
+      ],
+      "tags": ["Bioengineering", "Android", "C++", "PCB Design"]
+    },
+    {
+      "degree": "Diploma — Scientific High School",
+      "institution": "Liceo Scientifico",
+      "period": "2005 – 2010",
+      "notes": [],
+      "tags": []
+    }
+  ],
+  "background": [
+    {
+      "role": "R&D ML Architect",
+      "organization": "Sketchdata Srl",
+      "period": "Jan 2024 – Present",
+      "focus": "Machine learning for business intelligence services: interpretable forecasting, explainability (driver analysis), causal discovery, and decision-ready delivery via microservices-oriented interfaces.",
+      "tools": ["Python", "Machine Learning", "SHAP", "Causal Inference", "Microservices"]
+    },
+    {
+      "role": "R&D Software Developer (Bioengineer)",
+      "organization": "YouAndTech",
+      "period": "Dec 2021 – Dec 2023",
+      "focus": "Django-based management systems; Unity development; AI algorithms; business intelligence modeling with geometric deep learning patterns, clustering, and Bayesian networks.",
+      "tools": ["Python", "Django", "Unity", "XGBoost", "SHAP", "K-means", "Bayesian Networks"]
+    },
+    {
+      "role": "Research & Development Bioengineer (PON TEX-STYLE)",
+      "organization": "University of Cagliari",
+      "period": "Oct 2020 – Oct 2021",
+      "focus": "Enabled Bluetooth communication for wearable systems in Android; built an immersive VR demonstrator (Oculus Quest 1) for a sensorized automotive environment; collected HRV and pressure data.",
+      "tools": ["Android", "Bluetooth", "Unity (C#)", "Oculus Quest"]
+    },
+    {
+      "role": "Research on post-stroke neuromotor telerehabilitation (DoMoMEA)",
+      "organization": "University of Cagliari",
+      "period": "Apr 2018 – Jul 2021",
+      "focus": "Research on neuromotor home telerehabilitation for post-stroke outcomes; followed a thesis on exergame design and development.",
+      "tools": ["Telerehabilitation", "Biosignals", "Unity", "Django", "Python", "Android"]
+    },
+    {
+      "role": "Android Developer (Freelance) — Let’s Project",
+      "organization": "Let’s Webereable (third-party project)",
+      "period": "Jun 2018 – Nov 2018",
+      "focus": "Android app for real-time visualization of electrophysiological signals via Bluetooth (ECG + respiration), with synchronized recording for offline analysis.",
+      "tools": ["Android", "Bluetooth", "ECG", "Real-time Monitoring", "Matlab"]
+    },
+    {
+      "role": "Research on telerehabilitation for adolescent idiopathic scoliosis",
+      "organization": "University of Cagliari",
+      "period": "Oct 2017 – Oct 2018",
+      "focus": "Led development of a telerehabilitation platform with real-time EMG acquisition on Android and remote recording; co-supervised undergraduate theses in EMG monitoring and rehab support platforms.",
+      "tools": ["Android", "EMG", "Matlab", "Biosignals"]
+    },
+    {
+      "role": "Medical Technology Integration Specialist (Research Scholarship)",
+      "organization": "University of Cagliari",
+      "period": "Apr 2017 – Oct 2017",
+      "focus": "Studied and modified configurable assistive medical technology systems for the European telecare project HEREiAM; planned integrations of medical devices (e.g., glucometer, coagulometer).",
+      "tools": ["Telehealth", "Android", "System Integration"]
+    },
+    {
+      "role": "Educational Tutor — Analog & Digital Electronic Design",
+      "organization": "University of Cagliari",
+      "period": "Apr 2017 – Apr 2018",
+      "focus": "Tutoring and support for a 10-credit course on analog and digital electronic design for biomedical engineering students.",
+      "tools": ["Arduino", "Analog Circuits", "Digital Circuits"]
+    },
+    {
+      "role": "Master’s candidate in bioengineering (industry placement)",
+      "organization": "CAMELOT biomedical systems S.r.l.",
+      "period": "Jun 2016 – Jan 2017",
+      "focus": "Participated in a telemedicine project (C/C++/Matlab, WFDB); contributed to web platform design work (HTML/CSS/JS, AngularJS).",
+      "tools": ["C", "C++", "Matlab", "WFDB", "HTML", "CSS", "JavaScript", "AngularJS"]
+    },
+    {
+      "role": "Biomedical Engineering Intern (Bachelor’s studies)",
+      "organization": "University of Cagliari",
+      "period": "Jun 2013 – Jun 2014",
+      "focus": "Designed and built an electronic board to transmit pressure-mat data to an Android smartphone via Bluetooth; supported PCB design/fabrication/soldering and Android app development for data collection.",
+      "tools": ["PCB", "DXP", "Bluetooth", "Android"]
+    },
+    {
+      "role": "First-year tutor",
+      "organization": "University of Cagliari",
+      "period": "Jan 2012 – Jan 2013",
+      "focus": "Support role for incoming students; provided overview metrics on first-year academic performance to the course committee.",
+      "tools": ["Student Support", "Reporting"]
+    }
+  ],
+  "operatingSystem": {
+    "title": "Operating System",
+    "lead": "Decision rules that keep the ecosystem coherent as it scales.",
+    "blocks": [
+      {
+        "title": "Boundary & governance",
+        "items": [
+          "Governance is functional: each container answers one question.",
+          "BMI: does this knowledge need to exist even if the market disappears?",
+          "For-profit: does this knowledge create economic value if applied now?",
+          "If the boundary decision is ambiguous → it stays in BMI."
+        ]
+      },
+      {
+        "title": "IP & data placement",
+        "items": [
+          "IP originates in BMI; exploitation is optional, deferred, and selective.",
+          "Data belongs to the truth layer that makes it interpretable.",
+          "If a dataset improves the model → BMI; if it improves service delivery → for-profit."
+        ]
+      },
+      {
+        "title": "Scaling & stop rules",
+        "items": [
+          "Scale modules, reuse, licenses, and interpretations — not user cognitive complexity.",
+          "Stop if it’s not modellable, explainable, and verifiable.",
+          "Stop if it forces boundary ambiguity or epistemic compromises."
+        ]
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "ml-decision",
+      "icon": "fa-line-chart",
+      "title": "ML & Decision Intelligence",
+      "description": "Forecasting, driver analysis (SHAP), decision-ready outputs"
+    },
+    {
+      "id": "causal",
+      "icon": "fa-sitemap",
+      "title": "Causal Inference / Causal Discovery",
+      "description": "Causal graphs, treatment effect reasoning, strategic decision support"
+    },
+    {
+      "id": "pipelines",
+      "icon": "fa-cogs",
+      "title": "Data Pipeline Engineering",
+      "description": "Modular pipelines, config-driven workflows, reproducibility, testing"
+    },
+    {
+      "id": "bioeng",
+      "icon": "fa-heartbeat",
+      "title": "Bioengineering & Wearables R&D",
+      "description": "IMU/EMG signals, sensor fusion, movement analytics, tele-rehab systems"
+    },
+    {
+      "id": "prototyping",
+      "icon": "fa-code",
+      "title": "Software Prototyping (Web + Mobile)",
+      "description": "Django-based analytics interfaces, Android/Unity prototypes"
+    }
+  ],
+  "projects": [
+    {
+      "id": "bmi",
+      "name": "BMI — Bioingegneria Modulare Italiana",
+      "tagline": "Biomedical R&D container: reusable scientific infrastructure + modular clinical/biomed components.",
+      "purpose": "Build a reusable biomedical engineering stack (acquisition → processing → modeling) that can be transferred into applied products without rewriting the core.",
+      "whatIBuild": [
+        "Reusable acquisition/instrumentation layers (IMU + low-cost real-time EMG)",
+        "Python-first modules with explicit I/O, logging, versioning, tests, reproducible configs",
+        "Research-grade building blocks that can be verticalized elsewhere (e.g., movement analytics, decision support)"
+      ],
+      "outputs": [
+        "Android acquisition app foundation (IMU) and real-time EMG integration",
+        "Reusable preprocessing/synchronization patterns and data schemas",
+        "Concept frameworks for longitudinal modeling (patient digital twin)"
+      ],
+      "status": "prototype",
+      "tags": [
+        "Non-profit (planned)",
+        "Bioengineering",
+        "IMU",
+        "EMG",
+        "Android",
+        "Python",
+        "Reproducibility",
+        "Modular Pipelines"
+      ],
+      "links": [
+        { "label": "Public overview", "url": "#", "placeholder": true }
+      ],
+      "contained": [
+        {
+          "name": "bmyCure4MM",
+          "tagline": "Biomedical AI / decision support: patient digital twin with longitudinal response + side-effects."
+        },
+        {
+          "name": "bmySquat",
+          "tagline": "Biomechanics module track within BMI (structure-first, reusable components)."
+        },
+        {
+          "name": "Sensor acquisition stack",
+          "tagline": "Android IMU acquisition + synchronization/streaming/buffering + EMG real-time integration."
+        }
+      ]
+    },
+    {
+      "id": "sketchdata",
+      "name": "SketchData",
+      "tagline": "BI/automation container: interpretable ML, causal reasoning, and modular data pipelines.",
+      "purpose": "Turn business data into decision-ready outputs, with an architecture that stays modular as complexity grows (local → parallel → cloud/API).",
+      "whatIBuild": [
+        "Config-driven pipelines with explicit component I/O (swap modules without rewiring the whole system)",
+        "Interpretable forecasting and driver analysis (SHAP) for actionability",
+        "Causal discovery/inference workflows for strategic decisions"
+      ],
+      "outputs": [
+        "Dashboards and decision briefs",
+        "APIs/microservices to deliver analytics"
+      ],
+      "status": "production",
+      "tags": [
+        "For-profit",
+        "Causal Inference",
+        "Causal Discovery",
+        "Forecasting",
+        "Explainability",
+        "SHAP",
+        "Data Pipelines",
+        "Python",
+        "Django",
+        "Microservices"
+      ],
+      "links": [
+        { "label": "Public overview", "url": "#", "placeholder": true }
+      ],
+      "contained": [
+        { "name": "Jungle", "tagline": "Operational/automation module family (workflow-first)." },
+        { "name": "MAP", "tagline": "Analytics/pipeline module family (explicit inputs/outputs)." },
+        { "name": "RADIAL", "tagline": "Decision support module family (reports, dashboards, APIs)." }
+      ]
+    },
+    {
+      "id": "igm",
+      "name": "IGM — Ingegneria del Movimento",
+      "tagline": "Movement analytics product container built on wearable sensors (IMU/EMG).",
+      "purpose": "Ship a usable movement-analysis experience (panel, metrics, workflows) by reusing BMI’s core acquisition/instrumentation stack.",
+      "whatIBuild": [
+        "Applied movement analysis: segmentation, phase detection, interpretable biomechanical metrics",
+        "Product-facing analysis panel (visualization, reporting, UX for practical use)",
+        "Validation-minded engineering: deterministic tests, diagnostics, reproducible runs"
+      ],
+      "outputs": [
+        "Analysis tooling and automated reports",
+        "Instrumentation/QA improvements (e.g., deterministic Android UI tests)"
+      ],
+      "status": "prototype",
+      "tags": [
+        "For-profit",
+        "IMU",
+        "EMG",
+        "Sensor Fusion",
+        "Biomechanics",
+        "Motion Analysis",
+        "Android Testing"
+      ],
+      "links": [
+        { "label": "Public overview", "url": "#", "placeholder": true }
+      ],
+      "contained": [
+        {
+          "name": "gym_IMU",
+          "tagline": "Android instrumentation tests: permission flows, deterministic UI tests, removing sleeps, gating/diagnostics."
+        },
+        {
+          "name": "IMU/EMG analysis panel",
+          "tagline": "Interpretation/visualization layer on top of the shared acquisition base."
+        }
+      ]
+    },
+    {
+      "id": "fztm",
+      "name": "FZTM — From Zero to Million",
+      "tagline": "Quant finance + educational systems: scenarios, constraints, and decision dashboards.",
+      "purpose": "Make financial decisions explicit via models, assumptions, and stress-tested scenarios (automation-first, output-driven).",
+      "whatIBuild": [
+        "Scenario modeling and constraint-aware simulations",
+        "Automation-first calculators and reporting (CSV/Excel/JSON as needed)",
+        "Dashboards that surface decision variables (not just charts)"
+      ],
+      "outputs": [
+        "Dashboards/calculators and decision notes",
+        "Scenario/stress-test artifacts"
+      ],
+      "status": "prototype",
+      "tags": [
+        "For-profit",
+        "Financial Engineering",
+        "Risk",
+        "Simulation",
+        "Dashboards",
+        "Automation",
+        "Modeling"
+      ],
+      "links": [
+        { "label": "Public overview", "url": "#", "placeholder": true }
+      ]
+    },
+    {
+      "id": "es",
+      "name": "ES — Esercizi Svolti",
+      "tagline": "Educational container: structured problem-solving systems (not an archive).",
+      "purpose": "Increase learning value via structure, method, tooling, and progression—beyond generic exercise repositories.",
+      "whatIBuild": [
+        "Problem → solution libraries with method-driven explanations",
+        "Structured learning paths and evaluation criteria",
+        "Tooling-first approach to reduce manual repetition"
+      ],
+      "outputs": [
+        "Exercise collections and study tracks",
+        "Templates and structured formats for consistent delivery"
+      ],
+      "status": "production",
+      "tags": [
+        "For-profit",
+        "Education",
+        "Problem Solving",
+        "STEM",
+        "Method",
+        "Technical Writing"
+      ],
+      "links": [
+        { "label": "Public overview", "url": "#", "placeholder": true }
+      ]
+    }
+  ],
+  "collaborationModes": [
+    {
+      "mode": "R&D / Prototyping",
+      "description": "From problem definition to proof-of-concept and reproducible experiments"
+    },
+    {
+      "mode": "Decision Intelligence Systems",
+      "description": "Data pipelines + interpretable ML + causal analysis into operational dashboards/APIs"
+    },
+    {
+      "mode": "Bioengineering Motion Analytics",
+      "description": "Sensor fusion + biomechanical metrics + validation approach"
+    }
+  ],
+  "toolbox": {
+    "tags": [
+      "Python",
+      "Django",
+      "Machine Learning",
+      "Explainability (SHAP)",
+      "Causal Inference",
+      "Causal Discovery",
+      "Time Series Forecasting",
+      "Microservices",
+      "Data Pipelines",
+      "Android",
+      "Unity (C#)",
+      "IMU Sensor Fusion",
+      "EMG",
+      "Telerehabilitation",
+      "Biomechanics"
+    ],
+    "capabilities": [
+      "Interpretable predictive modeling for business intelligence",
+      "Causal reasoning for decision support",
+      "Modular pipeline engineering (config-driven, reproducible)",
+      "Analytics delivery via web interfaces and APIs",
+      "Wearable sensing and movement analysis (IMU/EMG)",
+      "Telerehabilitation and biofeedback system design"
+    ]
+  },
+  "proofs": [
+    {
+      "type": "LinkedIn",
+      "label": "Professional Profile",
+      "url": "https://www.linkedin.com/in/andrea-zedda/",
+      "icon": "fa-linkedin"
+    },
+    {
+      "type": "GitHub",
+      "label": "Code Repositories",
+      "url": "#",
+      "icon": "fa-github",
+      "placeholder": true
+    },
+    {
+      "type": "Post",
+      "label": "Failure bias in science",
+      "url": "#",
+      "icon": "fa-file-text-o",
+      "placeholder": true
+    },
+    {
+      "type": "Post",
+      "label": "Data over intuition",
+      "url": "#",
+      "icon": "fa-file-text-o",
+      "placeholder": true
+    },
+    {
+      "type": "Publication",
+      "label": "PhD Thesis & Publications",
+      "url": "#",
+      "icon": "fa-graduation-cap",
+      "placeholder": true
+    }
+  ],
+  "social": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/andrea-zedda/",
+      "icon": "fa-linkedin"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/andrea.zedda1991",
+      "icon": "fa-facebook"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/Andrea_Zedda_Il?s=09",
+      "icon": "fa-twitter"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/zeddaandrea91/",
+      "icon": "fa-instagram"
+    }
+  ]
+}
