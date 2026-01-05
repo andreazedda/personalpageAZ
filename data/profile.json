@@ -21,6 +21,9 @@
       "nav.capabilities": "Capabilities",
       "nav.projects": "Projects",
       "nav.proof": "Proof",
+      "nav.future": "Future",
+      "nav.reading": "Reading",
+      "nav.courses": "Courses",
       "nav.contact": "Contact",
 
       "hero.kicker": "Executive Brief",
@@ -30,7 +33,7 @@
       "hero.factCurrent": "Current",
       "hero.factLocation": "Location",
       "hero.factCollaboration": "Collaboration",
-      "hero.note": "Add Italian copy later.",
+      "hero.note": "Bioengineering foundation (signals, bioimaging, health IT) + interpretable ML and causal inference for decision support.",
 
       "focus.subtitle": "Current Work",
       "focus.title": "Focus Now",
@@ -49,7 +52,7 @@
 
       "capabilities.subtitle": "Services",
       "capabilities.title": "Capabilities",
-      "capabilities.lead": "Engagements are scoped as deliverables: reproducible experiments, decision support, and usable interfaces.",
+      "capabilities.lead": "Services are scoped as deliverables: reproducible analysis, decision support, and production-ready interfaces (BI / health / wearables).",
 
       "toolbox.title": "Toolbox",
 
@@ -68,7 +71,24 @@
       "contact.title": "Contact",
       "contact.lead": "Best channel: email. If you're evaluating collaboration, LinkedIn is the fastest context sync.",
       "contact.copyEmail": "Copy Email",
-      "contact.sendEmail": "Send Email"
+      "contact.sendEmail": "Send Email",
+
+      "future.subtitle": "Next Steps",
+      "future.title": "Future Plans",
+      "future.lead": "What I'm building and where I'm investing my time.",
+
+      "reading.subtitle": "Learning",
+      "reading.title": "Reading",
+      "reading.lead": "Books currently reading and completed that have shaped my approach.",
+      "reading.currentLabel": "Currently Reading",
+      "reading.completedLabel": "Completed",
+
+      "courses.subtitle": "Academic Training",
+      "courses.title": "University Courses",
+      "courses.lead": "Exams and courses completed during my academic journey.",
+      "courses.levelPhd": "PhD",
+      "courses.levelMasters": "Master's Degree",
+      "courses.levelBachelors": "Bachelor's Degree"
     },
     "it": {
       "nav.home": "Home",
@@ -78,6 +98,9 @@
       "nav.capabilities": "Competenze",
       "nav.projects": "Progetti",
       "nav.proof": "Evidenze",
+      "nav.future": "Futuro",
+      "nav.reading": "Letture",
+      "nav.courses": "Corsi",
       "nav.contact": "Contatti",
 
       "hero.kicker": "Sintesi esecutiva",
@@ -87,7 +110,7 @@
       "hero.factCurrent": "Attuale",
       "hero.factLocation": "Sede",
       "hero.factCollaboration": "Collaborazione",
-      "hero.note": "Testo in italiano disponibile: seleziona IT.",
+      "hero.note": "Base bioingegneristica (segnali, bioimaging, health IT) + ML interpretabile e inferenza causale per supporto alle decisioni.",
 
       "focus.subtitle": "Lavoro attuale",
       "focus.title": "Focus ora",
@@ -106,7 +129,7 @@
 
       "capabilities.subtitle": "Servizi",
       "capabilities.title": "Competenze",
-      "capabilities.lead": "Gli ingaggi sono definiti come deliverable: esperimenti riproducibili, decision support e interfacce usabili.",
+      "capabilities.lead": "Gli ingaggi sono definiti come deliverable: analisi riproducibili, supporto decisionale e interfacce pronte per l'uso (BI / sanità / wearables).",
 
       "toolbox.title": "Strumenti",
 
@@ -125,7 +148,24 @@
       "contact.title": "Contatti",
       "contact.lead": "Canale migliore: email. Se stai valutando una collaborazione, LinkedIn è il modo più rapido per sincronizzare il contesto.",
       "contact.copyEmail": "Copia email",
-      "contact.sendEmail": "Invia email"
+      "contact.sendEmail": "Invia email",
+
+      "future.subtitle": "Prossimi passi",
+      "future.title": "Obiettivi futuri",
+      "future.lead": "Cosa sto costruendo e dove sto investendo il mio tempo.",
+
+      "reading.subtitle": "Apprendimento",
+      "reading.title": "Letture",
+      "reading.lead": "Libri in lettura e completati che hanno influenzato il mio approccio.",
+      "reading.currentLabel": "In lettura",
+      "reading.completedLabel": "Completati",
+
+      "courses.subtitle": "Formazione accademica",
+      "courses.title": "Corsi universitari",
+      "courses.lead": "Esami e corsi sostenuti durante il percorso accademico.",
+      "courses.levelPhd": "Dottorato",
+      "courses.levelMasters": "Laurea magistrale",
+      "courses.levelBachelors": "Laurea triennale"
     }
   },
   "hero": {
@@ -635,5 +675,459 @@
       "url": "https://www.instagram.com/zeddaandrea91/",
       "icon": "fa-instagram"
     }
-  ]
+  ],
+  "futurePlans": [
+    {
+      "category": {
+        "en": "Research & Development",
+        "it": "Ricerca e Sviluppo"
+      },
+      "items": [
+        {
+          "en": "Complete BMI Android acquisition app with real-time EMG integration",
+          "it": "Completare l'app Android BMI con acquisizione EMG in tempo reale"
+        },
+        {
+          "en": "Develop patient digital twin framework for longitudinal modeling",
+          "it": "Sviluppare framework per gemello digitale del paziente per modellazione longitudinale"
+        },
+        {
+          "en": "Expand causal inference tooling for strategic decision support",
+          "it": "Espandere strumenti di inferenza causale per supporto decisionale strategico"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Learning & Growth",
+        "it": "Apprendimento e Crescita"
+      },
+      "items": [
+        {
+          "en": "Complete reading list on causal inference and Bayesian methods",
+          "it": "Completare lista letture su inferenza causale e metodi Bayesiani"
+        },
+        {
+          "en": "Deepen knowledge in geometric deep learning and graph neural networks",
+          "it": "Approfondire conoscenze in geometric deep learning e reti neurali su grafi"
+        },
+        {
+          "en": "Study advanced time series forecasting techniques",
+          "it": "Studiare tecniche avanzate di forecasting su serie temporali"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Business & Collaboration",
+        "it": "Business e Collaborazione"
+      },
+      "items": [
+        {
+          "en": "Establish BMI as formal non-profit research entity",
+          "it": "Costituire BMI come ente di ricerca non-profit formale"
+        },
+        {
+          "en": "Build partnerships for sensor fusion and motion analytics applications",
+          "it": "Costruire partnership per applicazioni di sensor fusion e motion analytics"
+        },
+        {
+          "en": "Launch structured educational content via ES (Esercizi Svolti)",
+          "it": "Lanciare contenuti educativi strutturati via ES (Esercizi Svolti)"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "current": [
+      {
+        "title": "Causal Inference: The Mixtape",
+        "author": "Scott Cunningham",
+        "category": {
+          "en": "Causal Inference",
+          "it": "Inferenza Causale"
+        },
+        "notes": {
+          "en": "Deep dive into causal inference methods and econometric techniques",
+          "it": "Approfondimento su metodi di inferenza causale e tecniche econometriche"
+        }
+      },
+      {
+        "title": "The Book of Why",
+        "author": "Judea Pearl",
+        "category": {
+          "en": "Causality",
+          "it": "Causalità"
+        },
+        "notes": {
+          "en": "Foundational understanding of causal reasoning and do-calculus",
+          "it": "Comprensione fondamentale del ragionamento causale e do-calculus"
+        }
+      },
+      {
+        "title": "Statistical Rethinking",
+        "author": "Richard McElreath",
+        "category": {
+          "en": "Bayesian Statistics",
+          "it": "Statistica Bayesiana"
+        },
+        "notes": {
+          "en": "Bayesian data analysis with practical examples",
+          "it": "Analisi dati Bayesiana con esempi pratici"
+        }
+      }
+    ],
+    "completed": [
+      {
+        "title": "Designing Data-Intensive Applications",
+        "author": "Martin Kleppmann",
+        "category": {
+          "en": "Software Engineering",
+          "it": "Ingegneria del Software"
+        },
+        "impact": {
+          "en": "Shaped my approach to data pipeline architecture and system design",
+          "it": "Ha plasmato il mio approccio all'architettura di pipeline dati e system design"
+        }
+      },
+      {
+        "title": "Python Machine Learning",
+        "author": "Sebastian Raschka",
+        "category": {
+          "en": "Machine Learning",
+          "it": "Machine Learning"
+        },
+        "impact": {
+          "en": "Foundation for practical ML implementation and best practices",
+          "it": "Fondazione per implementazione pratica di ML e best practices"
+        }
+      },
+      {
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "category": {
+          "en": "Software Craftsmanship",
+          "it": "Artigianato del Software"
+        },
+        "impact": {
+          "en": "Influenced code quality standards and maintainability principles",
+          "it": "Ha influenzato standard di qualità del codice e principi di manutenibilità"
+        }
+      }
+    ]
+  },
+  "universityCourses": {
+    "phd": {
+      "institution": "University of Genoa",
+      "period": "2017-2021",
+      "courses": [
+        {
+          "name": {
+            "en": "Advanced Biomedical Signal Processing",
+            "it": "Elaborazione Avanzata di Segnali Biomedici"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Machine Learning for Healthcare",
+            "it": "Machine Learning per la Sanità"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Rehabilitation Engineering",
+            "it": "Ingegneria della Riabilitazione"
+          },
+          "credits": 6
+        }
+      ]
+    },
+    "masters": {
+      "institution": "University of Genoa",
+      "period": "2014-2017",
+      "courses": [
+        {
+          "name": {
+            "en": "Biomedical Instrumentation and Bioimaging",
+            "it": "Strumentazione Biomedica e Bioimaging"
+          },
+          "credits": 12
+        },
+        {
+          "name": {
+            "en": "Chemistry and Biochemistry",
+            "it": "Chimica e Biochimica"
+          },
+          "credits": 9
+        },
+        {
+          "name": {
+            "en": "Mathematical Methods for Engineers",
+            "it": "Metodi Matematici per l'Ingegneria"
+          },
+          "credits": 9
+        },
+        {
+          "name": {
+            "en": "Analysis of Biomedical Data and Signals",
+            "it": "Analisi di Dati e Segnali Biomedici"
+          },
+          "credits": 9
+        },
+        {
+          "name": {
+            "en": "Hospital Energy Systems",
+            "it": "Impianti Energetici Ospedalieri"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Perceptual Systems and Interactive Technologies",
+            "it": "Sistemi Percettivi e Tecnologie Interattive"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Biomedical Informatics",
+            "it": "Informatica Biomedica"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Bionanotechnology",
+            "it": "Bionanotecnologie"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Applied Hygiene",
+            "it": "Igiene Applicata"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Biomedical Image Processing",
+            "it": "Elaborazione di Immagini Biomediche"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Health Information Systems",
+            "it": "Sistemi Informativi Sanitari"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Research Methodology",
+            "it": "Metodologia della Ricerca"
+          },
+          "credits": 2
+        },
+        {
+          "name": {
+            "en": "Master Thesis",
+            "it": "Tesi di Laurea Magistrale"
+          },
+          "credits": 25
+        },
+        {
+          "name": {
+            "en": "Clinical Engineering",
+            "it": "Ingegneria Clinica"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Health Economics",
+            "it": "Economia Sanitaria"
+          },
+          "credits": 6
+        }
+      ]
+    },
+    "bachelors": {
+      "institution": "University of Cagliari",
+      "period": "2010-2014",
+      "courses": [
+        {
+          "name": {
+            "en": "Physics 1",
+            "it": "Fisica 1"
+          },
+          "credits": 8
+        },
+        {
+          "name": {
+            "en": "Chemistry",
+            "it": "Chimica"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Mathematics 1",
+            "it": "Corso integrato: Matematica 1"
+          },
+          "credits": 12
+        },
+        {
+          "name": {
+            "en": "Physics 2",
+            "it": "Fisica 2"
+          },
+          "credits": 7
+        },
+        {
+          "name": {
+            "en": "Fundamentals of Computer Science 1",
+            "it": "Fondamenti di Informatica 1"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Mathematics 2",
+            "it": "Matematica 2"
+          },
+          "credits": 9
+        },
+        {
+          "name": {
+            "en": "Fundamentals of Computer Science 2",
+            "it": "Fondamenti di Informatica 2"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Applied Mathematics",
+            "it": "Matematica Applicata"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Design of Electromedical Instrumentation",
+            "it": "Corso integrato: Progettazione di Strumentazione Elettromedicale"
+          },
+          "credits": 10
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Fundamentals of Information Engineering",
+            "it": "Corso integrato: Fondamenti di Ingegneria dell'Informazione"
+          },
+          "credits": 7
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Transport Phenomena and Biomaterials",
+            "it": "Corso integrato: Fenomeni di Trasporto e Biomateriali"
+          },
+          "credits": 10
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Elements of Anatomy and Biochemistry",
+            "it": "Corso integrato: Elementi di Anatomia e Biochimica"
+          },
+          "credits": 7
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Systems Analysis and Physiology",
+            "it": "Corso integrato: Analisi dei Sistemi e Fisiologia"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Bioelectronics",
+            "it": "Corso integrato: Bioelettronica"
+          },
+          "credits": 10
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Industrial Bioengineering",
+            "it": "Corso integrato: Bioingegneria Industriale"
+          },
+          "credits": 10
+        },
+        {
+          "name": {
+            "en": "Biomechanics: Biomedical Mechanics and Constructions",
+            "it": "Biomeccanica: Meccanica e Costruzioni Biomeccaniche"
+          },
+          "credits": 10
+        },
+        {
+          "name": {
+            "en": "Industrial Automation",
+            "it": "Automazione Industriale"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Information Bioengineering",
+            "it": "Corso integrato: Bioingegneria dell'Informazione"
+          },
+          "credits": 10
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Elements of Actuators and Databases",
+            "it": "Corso integrato: Elementi di Attuatori e di Basi di Dati"
+          },
+          "credits": 8
+        },
+        {
+          "name": {
+            "en": "Telecommunication Networks",
+            "it": "Reti di Telecomunicazione"
+          },
+          "credits": 6
+        },
+        {
+          "name": {
+            "en": "Internship",
+            "it": "Tirocinio"
+          },
+          "credits": 5
+        },
+        {
+          "name": {
+            "en": "English Language Proficiency Test",
+            "it": "Prova di conoscenza di Lingua Inglese"
+          },
+          "credits": 3
+        },
+        {
+          "name": {
+            "en": "Integrated Course: Elements of Clinical Practice, Pathology and Molecular Biology",
+            "it": "Corso integrato: Elementi di Clinica, Patologia e Biologia Molecolare"
+          },
+          "credits": 10
+        },
+        {
+          "name": {
+            "en": "Final Exam / Thesis",
+            "it": "Prova finale"
+          },
+          "credits": 5
+        }
+      ]
+    }
+  }
 }

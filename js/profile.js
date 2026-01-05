@@ -228,6 +228,9 @@
     renderProjects();
     renderToolbox();
     renderProofs();
+    renderFuturePlans();
+    renderReading();
+    renderCourses();
     renderContact();
     initCopyEmail();
   }
@@ -675,6 +678,125 @@
       btn.textContent = originalText;
       btn.classList.remove('copied');
     }, 2000);
+  }
+
+  /**
+   * Render Future Plans section
+   */
+  function renderFuturePlans() {
+    const container = document.getElementById('future-plans-content');
+    if (!container || !profileData.futurePlans) return;
+
+    const html = profileData.futurePlans.map(section => `
+      <div class="future-category mb-lg">
+        <h3 class="mb-md">${t(section.category)}</h3>
+        <ul class="future-items">
+          ${section.items.map(item => `<li>${t(item)}</li>`).join('')}
+        </ul>
+      </div>
+    `).join('');
+
+    container.innerHTML = html;
+  }
+
+  /**
+   * Render Reading section
+   */
+  function renderReading() {
+    const container = document.getElementById('reading-content');
+    if (!container || !profileData.reading) return;
+
+    const currentLabel = ui('reading.currentLabel', 'Currently Reading');
+    const completedLabel = ui('reading.completedLabel', 'Completed');
+
+    const currentHtml = profileData.reading.current ? `
+      <div class="reading-section mb-lg">
+        <h3 class="mb-md">${currentLabel}</h3>
+        <div class="reading-grid">
+          ${profileData.reading.current.map(book => `
+            <div class="card reading-card">
+              <h4>${book.title}</h4>
+              <p class="book-author">${book.author}</p>
+              <span class="tag">${t(book.category)}</span>
+              ${book.notes ? `<p class="book-notes mt-sm text-light">${t(book.notes)}</p>` : ''}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    ` : '';
+
+    const completedHtml = profileData.reading.completed ? `
+      <div class="reading-section">
+        <h3 class="mb-md">${completedLabel}</h3>
+        <div class="reading-grid">
+          ${profileData.reading.completed.map(book => `
+            <div class="card reading-card">
+              <h4>${book.title}</h4>
+              <p class="book-author">${book.author}</p>
+              <span class="tag">${t(book.category)}</span>
+              ${book.impact ? `<p class="book-impact mt-sm text-light">${t(book.impact)}</p>` : ''}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    ` : '';
+
+    container.innerHTML = currentHtml + completedHtml;
+  }
+
+  /**
+   * Render University Courses section
+   */
+  function renderCourses() {
+    const container = document.getElementById('courses-content');
+    if (!container || !profileData.universityCourses) return;
+
+    const courses = profileData.universityCourses;
+    const sections = [];
+
+    const phdLabel = ui('courses.levelPhd', 'PhD');
+    const mastersLabel = ui('courses.levelMasters', "Master's Degree");
+    const bachelorsLabel = ui('courses.levelBachelors', "Bachelor's Degree");
+
+    if (courses.phd) {
+      sections.push({
+        title: phdLabel,
+        ...courses.phd
+      });
+    }
+
+    if (courses.masters) {
+      sections.push({
+        title: mastersLabel,
+        ...courses.masters
+      });
+    }
+
+    if (courses.bachelors) {
+      sections.push({
+        title: bachelorsLabel,
+        ...courses.bachelors
+      });
+    }
+
+    const html = sections.map(section => `
+      <div class="courses-section mb-lg">
+        <h3 class="mb-sm">${section.title} — ${section.institution}</h3>
+        <p class="text-light mb-md">${section.period}</p>
+        <div class="courses-grid">
+          ${section.courses.map(course => `
+            <div class="card course-card">
+              <h4>${t(course.name)}</h4>
+              <div class="course-meta">
+                <span class="course-credits">${course.credits} CFU</span>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+
+    container.innerHTML = html;
   }
 
   // Start when DOM is ready

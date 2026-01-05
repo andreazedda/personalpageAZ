@@ -1,0 +1,35 @@
+# --- OS / filesystem ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+
+# --- Node (if ever used) ---
+node_modules/
+
+# --- Private resources (certificates, transcripts, notes) ---
+resources/
+
+# --- Local-only scratch ---
+resources/esami_template.txt
