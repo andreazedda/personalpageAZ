@@ -27,16 +27,21 @@
         <div class="container">
             <div class="navbar">
                 <a href="#hero" id="logo">Andrea Zedda</a>
+                <div class="lang-switch" aria-label="Language">
+                    <a href="?lang=en" data-lang="en" class="lang-link" aria-label="English">EN</a>
+                    <span class="lang-sep" aria-hidden="true">/</span>
+                    <a href="?lang=it" data-lang="it" class="lang-link" aria-label="Italiano">IT</a>
+                </div>
                 <nav id="navigation">
                     <ul class="navigation-menu">
-                        <li class="active"><a href="#hero">Home</a></li>
-                        <li><a href="#focus-now">Focus Now</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#capabilities">Capabilities</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#proof">Proof</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li class="active"><a href="#hero" data-i18n="nav.home">Home</a></li>
+                        <li><a href="#focus-now" data-i18n="nav.focusNow">Focus Now</a></li>
+                        <li><a href="#education" data-i18n="nav.education">Education</a></li>
+                        <li><a href="#about" data-i18n="nav.about">About</a></li>
+                        <li><a href="#capabilities" data-i18n="nav.capabilities">Capabilities</a></li>
+                        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+                        <li><a href="#proof" data-i18n="nav.proof">Proof</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -51,7 +56,7 @@
             <div class="container">
                 <div class="hero-grid">
                     <div class="hero-content">
-                        <p class="hero-kicker">Executive Brief</p>
+                        <p class="hero-kicker" data-i18n="hero.kicker">Executive Brief</p>
                         <h1 id="hero-title">Andrea Zedda</h1>
                         <p id="hero-subtitle" class="hero-subtitle">PhD Bioengineer · R&D ML Architect</p>
                         <p id="hero-tagline" class="hero-tagline">
@@ -66,7 +71,7 @@
                         </ul>
 
                         <div class="hero-pillars" aria-label="Project pillars">
-                            <span class="hero-pillars-label">Pillars:</span>
+                            <span class="hero-pillars-label" data-i18n="hero.pillarsLabel">Pillars:</span>
                             <a class="pillars-chip" href="#project-bmi">BMI</a>
                             <a class="pillars-chip" href="#project-sketchdata">SketchData</a>
                             <a class="pillars-chip" href="#project-igm">IGM</a>
@@ -75,28 +80,28 @@
                         </div>
 
                         <div class="hero-cta">
-                            <a class="btn" href="#projects">See Projects</a>
+                            <a class="btn" href="#projects" data-i18n="hero.ctaProjects">See Projects</a>
                             <a class="btn btn-outline" id="hero-linkedin" href="https://www.linkedin.com/in/andrea-zedda/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                            <a class="btn btn-outline" href="mailto:andrea.zedda@outlook.it">Email</a>
+                            <a class="btn btn-outline" href="mailto:andrea.zedda@outlook.it" data-i18n="hero.ctaEmail">Email</a>
                         </div>
                     </div>
 
                     <aside class="hero-panel" aria-label="Key facts">
                         <div class="hero-fact">
-                            <span class="hero-fact-label">Current</span>
+                            <span class="hero-fact-label" data-i18n="hero.factCurrent">Current</span>
                             <span class="hero-fact-value" id="hero-current">R&D ML Architect — Sketchdata Srl</span>
                         </div>
                         <div class="hero-fact">
-                            <span class="hero-fact-label">Location</span>
+                            <span class="hero-fact-label" data-i18n="hero.factLocation">Location</span>
                             <span class="hero-fact-value" id="hero-location">Cagliari, Sardinia, Italy</span>
                         </div>
                         <div class="hero-fact">
-                            <span class="hero-fact-label">Collaboration</span>
+                            <span class="hero-fact-label" data-i18n="hero.factCollaboration">Collaboration</span>
                             <span class="hero-fact-value">R&D prototyping · Decision intelligence systems · Motion analytics</span>
                         </div>
                         <div class="hero-panel-note">
-                            <span class="hero-panel-note-label">TODO (IT)</span>
-                            <span class="hero-panel-note-value">Add Italian copy later.</span>
+                            <span class="hero-panel-note-label">TODO</span>
+                            <span class="hero-panel-note-value" data-i18n="hero.note">Add Italian copy later.</span>
                         </div>
                     </aside>
                 </div>
@@ -107,10 +112,10 @@
         <section id="focus-now" class="section section-alt">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle">Current Work</span>
-                    <h2 class="section-title">Focus Now</h2>
+                    <span class="section-subtitle" data-i18n="focus.subtitle">Current Work</span>
+                    <h2 class="section-title" data-i18n="focus.title">Focus Now</h2>
                 </div>
-                <p class="section-lead">What I'm building right now and the methods I use to turn data into decision-ready outputs.</p>
+                <p class="section-lead" data-i18n="focus.lead">What I'm building right now and the methods I use to turn data into decision-ready outputs.</p>
                 <div id="focus-now-content">
                     <!-- Content rendered by profile.js -->
                     <div class="focus-header">
@@ -126,10 +131,10 @@
         <section id="education" class="section">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle">Training</span>
-                    <h2 class="section-title">Education</h2>
+                    <span class="section-subtitle" data-i18n="education.subtitle">Training</span>
+                    <h2 class="section-title" data-i18n="education.title">Education</h2>
                 </div>
-                <p class="section-lead">Degrees and training that shaped my research approach and engineering standards.</p>
+                <p class="section-lead" data-i18n="education.lead">Degrees and training that shaped my research approach and engineering standards.</p>
 
                 <div id="education-list">
                     <!-- Content rendered by profile.js -->
@@ -149,11 +154,11 @@
         <section id="about" class="section">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle">Background</span>
-                    <h2 class="section-title">About</h2>
+                    <span class="section-subtitle" data-i18n="about.subtitle">Background</span>
+                    <h2 class="section-title" data-i18n="about.title">About</h2>
                 </div>
 
-                <p class="section-lead">A compact timeline of research and industry work, with the tooling that shaped my approach.</p>
+                <p class="section-lead" data-i18n="about.lead">A compact timeline of research and industry work, with the tooling that shaped my approach.</p>
 
                 <div id="background-list">
                     <!-- Content rendered by profile.js -->
@@ -165,7 +170,7 @@
                 </div>
 
                 <div class="mt-lg">
-                    <h3 class="text-center mb-md">Operating System</h3>
+                    <h3 class="text-center mb-md" data-i18n="os.title">Operating System</h3>
                     <div id="operating-system">
                         <!-- Content rendered by profile.js -->
                         <div class="operating-item">
@@ -180,7 +185,7 @@
                 </div>
 
                 <div class="mt-lg">
-                    <h3 class="text-center mb-md">Collaboration Modes</h3>
+                    <h3 class="text-center mb-md" data-i18n="collab.title">Collaboration Modes</h3>
                     <div id="collaboration-modes">
                         <!-- Content rendered by profile.js -->
                         <div class="collab-mode">
@@ -196,10 +201,10 @@
         <section id="capabilities" class="section section-alt">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle">Services</span>
-                    <h2 class="section-title">Capabilities</h2>
+                    <span class="section-subtitle" data-i18n="capabilities.subtitle">Services</span>
+                    <h2 class="section-title" data-i18n="capabilities.title">Capabilities</h2>
                 </div>
-                <p class="section-lead">Engagements are scoped as deliverables: reproducible experiments, decision support, and usable interfaces.</p>
+                <p class="section-lead" data-i18n="capabilities.lead">Engagements are scoped as deliverables: reproducible experiments, decision support, and usable interfaces.</p>
                 
                 <div id="services-grid">
                     <!-- Content rendered by profile.js -->
@@ -213,7 +218,7 @@
                 </div>
 
                 <div class="mt-lg">
-                    <h3 class="text-center mb-md">Toolbox</h3>
+                    <h3 class="text-center mb-md" data-i18n="toolbox.title">Toolbox</h3>
                     <div class="text-center mb-md" id="toolbox-tags">
                         <!-- Tags rendered by profile.js -->
                         <span class="tag">Python</span>
@@ -234,10 +239,10 @@
         <section id="projects" class="section">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle">Pillars</span>
+                    <span class="section-subtitle" data-i18n="projects.subtitle">Pillars</span>
                     <h2 class="section-title">Containers</h2>
                 </div>
-                <p class="section-lead">A container-first ecosystem: each pillar encodes governance boundaries, reusable assets, and the current status of delivery.</p>
+                <p class="section-lead" data-i18n="projects.lead">A container-first ecosystem: each pillar encodes governance boundaries, reusable assets, and the current status of delivery.</p>
                 
                 <div id="projects-grid">
                     <!-- Content rendered by profile.js -->
@@ -313,10 +318,10 @@
         <section id="proof" class="section section-alt">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle">Verification</span>
-                    <h2 class="section-title">Selected Proof</h2>
+                    <span class="section-subtitle" data-i18n="proof.subtitle">Verification</span>
+                    <h2 class="section-title" data-i18n="proof.title">Selected Proof</h2>
                 </div>
-                <p class="section-lead">Links to public artifacts. Placeholders are intentionally marked TODO until a public URL exists.</p>
+                <p class="section-lead" data-i18n="proof.lead">Links to public artifacts. Placeholders are intentionally marked TODO until a public URL exists.</p>
                 
                 <div id="proofs-list">
                     <!-- Content rendered by profile.js -->
@@ -334,10 +339,10 @@
         <section id="contact" class="section">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle">Get in touch</span>
-                    <h2 class="section-title">Contact</h2>
+                    <span class="section-subtitle" data-i18n="contact.subtitle">Get in touch</span>
+                    <h2 class="section-title" data-i18n="contact.title">Contact</h2>
                 </div>
-                <p class="section-lead">Best channel: email. If you're evaluating collaboration, LinkedIn is the fastest context sync.</p>
+                <p class="section-lead" data-i18n="contact.lead">Best channel: email. If you're evaluating collaboration, LinkedIn is the fastest context sync.</p>
                 
                 <div class="text-center">
                     <div id="contact-info">
@@ -353,8 +358,8 @@
                     </div>
                     
                     <div class="contact-actions">
-                        <button id="copy-email-btn" class="btn">Copy Email</button>
-                        <a href="mailto:andrea.zedda@outlook.it" class="btn btn-outline">Send Email</a>
+                        <button id="copy-email-btn" class="btn" data-i18n="contact.copyEmail">Copy Email</button>
+                        <a href="mailto:andrea.zedda@outlook.it" class="btn btn-outline" data-i18n="contact.sendEmail">Send Email</a>
                     </div>
                 </div>
             </div>

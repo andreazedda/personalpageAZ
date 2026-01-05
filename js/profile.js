@@ -8,15 +8,143 @@
   'use strict';
 
   const DATA_URL = 'data/profile.json';
+  const SUPPORTED_LANGS = ['en', 'it'];
+  const DEFAULT_LANG = 'en';
+  const LANG_STORAGE_KEY = 'personalpageAZ.lang';
+
   let profileData = null;
+  let currentLang = DEFAULT_LANG;
+
+  function normalizeLang(value) {
+    const raw = String(value || '').toLowerCase();
+    if (!raw) return null;
+    const short = raw.split('-')[0];
+    return SUPPORTED_LANGS.includes(short) ? short : null;
+  }
+
+  function getLangFromUrl() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      return normalizeLang(params.get('lang'));
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function setLangInUrl(lang) {
+    try {
+      const url = new URL(window.location.href);
+      url.searchParams.set('lang', lang);
+      window.history.replaceState({}, '', url.toString());
+    } catch (_) {
+      // no-op
+    }
+  }
+
+  function resolveInitialLang() {
+    const fromUrl = getLangFromUrl();
+    if (fromUrl) return fromUrl;
+
+    try {
+      const fromStorage = normalizeLang(window.localStorage.getItem(LANG_STORAGE_KEY));
+      if (fromStorage) return fromStorage;
+    } catch (_) {
+      // no-op
+    }
+
+    const fromBrowser = normalizeLang(navigator.language || navigator.userLanguage);
+    return fromBrowser || DEFAULT_LANG;
+  }
+
+  function saveLang(lang) {
+    try {
+      window.localStorage.setItem(LANG_STORAGE_KEY, lang);
+    } catch (_) {
+      // no-op
+    }
+  }
+
+  function setDocumentLang(lang) {
+    try {
+      document.documentElement.lang = lang;
+    } catch (_) {
+      // no-op
+    }
+  }
+
+  function t(value) {
+    if (value == null) return '';
+    if (typeof value === 'string' || typeof value === 'number') return String(value);
+    if (typeof value === 'object') {
+      const localized = value[currentLang] ?? value[DEFAULT_LANG];
+      if (localized == null) return '';
+      return String(localized);
+    }
+    return String(value);
+  }
+
+  function tList(list) {
+    return (Array.isArray(list) ? list : []).map(item => t(item)).filter(Boolean);
+  }
+
+  function ui(key, fallback) {
+    const table = profileData && profileData.i18n && profileData.i18n[currentLang];
+    if (table && typeof table === 'object' && table[key] != null) return String(table[key]);
+    return fallback;
+  }
+
+  function applyI18nToDom() {
+    if (!profileData || !profileData.i18n) return;
+
+    const nodes = document.querySelectorAll('[data-i18n]');
+    nodes.forEach(node => {
+      const key = node.getAttribute('data-i18n');
+      if (!key) return;
+      const text = ui(key, null);
+      if (text == null) return;
+      node.textContent = text;
+    });
+
+    const langLinks = document.querySelectorAll('.lang-switch [data-lang]');
+    langLinks.forEach(link => {
+      const lang = normalizeLang(link.getAttribute('data-lang'));
+      if (!lang) return;
+      if (lang === currentLang) link.classList.add('active');
+      else link.classList.remove('active');
+    });
+  }
+
+  function initLanguage() {
+    currentLang = resolveInitialLang();
+    setDocumentLang(currentLang);
+    setLangInUrl(currentLang);
+    saveLang(currentLang);
+
+    document.addEventListener('click', (e) => {
+      const target = e.target && e.target.closest ? e.target.closest('[data-lang]') : null;
+      if (!target) return;
+      const lang = normalizeLang(target.getAttribute('data-lang'));
+      if (!lang || lang === currentLang) return;
+      e.preventDefault();
+
+      currentLang = lang;
+      setDocumentLang(currentLang);
+      setLangInUrl(currentLang);
+      saveLang(currentLang);
+      applyI18nToDom();
+      if (profileData) renderAll();
+    }, { passive: false });
+  }
 
   /**
    * Initialize profile rendering
    */
   function init() {
+    initLanguage();
     loadProfileData()
       .then(data => {
         profileData = data;
+        applyI18nToDom();
         renderAll();
       })
       .catch(err => {
@@ -87,6 +215,8 @@
    */
   function renderAll() {
     if (!profileData) return;
+
+    applyI18nToDom();
     
     renderHero();
     renderFocusNow();
@@ -116,10 +246,10 @@
       const items = Array.isArray(block.items) ? block.items : [];
       return `
         <div class="operating-item">
-          <h4>${block.title || ''}</h4>
+          <h4>${t(block.title || '')}</h4>
           ${items.length ? `
             <ul>
-              ${items.map(item => `<li>${item}</li>`).join('')}
+              ${tList(items).map(item => `<li>${item}</li>`).join('')}
             </ul>
           ` : ''}
         </div>
@@ -142,28 +272,28 @@
     const heroHighlights = document.querySelector('#hero-highlights');
     
     if (heroTitle) {
-      heroTitle.textContent = profileData.hero.greeting;
+      heroTitle.textContent = t(profileData.hero.greeting);
     }
     if (heroSubtitle) {
-      heroSubtitle.textContent = profileData.hero.subtitle;
+      heroSubtitle.textContent = t(profileData.hero.subtitle);
     }
 
     if (heroTagline && profileData.person && profileData.person.tagline) {
-      heroTagline.textContent = profileData.person.tagline;
+      heroTagline.textContent = t(profileData.person.tagline);
     }
 
     if (heroHighlights && profileData.hero && Array.isArray(profileData.hero.highlights)) {
-      heroHighlights.innerHTML = profileData.hero.highlights
+      heroHighlights.innerHTML = tList(profileData.hero.highlights)
         .map(item => `<li>${item}</li>`)
         .join('');
     }
 
     if (heroLocation && profileData.person && profileData.person.location) {
-      heroLocation.textContent = profileData.person.location;
+      heroLocation.textContent = t(profileData.person.location);
     }
 
     if (heroCurrent && profileData.focusNow) {
-      heroCurrent.textContent = `${profileData.focusNow.role} — ${profileData.focusNow.company}`;
+      heroCurrent.textContent = `${t(profileData.focusNow.role)} — ${t(profileData.focusNow.company)}`;
     }
 
     if (heroLinkedIn && Array.isArray(profileData.social)) {
@@ -185,17 +315,17 @@
     
     const html = `
       <div class="focus-header">
-        <h3>${focus.role} — ${focus.company}</h3>
-        <p class="period">${focus.period}</p>
-        <p class="description">${focus.description}</p>
+        <h3>${t(focus.role)} — ${t(focus.company)}</h3>
+        <p class="period">${t(focus.period)}</p>
+        <p class="description">${t(focus.description)}</p>
       </div>
       <div class="focus-activities">
         <ul>
-          ${focus.activities.map(activity => `<li>${activity}</li>`).join('')}
+          ${tList(focus.activities).map(activity => `<li>${activity}</li>`).join('')}
         </ul>
       </div>
       <div class="focus-keywords">
-        ${focus.keywords.map(keyword => `<span class="tag">${keyword}</span>`).join('')}
+        ${tList(focus.keywords).map(keyword => `<span class="tag">${keyword}</span>`).join('')}
       </div>
     `;
     
@@ -214,8 +344,8 @@
         <div class="service-icon">
           <i class="fa ${service.icon}" aria-hidden="true"></i>
         </div>
-        <h3>${service.title}</h3>
-        <p>${service.description}</p>
+        <h3>${t(service.title)}</h3>
+        <p>${t(service.description)}</p>
       </div>
     `).join('');
 
@@ -239,6 +369,15 @@
       if (status === 'production') return 'Production';
       if (status === 'prototype') return 'Prototype';
       return 'Concept';
+    };
+
+    const statusLabelI18n = (status) => {
+      if (currentLang === 'it') {
+        if (status === 'production') return 'Produzione';
+        if (status === 'prototype') return 'Prototipo';
+        return 'Concetto';
+      }
+      return statusLabel(status);
     };
 
     const projectAnchorId = (project) => {
@@ -268,12 +407,12 @@
       const containedHtml = contained.length
         ? `
           <div class="project-contained">
-            <strong>Contained:</strong>
+            <strong>${ui('projects.containedLabel', 'Contained:')}</strong>
             <ul>
               ${contained.slice(0, 5).map(item => {
                 const name = item && item.name ? String(item.name) : 'Item';
                 const tagline = item && item.tagline ? String(item.tagline) : '';
-                return `<li><span class="contained-name">${name}</span>${tagline ? ` — <span class="contained-tagline">${tagline}</span>` : ''}</li>`;
+                return `<li><span class="contained-name">${t(name)}</span>${tagline ? ` — <span class="contained-tagline">${t(tagline)}</span>` : ''}</li>`;
               }).join('')}
             </ul>
           </div>
@@ -284,23 +423,23 @@
         <article class="project-card" id="${projectAnchorId(project)}" data-status="${status}">
           <div class="project-header">
             <div class="project-header-row">
-              <h3>${project.name}</h3>
-              <span class="status-badge status-${status}">${statusLabel(status)}</span>
+              <h3>${t(project.name)}</h3>
+              <span class="status-badge status-${status}">${statusLabelI18n(status)}</span>
             </div>
-            <p class="project-tagline">${project.tagline}</p>
+            <p class="project-tagline">${t(project.tagline)}</p>
           </div>
           <div class="project-body">
-            <p class="project-purpose"><strong>Purpose:</strong> ${project.purpose}</p>
+            <p class="project-purpose"><strong>${ui('projects.purposeLabel', 'Purpose:')}</strong> ${t(project.purpose)}</p>
             <div class="project-builds">
-              <strong>What I build:</strong>
+              <strong>${ui('projects.whatIBuildLabel', 'What I build:')}</strong>
               <ul>
-                ${(project.whatIBuild || []).slice(0, 3).map(item => `<li>${item}</li>`).join('')}
+                ${tList((project.whatIBuild || []).slice(0, 3)).map(item => `<li>${item}</li>`).join('')}
               </ul>
             </div>
             <div class="project-outputs">
-              <strong>Outputs:</strong>
+              <strong>${ui('projects.outputsLabel', 'Outputs:')}</strong>
               <ul>
-                ${(project.outputs || []).slice(0, 3).map(item => `<li>${item}</li>`).join('')}
+                ${tList((project.outputs || []).slice(0, 3)).map(item => `<li>${item}</li>`).join('')}
               </ul>
             </div>
             ${containedHtml}
@@ -334,18 +473,18 @@
       return `
         <div class="education-item${isPlaceholder ? ' placeholder' : ''}">
           <div class="education-header">
-            <h4>${item.degree}</h4>
+            <h4>${t(item.degree)}</h4>
             ${isPlaceholder ? '<span class="status-badge status-concept">TODO</span>' : ''}
           </div>
-          <p class="org-period">${item.institution} • ${item.period}</p>
+          <p class="org-period">${t(item.institution)} • ${t(item.period)}</p>
           ${notes.length ? `
             <ul class="education-notes">
-              ${notes.map(n => `<li>${n}</li>`).join('')}
+              ${tList(notes).map(n => `<li>${n}</li>`).join('')}
             </ul>
           ` : ''}
           ${tags.length ? `
             <div class="education-tags">
-              ${tags.map(t => `<span class="tag">${t}</span>`).join('')}
+              ${tList(tags).map(tag => `<span class="tag">${tag}</span>`).join('')}
             </div>
           ` : ''}
         </div>
@@ -393,7 +532,7 @@
         <div class="proof-item">
           <a href="${href}" class="${linkClass}" ${!proof.placeholder ? 'target="_blank" rel="noopener noreferrer"' : ''}>
             <i class="fa ${proof.icon}" aria-hidden="true"></i>
-            <span>${proof.label}${isPlaceholder}</span>
+            <span>${t(proof.label)}${isPlaceholder}</span>
           </a>
         </div>
       `;
@@ -411,8 +550,8 @@
 
     const html = profileData.collaborationModes.map(mode => `
       <div class="collab-mode">
-        <h4>${mode.mode}</h4>
-        <p>${mode.description}</p>
+        <h4>${t(mode.mode)}</h4>
+        <p>${t(mode.description)}</p>
       </div>
     `).join('');
 
@@ -428,11 +567,11 @@
 
     const html = profileData.background.map(bg => `
       <div class="background-item">
-        <h4>${bg.role}</h4>
-        <p class="org-period">${bg.organization} • ${bg.period}</p>
-        <p class="focus">${bg.focus}</p>
+        <h4>${t(bg.role)}</h4>
+        <p class="org-period">${t(bg.organization)} • ${t(bg.period)}</p>
+        <p class="focus">${t(bg.focus)}</p>
         <div class="tools">
-          ${bg.tools.map(tool => `<span class="tag">${tool}</span>`).join('')}
+          ${tList(bg.tools).map(tool => `<span class="tag">${tool}</span>`).join('')}
         </div>
       </div>
     `).join('');

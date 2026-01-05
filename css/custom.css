@@ -154,6 +154,44 @@ header {
   box-shadow: var(--shadow-sm);
 }
 
+  /* ===== LANGUAGE SWITCH ===== */
+  .lang-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-left: auto;
+    margin-right: var(--spacing-md);
+    padding: 0.25rem 0.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .lang-switch .lang-link {
+    color: var(--color-text-light);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    font-size: 0.85rem;
+    padding: 0.25rem 0.35rem;
+    border-radius: 999px;
+  }
+
+  .lang-switch .lang-link:hover,
+  .lang-switch .lang-link:focus-visible {
+    color: var(--color-text);
+  }
+
+  .lang-switch .lang-link.active {
+    color: var(--color-bg);
+    background: var(--color-secondary);
+  }
+
+  .lang-switch .lang-sep {
+    color: var(--color-text-light);
+    opacity: 0.7;
+  }
+
 .navbar {
   display: flex;
   align-items: center;

@@ -1,31 +1,180 @@
 {
   "person": {
     "name": "Andrea Zedda",
-    "title": "PhD Bioengineer · R&D ML Architect",
+    "title": {
+      "en": "PhD Bioengineer · R&D ML Architect",
+      "it": "Bioingegnere PhD · Architetto R&S ML"
+    },
     "location": "Cagliari, Sardinia, Italy",
     "email": "andrea.zedda@outlook.it",
-    "tagline": "I design data-driven decision systems: causal inference + interpretable predictive modeling for business intelligence, and sensor-fusion motion analytics for bioengineering."
+    "tagline": {
+      "en": "I design data-driven decision systems: causal inference + interpretable predictive modeling for business intelligence, and sensor-fusion motion analytics for bioengineering.",
+      "it": "Progetto sistemi decisionali data-driven: inferenza causale e modelli predittivi interpretabili per la business intelligence, e motion analytics con sensor fusion per la bioingegneria."
+    }
+  },
+  "i18n": {
+    "en": {
+      "nav.home": "Home",
+      "nav.focusNow": "Focus Now",
+      "nav.education": "Education",
+      "nav.about": "About",
+      "nav.capabilities": "Capabilities",
+      "nav.projects": "Projects",
+      "nav.proof": "Proof",
+      "nav.contact": "Contact",
+
+      "hero.kicker": "Executive Brief",
+      "hero.pillarsLabel": "Pillars:",
+      "hero.ctaProjects": "See Projects",
+      "hero.ctaEmail": "Email",
+      "hero.factCurrent": "Current",
+      "hero.factLocation": "Location",
+      "hero.factCollaboration": "Collaboration",
+      "hero.note": "Add Italian copy later.",
+
+      "focus.subtitle": "Current Work",
+      "focus.title": "Focus Now",
+      "focus.lead": "What I'm building right now and the methods I use to turn data into decision-ready outputs.",
+
+      "education.subtitle": "Training",
+      "education.title": "Education",
+      "education.lead": "Degrees and training that shaped my research approach and engineering standards.",
+
+      "about.subtitle": "Background",
+      "about.title": "About",
+      "about.lead": "A compact timeline of research and industry work, with the tooling that shaped my approach.",
+
+      "os.title": "Operating System",
+      "collab.title": "Collaboration Modes",
+
+      "capabilities.subtitle": "Services",
+      "capabilities.title": "Capabilities",
+      "capabilities.lead": "Engagements are scoped as deliverables: reproducible experiments, decision support, and usable interfaces.",
+
+      "toolbox.title": "Toolbox",
+
+      "projects.subtitle": "Pillars",
+      "projects.lead": "A container-first ecosystem: each pillar encodes governance boundaries, reusable assets, and the current status of delivery.",
+      "projects.purposeLabel": "Purpose:",
+      "projects.whatIBuildLabel": "What I build:",
+      "projects.outputsLabel": "Outputs:",
+      "projects.containedLabel": "Contained:",
+
+      "proof.subtitle": "Verification",
+      "proof.title": "Selected Proof",
+      "proof.lead": "Links to public artifacts. Placeholders are intentionally marked TODO until a public URL exists.",
+
+      "contact.subtitle": "Get in touch",
+      "contact.title": "Contact",
+      "contact.lead": "Best channel: email. If you're evaluating collaboration, LinkedIn is the fastest context sync.",
+      "contact.copyEmail": "Copy Email",
+      "contact.sendEmail": "Send Email"
+    },
+    "it": {
+      "nav.home": "Home",
+      "nav.focusNow": "Focus ora",
+      "nav.education": "Formazione",
+      "nav.about": "Chi sono",
+      "nav.capabilities": "Competenze",
+      "nav.projects": "Progetti",
+      "nav.proof": "Evidenze",
+      "nav.contact": "Contatti",
+
+      "hero.kicker": "Sintesi esecutiva",
+      "hero.pillarsLabel": "Pilastri:",
+      "hero.ctaProjects": "Vedi progetti",
+      "hero.ctaEmail": "Email",
+      "hero.factCurrent": "Attuale",
+      "hero.factLocation": "Sede",
+      "hero.factCollaboration": "Collaborazione",
+      "hero.note": "Testo in italiano disponibile: seleziona IT.",
+
+      "focus.subtitle": "Lavoro attuale",
+      "focus.title": "Focus ora",
+      "focus.lead": "Cosa sto costruendo adesso e i metodi che uso per trasformare i dati in output utili alle decisioni.",
+
+      "education.subtitle": "Formazione",
+      "education.title": "Formazione",
+      "education.lead": "Titoli e percorsi che hanno formato il mio approccio alla ricerca e gli standard ingegneristici.",
+
+      "about.subtitle": "Percorso",
+      "about.title": "Chi sono",
+      "about.lead": "Una timeline compatta di ricerca e industria, con gli strumenti che hanno plasmato il mio approccio.",
+
+      "os.title": "Sistema operativo",
+      "collab.title": "Modalità di collaborazione",
+
+      "capabilities.subtitle": "Servizi",
+      "capabilities.title": "Competenze",
+      "capabilities.lead": "Gli ingaggi sono definiti come deliverable: esperimenti riproducibili, decision support e interfacce usabili.",
+
+      "toolbox.title": "Strumenti",
+
+      "projects.subtitle": "Pilastri",
+      "projects.lead": "Ecosistema container-first: ogni pilastro definisce confini di governance, asset riusabili e stato di delivery.",
+      "projects.purposeLabel": "Scopo:",
+      "projects.whatIBuildLabel": "Cosa costruisco:",
+      "projects.outputsLabel": "Output:",
+      "projects.containedLabel": "Contenuti:",
+
+      "proof.subtitle": "Verifica",
+      "proof.title": "Evidenze",
+      "proof.lead": "Link ad artefatti pubblici. I placeholder sono marcati TODO finché non esiste un URL pubblico.",
+
+      "contact.subtitle": "Contatti",
+      "contact.title": "Contatti",
+      "contact.lead": "Canale migliore: email. Se stai valutando una collaborazione, LinkedIn è il modo più rapido per sincronizzare il contesto.",
+      "contact.copyEmail": "Copia email",
+      "contact.sendEmail": "Invia email"
+    }
   },
   "hero": {
     "greeting": "Andrea Zedda",
-    "subtitle": "PhD Bioengineer · R&D ML Architect",
+    "subtitle": {
+      "en": "PhD Bioengineer · R&D ML Architect",
+      "it": "Bioingegnere PhD · Architetto R&S ML"
+    },
     "cta": "Explore my work",
     "highlights": [
-      "Decision intelligence: interpretable ML + driver analysis (SHAP)",
-      "Causal discovery/inference for decision support and strategy",
-      "Motion analytics: sensor fusion and biomechanical metrics (IMU/EMG)"
+      {
+        "en": "Decision intelligence: interpretable ML + driver analysis (SHAP)",
+        "it": "Decision intelligence: ML interpretabile + driver analysis (SHAP)"
+      },
+      {
+        "en": "Causal discovery/inference for decision support and strategy",
+        "it": "Causal discovery/inferenza causale per decision support e strategia"
+      },
+      {
+        "en": "Motion analytics: sensor fusion and biomechanical metrics (IMU/EMG)",
+        "it": "Motion analytics: sensor fusion e metriche biomeccaniche (IMU/EMG)"
+      }
     ]
   },
   "focusNow": {
     "role": "R&D ML Architect",
     "company": "Sketchdata Srl",
     "period": "Jan 2024 – Present",
-    "description": "Building ML solutions for business intelligence services: interpretable forecasting, explainability, and causal discovery for decision support.",
+    "description": {
+      "en": "Building ML solutions for business intelligence services: interpretable forecasting, explainability, and causal discovery for decision support.",
+      "it": "Sviluppo soluzioni di ML per servizi di business intelligence: forecasting interpretabile, explainability e causal discovery per supportare le decisioni."
+    },
     "activities": [
-      "Interpretable forecasting and business driver analysis",
-      "Explainability tooling (e.g., SHAP) to understand variable impact",
-      "Microservices-oriented web interfaces to deliver analytics to clients",
-      "Causal discovery / causal inference to support strategic decisions"
+      {
+        "en": "Interpretable forecasting and business driver analysis",
+        "it": "Forecasting interpretabile e analisi dei driver di business"
+      },
+      {
+        "en": "Explainability tooling (e.g., SHAP) to understand variable impact",
+        "it": "Explainability (es. SHAP) per comprendere l'impatto delle variabili"
+      },
+      {
+        "en": "Microservices-oriented web interfaces to deliver analytics to clients",
+        "it": "Interfacce web orientate a microservizi per portare analytics ai clienti"
+      },
+      {
+        "en": "Causal discovery / causal inference to support strategic decisions",
+        "it": "Causal discovery / inferenza causale per supportare decisioni strategiche"
+      }
     ],
     "keywords": ["Python", "Django", "Microservices", "ML", "SHAP", "Causal Discovery", "Causal Inference"]
   },
