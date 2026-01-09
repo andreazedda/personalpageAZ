@@ -12,9 +12,525 @@
       "it": "Progetto sistemi decisionali data-driven: inferenza causale e modelli predittivi interpretabili per la business intelligence, e motion analytics con sensor fusion per la bioingegneria."
     }
   },
+  "hero": {
+    "title": "Andrea Zedda",
+    "subtitle": {
+      "en": "PhD Bioengineer · R&D ML Architect",
+      "it": "Bioingegnere PhD · Architetto R&S ML"
+    },
+    "bullets": [
+      {
+        "en": "Decision intelligence: interpretable ML + driver analysis (SHAP)",
+        "it": "Decision intelligence: ML interpretabile + driver analysis (SHAP)"
+      },
+      {
+        "en": "Causal discovery/inference for decision support and strategy",
+        "it": "Causal discovery/inferenza causale per decision support e strategia"
+      },
+      {
+        "en": "Motion analytics: sensor fusion and biomechanical metrics (IMU/EMG)",
+        "it": "Motion analytics: sensor fusion e metriche biomeccaniche (IMU/EMG)"
+      }
+    ],
+    "primary_cta": {
+      "label": {
+        "en": "Contact / Collaboration",
+        "it": "Contatti / Collaborazione"
+      },
+      "href": "#contact"
+    },
+    "secondary_cta": {
+      "label": {
+        "en": "Projects / Proof",
+        "it": "Progetti / Evidenze"
+      },
+      "href": "#projects"
+    }
+  },
+  "about": {
+    "paragraph": {
+      "en": "I build decision-ready systems: causal reasoning + interpretable models for business intelligence, and sensor-fusion motion analytics for bioengineering. I work container-first (BMI, SketchData, IGM, FZTM, ES): each pillar defines boundaries, reusable assets, and what is considered ‘done’.",
+      "it": "Costruisco sistemi decision-ready: ragionamento causale e modelli interpretabili per la business intelligence, e motion analytics con sensor fusion per la bioingegneria. Lavoro container-first (BMI, SketchData, IGM, FZTM, ES): ogni pilastro definisce confini, asset riusabili e cosa significa ‘finito’."
+    },
+    "boundary_rules": [
+      {
+        "en": "Projects do not exist standalone: everything lives inside a container.",
+        "it": "I progetti non esistono standalone: tutto vive dentro un container."
+      },
+      {
+        "en": "If a boundary decision is ambiguous → it stays in BMI.",
+        "it": "Se una decisione di confine è ambigua → resta in BMI."
+      },
+      {
+        "en": "Stop if it’s not modellable, explainable, and verifiable.",
+        "it": "Stop se non è modellabile, spiegabile e verificabile."
+      },
+      {
+        "en": "Prefer explicit inputs/outputs and reproducible runs over ad-hoc iteration.",
+        "it": "Preferisco input/output espliciti e run riproducibili rispetto a iterazioni ad-hoc."
+      }
+    ]
+  },
+  "phd_extract": {
+    "source": {
+      "title": "PhD Annual Report",
+      "cycle": "XXXIII",
+      "year": 2019,
+      "note": "Extracted factual bullets only; no full text."
+    },
+    "research_objective": [
+      "Conceive and design a home neuromotor telerehabilitation system for stroke patients using low-cost technologies.",
+      "Enable therapy personalization (including remote) and continuous tracking of patient progress in the home environment.",
+      "Provide biofeedback/feedback (including AI-assisted guidance) to support correct execution and adherence."
+    ],
+    "architecture_stack": [
+      "TV-based user interface running on Android smart TV / Android TV box (Minix NEO U9-H).",
+      "Unity3D used for the gamified virtual environment and UI.",
+      "Biomechanical sensing via magneto-inertial measurement units (MUSE by 221e).",
+      "Custom pressure sensors integrated as insole, glove, and under-elbow sensors.",
+      "Multi-sensor connectivity using Bluetooth Classic (multiple devices) to the TV box.",
+      "Store-and-forward telemonitoring: patient results uploaded and stored server-side for clinician review.",
+      "Web application built with Django (Python) + PostgreSQL, served via Nginx + Gunicorn."
+    ],
+    "innovation": [
+      "Per-repetition metrics computed and stored (e.g., joint angles, execution time, errors, score).",
+      "Gamified feedback loop: daily results and performance history shown to motivate continuation.",
+      "Two interface modalities planned/implemented for comparison: exergames vs 'serious' interface.",
+      "Clinician-configurable safety limits (e.g., ROM/force) and remote configuration updates via downloadable config file."
+    ],
+    "validation_plan": [
+      "System development focused on modular exercise blocks; 2 of 5 blocks integrated at the time of the report.",
+      "Initial tuning and testing performed on healthy subjects to calibrate parameters and validate smooth operation.",
+      "Planned preliminary inpatient testing at the San Michele Hospital stroke unit (Cagliari) for patient-experience tuning.",
+      "Pilot randomized controlled trial planned with 8-week protocol, 5 days/week, and 3-month follow-up.",
+      "Experimental arm planned with two groups (10 exergames, 10 serious interface); comparator group planned: home rehab without the system (20 matched subjects).",
+      "Inclusion criteria captured: age 40–75; first stroke affecting left side; within 6 months from acute event.",
+      "Usability/acceptability planned via semi-structured interviews and validated questionnaires: IPPA, PIADS, QUEST, SUS.",
+      "Trial start planned for January 2020; results intended for analysis/publication after completion."
+    ],
+    "engineering_challenges": [
+      "Managing and synchronizing multiple Bluetooth Classic connections (multi-device) was a major implementation issue.",
+      "Unity ↔ Android constraints prevented using native Android APIs/threads directly; solution used C# coroutine-based architecture.",
+      "Unity scenes mapped to Android activities, causing scene-switch/lifecycle freezes; mitigated by closing connections and reinitializing MUSE scripts on transitions."
+    ],
+    "dissemination": [
+      "Poster presented at Unica&Imprese (CREA, UniCA) on home neuromotor telerehabilitation for stroke with advanced electronic devices.",
+      "Project showcased during La notte dei ricercatori (September 27, 2019).",
+      "Contribution accepted at SIAMOC 2019 (University of Bologna, October 9–12, 2019): poster and oral presentation on a home-based stroke telerehab system using magneto-inertial units.",
+      "DoMoMEA planned to be showcased at a midterm project event (October 2019) with blocks 1–2."
+    ],
+    "training_teaching": [
+      "Course: Robotics technologies for sensorimotor rehabilitation (IIT, Jan 14–17, 2019) — 5 credits — passed.",
+      "Course: Advanced EEG analysis (web course, Apr 1–12, 2019) — 5 credits — waiting response.",
+      "English language course (C1 level) at Centro Linguistico di Ateneo (Mar 18–Jul 8, 2019).",
+      "Summer School on Neurorehabilitation 2019 (Vigo, Spain, Sept 15–20, 2019) — participation.",
+      "Teaching assistantship: C.I. di Progettazione Elettronica — 70 hours (Prof. Luigi Raffo; Prof. Piero Cosseddu)."
+    ]
+  },
+  "focus_now": {
+    "items": [
+      {
+        "title": {
+          "en": "Interpretable forecasting + driver analysis",
+          "it": "Forecasting interpretabile + driver analysis"
+        },
+        "one_liner": {
+          "en": "Predictive models with explanation-first outputs (SHAP) to support operational decisions.",
+          "it": "Modelli predittivi con output explanation-first (SHAP) per supportare decisioni operative."
+        },
+        "tags": ["Forecasting", "Explainability", "SHAP"]
+      },
+      {
+        "title": {
+          "en": "Causal discovery / inference workflows",
+          "it": "Workflow di causal discovery / inferenza"
+        },
+        "one_liner": {
+          "en": "From causal graphs to decision support: make assumptions explicit and testable.",
+          "it": "Dai grafi causali al decision support: assunzioni esplicite e testabili."
+        },
+        "tags": ["Causal Discovery", "Causal Inference"]
+      },
+      {
+        "title": {
+          "en": "Analytics delivery via web interfaces",
+          "it": "Delivery analytics via interfacce web"
+        },
+        "one_liner": {
+          "en": "Microservices-oriented interfaces to ship analysis as usable tools, not notebooks.",
+          "it": "Interfacce orientate a microservizi per rilasciare analisi come strumenti usabili, non notebook."
+        },
+        "tags": ["Django", "Microservices", "APIs"]
+      },
+      {
+        "title": {
+          "en": "Reproducible, modular pipelines",
+          "it": "Pipeline modulari e riproducibili"
+        },
+        "one_liner": {
+          "en": "Config-driven pipelines with explicit I/O, logging, and testing.",
+          "it": "Pipeline config-driven con I/O esplicito, logging e testing."
+        },
+        "tags": ["Pipelines", "Reproducibility", "Testing"]
+      }
+    ]
+  },
+  "collaboration_modes": [
+    {
+      "title": {
+        "en": "R&D prototyping",
+        "it": "Prototipazione R&S"
+      },
+      "one_liner": {
+        "en": "From problem definition to proof-of-concept with reproducible experiments.",
+        "it": "Dal problema al proof-of-concept con esperimenti riproducibili."
+      },
+      "tags": ["Prototyping", "Reproducibility", "Experiments"]
+    },
+    {
+      "title": {
+        "en": "Decision intelligence",
+        "it": "Decision intelligence"
+      },
+      "one_liner": {
+        "en": "Interpretable ML + causal analysis turned into dashboards, reports, and APIs.",
+        "it": "ML interpretabile + analisi causale trasformati in dashboard, report e API."
+      },
+      "tags": ["ML", "Explainability", "Causal"]
+    },
+    {
+      "title": {
+        "en": "Motion analytics",
+        "it": "Motion analytics"
+      },
+      "one_liner": {
+        "en": "Sensor fusion (IMU/EMG) and biomechanical metrics with validation-minded engineering.",
+        "it": "Sensor fusion (IMU/EMG) e metriche biomeccaniche con approccio orientato alla validazione."
+      },
+      "tags": ["IMU", "EMG", "Sensor Fusion"]
+    }
+  ],
+  "proof": {
+    "categories": [
+      {
+        "category": {
+          "en": "Profile",
+          "it": "Profilo"
+        },
+        "items": [
+          {
+            "label": "LinkedIn",
+            "type": "profile",
+            "url": "https://www.linkedin.com/in/andrea-zedda/",
+            "status": "public"
+          }
+        ]
+      },
+      {
+        "category": {
+          "en": "Code",
+          "it": "Codice"
+        },
+        "items": [
+          {
+            "label": "GitHub repositories",
+            "type": "repo",
+            "url": null,
+            "status": "not_public_yet"
+          }
+        ]
+      },
+      {
+        "category": {
+          "en": "Publications",
+          "it": "Pubblicazioni"
+        },
+        "items": [
+          {
+            "label": "Thesis / publications",
+            "type": "publication",
+            "url": null,
+            "status": "not_public_yet"
+          }
+        ]
+      },
+      {
+        "category": {
+          "en": "PhD work (DoMoMEA)",
+          "it": "Lavoro PhD (DoMoMEA)"
+        },
+        "items": [
+          {
+            "label": "Stroke telerehabilitation system (DoMoMEA) — PhD work (2017–2021)",
+            "type": "evidence_card",
+            "status": "evidence",
+            "source": "PhD Annual Report (Cycle XXXIII, 2019)",
+            "bullets": [
+              "TV-based UI on Android TV box (Minix NEO U9-H) + Unity3D environment.",
+              "Motion capture via MUSE (221e) IMUs + custom pressure sensors (insole/glove/under elbows), connected via Bluetooth Classic multi-device.",
+              "Store-and-forward telemonitoring: results stored in database and reviewed via a Django+PostgreSQL web app (Nginx+Gunicorn).",
+              "Per-repetition metrics captured (angles, time, errors, score) and used for feedback.",
+              "Gamified feedback includes reporting prior-day results to support adherence.",
+              "Safety/customization: clinician-configurable limits (e.g., ROM/force) and remote configuration via downloadable config file.",
+              "Engineering challenge: synchronization of multiple BT links under Unity/Android constraints; coroutine-based architecture used.",
+              "Workplan status: 2/5 exercise blocks integrated; tuning/testing on healthy subjects.",
+              "Trial plan: pilot RCT 8 weeks, 5 days/week, 3-month follow-up; usability instruments IPPA/PIADS/QUEST/SUS."
+            ]
+          }
+        ]
+      },
+      {
+        "category": {
+          "en": "Demos",
+          "it": "Demo"
+        },
+        "items": [
+          {
+            "label": "Interactive demos",
+            "type": "demo",
+            "url": null,
+            "status": "available_on_request"
+          }
+        ]
+      }
+    ]
+  },
+  "people": [
+    {
+      "name": "Danilo Pani",
+      "group_key": "academic",
+      "role": {
+        "en": "Associate Professor of Bioengineering — University of Cagliari",
+        "it": "Professore Associato di Bioingegneria — Università di Cagliari"
+      },
+      "context": {
+        "en": "PhD supervisor (DoMoMEA / stroke telerehabilitation system).",
+        "it": "Tutor PhD (DoMoMEA / sistema di telereabilitazione post-ictus)."
+      },
+      "public_summary": {
+        "en": "Public research footprint in biomedical signal processing, telemedicine, and tele-rehabilitation.",
+        "it": "Footprint pubblico su biomedical signal processing, telemedicina e tele-riabilitazione."
+      },
+      "epistemic": [
+        {
+          "en": "Adds academic accountability: methods and results were reviewed under supervision.",
+          "it": "Aggiunge accountability accademica: metodi e risultati valutati sotto supervisione."
+        },
+        {
+          "en": "Anchors the telerehab stack in biosignal methodology + clinical-facing telemedicine constraints.",
+          "it": "Ancora lo stack telerehab a metodologia sui biosignali + vincoli clinici della telemedicina."
+        }
+      ],
+      "must_say": {
+        "en": "PhD supervisor; public track record in biomedical signal processing, telemedicine, and tele-rehabilitation. His supervision signals methodological rigor and scientific grounding.",
+        "it": "Tutor del PhD; track record pubblico su biomedical signal processing, telemedicina e tele-riabilitazione. La sua supervisione segnala rigore metodologico e fondamento scientifico."
+      },
+      "relevance": {
+        "en": "Research context",
+        "it": "Contesto ricerca"
+      },
+      "url": null
+    },
+    {
+      "name": "Luigi Raffo",
+      "group_key": "academic",
+      "role": {
+        "en": "Full Professor — University of Cagliari (Electronics / Systems)",
+        "it": "Professore Ordinario — Università di Cagliari (Elettronica / Sistemi)"
+      },
+      "context": {
+        "en": "PhD co-supervisor (DoMoMEA / stroke telerehabilitation system).",
+        "it": "Co-supervisor PhD (DoMoMEA / sistema di telereabilitazione post-ictus)."
+      },
+      "public_summary": {
+        "en": "Public footprint in electronics engineering and optimization; long-running academic leadership and supervision.",
+        "it": "Footprint pubblico in ingegneria elettronica e ottimizzazione; leadership accademica e supervisione di lungo corso."
+      },
+      "epistemic": [
+        {
+          "en": "Signals system-level rigor: architecture, constraints, and engineering trade-offs.",
+          "it": "Segnala rigore a livello di sistema: architettura, vincoli e trade-off ingegneristici."
+        },
+        {
+          "en": "Connects the project to high-standard engineering practice beyond a prototype mindset.",
+          "it": "Collega il progetto a pratica ingegneristica di alto livello oltre la mentalità da prototipo."
+        }
+      ],
+      "must_say": {
+        "en": "PhD co-supervisor; Full Professor with long-term leadership in electronics engineering and optimization. His involvement signals high-level engineering discipline.",
+        "it": "Co-supervisor del PhD; Professore Ordinario con leadership di lungo periodo in ingegneria elettronica e ottimizzazione. Il suo coinvolgimento segnala disciplina ingegneristica di alto livello."
+      },
+      "relevance": {
+        "en": "Research context",
+        "it": "Contesto ricerca"
+      },
+      "url": null
+    },
+    {
+      "name": "Massimo Arciulo",
+      "group_key": "industrial",
+      "role": {
+        "en": "Executive leader — Data / Business / Telecom strategy",
+        "it": "Executive — strategia Data / Business / Telecom"
+      },
+      "context": {
+        "en": "Executive counterpart with a public track record across pricing/revenue leadership and data governance in Telecom and large enterprises; exposure to 5G wholesale and network infrastructure strategy.",
+        "it": "Controparte executive con track record pubblico su pricing/revenue e data governance in Telecom e grandi aziende; esposizione a strategia 5G wholesale e infrastrutture di rete."
+      },
+      "public_summary": {
+        "en": "Public roles include Pricing & Data Management leadership at Poste Italiane, CDO at TIM, and CEO / co-CEO roles in Linkem / OpNet. Education: Mathematical Economics (Sapienza University of Rome).",
+        "it": "Ruoli pubblici: leadership Pricing & Data Management in Poste Italiane, CDO in TIM, e ruoli CEO / co-CEO in Linkem / OpNet. Formazione: Economia Matematica (Sapienza Università di Roma)."
+      },
+      "epistemic": [
+        {
+          "en": "Adds executive-grade constraints (governance, incentives, revenue logic) that force decision-ready outputs.",
+          "it": "Aggiunge vincoli da livello executive (governance, incentivi, logica revenue) che forzano output decision-ready."
+        },
+        {
+          "en": "Strengthens my approach to operational decision intelligence: end-to-end processes, data ecosystems, and accountability.",
+          "it": "Rafforza il mio approccio alla decision intelligence operativa: processi end-to-end, ecosistemi dati e accountability."
+        }
+      ],
+      "must_say": {
+        "en": "Executive with 30+ years across telecom, pricing/revenue strategy, and data governance; public roles include CDO (TIM), Pricing & Data Management Director (Poste Italiane), and CEO / co-CEO (Linkem / OpNet). His perspective influenced my focus on operational decision intelligence and data governance.",
+        "it": "Executive con 30+ anni in telecom, strategia pricing/revenue e data governance; ruoli pubblici includono CDO (TIM), Direttore Pricing & Data Management (Poste Italiane) e CEO / co-CEO (Linkem / OpNet). La sua prospettiva ha influenzato il mio focus su decision intelligence operativa e data governance."
+      },
+      "relevance": {
+        "en": "Research context",
+        "it": "Contesto ricerca"
+      },
+      "url": null
+    },
+    {
+      "name": "Giancarlo Cherchi",
+      "group_key": "industrial",
+      "role": {
+        "en": "CTO & Co-Founder — YouAndTech",
+        "it": "CTO & Co-Founder — YouAndTech"
+      },
+      "context": {
+        "en": "Operational technology counterpart: architectures, ICT infrastructure, integration constraints, and delivery trade-offs in applied systems.",
+        "it": "Controparte tecnologica operativa: architetture, infrastrutture ICT, vincoli di integrazione e trade-off di delivery in sistemi applicati."
+      },
+      "public_summary": {
+        "en": "CTO and co-founder at YouAndTech (ICT engineering and applied technology delivery).",
+        "it": "CTO e co-fondatore in YouAndTech (ingegneria ICT e delivery tecnologico applicato)."
+      },
+      "epistemic": [
+        {
+          "en": "Forces clarity on real interfaces: what must be specified, integrated, and maintained.",
+          "it": "Forza chiarezza sulle interfacce reali: cosa va specificato, integrato e mantenuto."
+        },
+        {
+          "en": "Keeps the work anchored to deployable engineering, not paper designs.",
+          "it": "Mantiene il lavoro ancorato a ingegneria deployabile, non a design su carta."
+        }
+      ],
+      "must_say": {
+        "en": "CTO & Co-Founder at YouAndTech. His role represents applied engineering reality: architectures, infrastructure, and delivery constraints that validate what can actually be built and operated.",
+        "it": "CTO & Co-Founder di YouAndTech. Il suo ruolo rappresenta la realtà dell'ingegneria applicata: architetture, infrastrutture e vincoli di delivery che validano cosa si può davvero costruire e operare."
+      },
+      "relevance": {
+        "en": "Research context",
+        "it": "Contesto ricerca"
+      },
+      "url": null
+    },
+    {
+      "name": "Stefano Cau",
+      "group_key": "industrial",
+      "role": {
+        "en": "CEO & Co-Founder — YouAndTech",
+        "it": "CEO & Co-Founder — YouAndTech"
+      },
+      "context": {
+        "en": "Execution/governance counterpart: delivery ownership, coordination, and how real-world constraints shape priorities and outcomes.",
+        "it": "Controparte execution/governance: ownership della delivery, coordinamento e come i vincoli reali modellano priorità e outcome."
+      },
+      "public_summary": {
+        "en": "CEO and co-founder at YouAndTech; public involvement includes sector/association representation (OICE — Sardinia).",
+        "it": "CEO e co-fondatore in YouAndTech; coinvolgimento pubblico include rappresentanza associativa di settore (OICE — Sardegna)."
+      },
+      "epistemic": [
+        {
+          "en": "Adds governance pressure: turning technical work into delivered outcomes under constraints.",
+          "it": "Aggiunge pressione di governance: trasformare il lavoro tecnico in outcome consegnati sotto vincoli."
+        },
+        {
+          "en": "Strengthens the execution layer: coordination, stakeholder alignment, and end-to-end process reliability.",
+          "it": "Rafforza lo strato di execution: coordinamento, allineamento stakeholder e affidabilità end-to-end dei processi."
+        }
+      ],
+      "must_say": {
+        "en": "CEO & Co-Founder at YouAndTech. His role represents operational governance: from strategy to execution, with real delivery and coordination constraints.",
+        "it": "CEO & Co-Founder di YouAndTech. Il suo ruolo rappresenta governance operativa: dalla strategia all'esecuzione, con vincoli reali di delivery e coordinamento."
+      },
+      "relevance": {
+        "en": "Research context",
+        "it": "Contesto ricerca"
+      },
+      "url": null
+    }
+  ],
+  "timeline": {
+    "experiences": [
+      {
+        "title": "R&D ML Architect",
+        "org": "Sketchdata Srl",
+        "period": "Jan 2024 – Present",
+        "summary": {
+          "en": "Interpretable forecasting, driver analysis (SHAP), and causal discovery for decision support delivered via web interfaces.",
+          "it": "Forecasting interpretabile, driver analysis (SHAP) e causal discovery per decision support via interfacce web."
+        },
+        "tags": ["ML", "SHAP", "Causal", "Django"]
+      },
+      {
+        "title": "R&D Software Developer (Bioengineer)",
+        "org": "YouAndTech",
+        "period": "Dec 2021 – Dec 2023",
+        "summary": {
+          "en": "Django systems, Unity development, and applied ML (clustering, Bayesian networks) for BI and product work.",
+          "it": "Sistemi Django, sviluppo Unity e ML applicato (clustering, reti bayesiane) per BI e prodotto."
+        },
+        "tags": ["Django", "Unity", "ML"]
+      },
+      {
+        "title": "PhD in Bioengineering & Robotics",
+        "org": "University of Genoa",
+        "period": "Oct 2017 – Jul 2021",
+        "summary": {
+          "en": "Telerehabilitation and biofeedback (non-immersive VR), with EMG signals work and systems engineering.",
+          "it": "Telereabilitazione e biofeedback (VR non-immersiva), lavoro su segnali EMG e systems engineering."
+        },
+        "tags": ["Bioengineering", "Telerehabilitation", "EMG"]
+      }
+    ],
+    "education": [
+      {
+        "title": "PhD in Bioengineering & Robotics",
+        "org": "University of Genoa",
+        "period": "Oct 2017 – Jul 2021",
+        "research_focus": [
+          "Conceive and design a home neuromotor telerehabilitation system for stroke patients using low-cost technologies.",
+          "Enable therapy personalization (including remote) and continuous tracking of patient progress in the home environment.",
+          "Provide biofeedback/feedback (including AI-assisted guidance) to support correct execution and adherence."
+        ],
+        "core_stack": [
+          "Android TV box (Minix NEO U9-H) with TV-based UI.",
+          "Unity3D for the interactive (gamified) environment.",
+          "Magneto-inertial measurement units (MUSE by 221e).",
+          "Custom pressure sensors (insole, glove, under elbows).",
+          "Telehealth backend: Django (Python) + PostgreSQL served via Nginx + Gunicorn."
+        ]
+      }
+    ]
+  },
   "i18n": {
     "en": {
       "nav.home": "Home",
+      "nav.index": "Index",
+      "nav.note": "NOTE",
+      "nav.evidence": "EVIDENCE",
       "nav.focusNow": "Focus Now",
       "nav.education": "Education",
       "nav.about": "About",
@@ -25,6 +541,67 @@
       "nav.reading": "Reading",
       "nav.courses": "Courses",
       "nav.contact": "Contact",
+
+      "contract.title": "Reading Contract",
+      "contract.text": "This is not a portfolio; it is an exhaustive technical and research dossier.",
+      "contract.subtext": "NOTE = principles, governance, operating system, methods. EVIDENCE = verifiable facts (roles, projects, outputs, repositories, publications, demos, reading list).",
+
+      "index.title": "DOCUMENT INDEX",
+      "index.note": "NOTE",
+      "index.evidence": "EVIDENCE",
+      "index.os": "Operating System",
+      "index.collab": "Collaboration Modes",
+      "index.focus": "Focus Now",
+      "index.capabilities": "Capabilities",
+      "index.toolbox": "Toolbox",
+      "index.future": "Future Plans",
+      "index.contexts": "Operational & Research Contexts",
+      "index.background": "Background",
+      "index.education": "Education",
+      "index.containers": "Containers",
+      "index.examples": "Project Examples",
+      "index.proof": "Proof",
+      "index.reading": "Reading",
+      "index.courses": "Courses",
+      "index.contact": "Contact",
+
+      "note.subtitle": "NOTE",
+      "note.title": "Principles & Methods",
+      "note.lead": "Governance boundaries, operating system, and the methods used to turn data into decision-ready outputs.",
+      "evidence.subtitle": "EVIDENCE",
+      "evidence.title": "Verifiable Artifacts & Context",
+      "evidence.lead": "Roles, containers, outputs, public artifacts, reading list, and academic coursework.",
+
+      "contexts.title": "Operational & Research Contexts",
+      "contexts.disclaimer": "Listed for context; exposure does not imply employment or endorsement.",
+      "contexts.directWork": "DIRECT WORK",
+      "contexts.exposure": "OPERATIONAL EXPOSURE",
+
+      "discovery.label": "Discovery",
+      "discovery.hint": "Click to unlock more detail. The more you open, the more you learn about my method and context.",
+      "discovery.progress": "Knowledge",
+      "discovery.level": "Level",
+      "discovery.core": "CORE",
+      "discovery.unlock": "UNLOCK",
+      "discovery.proofTitle": "Proof (artifacts)",
+      "discovery.readingTitle": "Reading (why it matters)",
+      "discovery.coursesTitle": "Courses (details)",
+
+      "education.researchFocusTitle": "Research focus",
+      "education.coreStackTitle": "Core stack",
+      "projects.originLabel": "Origin of BMI acquisition + telerehab stack",
+
+      "projects.spec.status": "Status",
+      "projects.spec.boundary": "Boundary",
+      "projects.spec.purpose": "Purpose",
+      "projects.spec.inputs": "Inputs",
+      "projects.spec.outputs": "Outputs",
+      "projects.spec.reuse": "Reuse",
+      "projects.spec.constraints": "Constraints",
+      "projects.spec.currentFocus": "Current focus",
+
+      "reading.domainTitle": "Reading by domain",
+      "reading.why": "Why it matters",
 
       "hero.kicker": "Executive Brief",
       "hero.pillarsLabel": "Pillars:",
@@ -47,6 +624,16 @@
       "about.title": "About",
       "about.lead": "A compact timeline of research and industry work, with the tooling that shaped my approach.",
 
+      "collaborators.title": "People I’ve worked with",
+      "collaborators.lead": "People I collaborated with in research or industry.",
+      "collaborators.linkLabel": "Profile",
+      "collaborators.sourcesLabel": "Sources",
+      "collaborators.epistemicLabel": "Why it matters",
+      "collaborators.mustSayLabel": "What this must convey",
+      "collaborators.group.academic": "Academic context",
+      "collaborators.group.consortium": "Consortium / program context",
+      "collaborators.group.industrial": "Industry / operations context",
+
       "os.title": "Operating System",
       "collab.title": "Collaboration Modes",
 
@@ -62,6 +649,27 @@
       "projects.whatIBuildLabel": "What I build:",
       "projects.outputsLabel": "Outputs:",
       "projects.containedLabel": "Contained:",
+
+      "projectExamples.subtitle": "Examples",
+      "projectExamples.title": "Project Examples",
+      "projectExamples.lead": "Concrete builds that show what I actually ship inside the containers above.",
+      "projectExamples.withinLabel": "Within:",
+      "projectExamples.highlightsLabel": "Highlights:",
+      "projectExamples.linkLabel": "Link",
+
+      "people.subtitle": "People",
+      "people.title": "People",
+      "people.lead": "People I collaborated with (details available on request).",
+
+      "reading.nowTitle": "Now Reading",
+      "reading.completedTitle": "Completed",
+      "reading.verifyBadge": "Verify",
+
+      "proof.categoriesTitle": "Selected proof",
+      "proof.badgePrivate": "Private",
+      "proof.badgeNotPublic": "Not public yet",
+      "proof.badgeOnRequest": "Available on request",
+      "proof.badgeTodo": "TODO",
 
       "proof.subtitle": "Verification",
       "proof.title": "Selected Proof",
@@ -92,6 +700,9 @@
     },
     "it": {
       "nav.home": "Home",
+      "nav.index": "Indice",
+      "nav.note": "NOTA",
+      "nav.evidence": "EVIDENZE",
       "nav.focusNow": "Focus ora",
       "nav.education": "Formazione",
       "nav.about": "Chi sono",
@@ -102,6 +713,67 @@
       "nav.reading": "Letture",
       "nav.courses": "Corsi",
       "nav.contact": "Contatti",
+
+      "contract.title": "Contratto di lettura",
+      "contract.text": "Questo non è un portfolio; è un dossier tecnico e di ricerca esaustivo.",
+      "contract.subtext": "NOTA = principi, governance, sistema operativo, metodi. EVIDENZE = fatti verificabili (ruoli, progetti, output, repository, pubblicazioni, demo, letture).",
+
+      "index.title": "INDICE DOCUMENTO",
+      "index.note": "NOTA",
+      "index.evidence": "EVIDENZE",
+      "index.os": "Sistema operativo",
+      "index.collab": "Modalità di collaborazione",
+      "index.focus": "Focus ora",
+      "index.capabilities": "Competenze",
+      "index.toolbox": "Strumenti",
+      "index.future": "Piani futuri",
+      "index.contexts": "Contesti operativi e di ricerca",
+      "index.background": "Percorso",
+      "index.education": "Formazione",
+      "index.containers": "Container",
+      "index.examples": "Esempi di progetto",
+      "index.proof": "Evidenze",
+      "index.reading": "Letture",
+      "index.courses": "Corsi",
+      "index.contact": "Contatti",
+
+      "note.subtitle": "NOTA",
+      "note.title": "Principi e metodi",
+      "note.lead": "Confini di governance, sistema operativo e metodi per trasformare i dati in output utili alle decisioni.",
+      "evidence.subtitle": "EVIDENZE",
+      "evidence.title": "Artefatti e contesto verificabili",
+      "evidence.lead": "Ruoli, container, output, artefatti pubblici, letture e corsi universitari.",
+
+      "contexts.title": "Contesti operativi e di ricerca",
+      "contexts.disclaimer": "Elencati per contesto; l’esposizione non implica impiego o endorsement.",
+      "contexts.directWork": "LAVORO DIRETTO",
+      "contexts.exposure": "ESPOSIZIONE OPERATIVA",
+
+      "discovery.label": "Scoperta",
+      "discovery.hint": "Clicca per sbloccare più dettaglio. Più apri, più scopri il mio metodo e il mio contesto.",
+      "discovery.progress": "Conoscenza",
+      "discovery.level": "Livello",
+      "discovery.core": "CORE",
+      "discovery.unlock": "SBLOCCA",
+      "discovery.proofTitle": "Evidenze (artifact)",
+      "discovery.readingTitle": "Letture (perché contano)",
+      "discovery.coursesTitle": "Corsi (dettagli)",
+
+      "education.researchFocusTitle": "Focus di ricerca",
+      "education.coreStackTitle": "Stack core",
+      "projects.originLabel": "Origine dello stack BMI (acquisizione + telerehab)",
+
+      "projects.spec.status": "Stato",
+      "projects.spec.boundary": "Confine",
+      "projects.spec.purpose": "Scopo",
+      "projects.spec.inputs": "Input",
+      "projects.spec.outputs": "Output",
+      "projects.spec.reuse": "Riutilizzo",
+      "projects.spec.constraints": "Vincoli",
+      "projects.spec.currentFocus": "Focus attuale",
+
+      "reading.domainTitle": "Letture per dominio",
+      "reading.why": "Perché conta",
 
       "hero.kicker": "Sintesi esecutiva",
       "hero.pillarsLabel": "Pilastri:",
@@ -124,6 +796,16 @@
       "about.title": "Chi sono",
       "about.lead": "Una timeline compatta di ricerca e industria, con gli strumenti che hanno plasmato il mio approccio.",
 
+      "collaborators.title": "Persone con cui ho lavorato",
+      "collaborators.lead": "Persone con cui ho collaborato in ambito ricerca o industria.",
+      "collaborators.linkLabel": "Profilo",
+      "collaborators.sourcesLabel": "Fonti",
+      "collaborators.epistemicLabel": "Perché conta",
+      "collaborators.mustSayLabel": "Cosa deve comunicare",
+      "collaborators.group.academic": "Contesto accademico",
+      "collaborators.group.consortium": "Contesto consorzio / programma",
+      "collaborators.group.industrial": "Contesto industria / operations",
+
       "os.title": "Sistema operativo",
       "collab.title": "Modalità di collaborazione",
 
@@ -139,6 +821,27 @@
       "projects.whatIBuildLabel": "Cosa costruisco:",
       "projects.outputsLabel": "Output:",
       "projects.containedLabel": "Contenuti:",
+
+      "projectExamples.subtitle": "Esempi",
+      "projectExamples.title": "Esempi di progetto",
+      "projectExamples.lead": "Progetti concreti che mostrano cosa realizzo davvero dentro i container sopra.",
+      "projectExamples.withinLabel": "Dentro:",
+      "projectExamples.highlightsLabel": "Punti chiave:",
+      "projectExamples.linkLabel": "Link",
+
+      "people.subtitle": "Persone",
+      "people.title": "Persone",
+      "people.lead": "Persone con cui ho collaborato (dettagli su richiesta).",
+
+      "reading.nowTitle": "In lettura",
+      "reading.completedTitle": "Completati",
+      "reading.verifyBadge": "Verifica",
+
+      "proof.categoriesTitle": "Evidenze selezionate",
+      "proof.badgePrivate": "Privato",
+      "proof.badgeNotPublic": "Non pubblico",
+      "proof.badgeOnRequest": "Disponibile su richiesta",
+      "proof.badgeTodo": "TODO",
 
       "proof.subtitle": "Verifica",
       "proof.title": "Evidenze",
@@ -168,98 +871,6 @@
       "courses.levelBachelors": "Laurea triennale"
     }
   },
-  "hero": {
-    "greeting": "Andrea Zedda",
-    "subtitle": {
-      "en": "PhD Bioengineer · R&D ML Architect",
-      "it": "Bioingegnere PhD · Architetto R&S ML"
-    },
-    "cta": "Explore my work",
-    "highlights": [
-      {
-        "en": "Decision intelligence: interpretable ML + driver analysis (SHAP)",
-        "it": "Decision intelligence: ML interpretabile + driver analysis (SHAP)"
-      },
-      {
-        "en": "Causal discovery/inference for decision support and strategy",
-        "it": "Causal discovery/inferenza causale per decision support e strategia"
-      },
-      {
-        "en": "Motion analytics: sensor fusion and biomechanical metrics (IMU/EMG)",
-        "it": "Motion analytics: sensor fusion e metriche biomeccaniche (IMU/EMG)"
-      }
-    ]
-  },
-  "focusNow": {
-    "role": "R&D ML Architect",
-    "company": "Sketchdata Srl",
-    "period": "Jan 2024 – Present",
-    "description": {
-      "en": "Building ML solutions for business intelligence services: interpretable forecasting, explainability, and causal discovery for decision support.",
-      "it": "Sviluppo soluzioni di ML per servizi di business intelligence: forecasting interpretabile, explainability e causal discovery per supportare le decisioni."
-    },
-    "activities": [
-      {
-        "en": "Interpretable forecasting and business driver analysis",
-        "it": "Forecasting interpretabile e analisi dei driver di business"
-      },
-      {
-        "en": "Explainability tooling (e.g., SHAP) to understand variable impact",
-        "it": "Explainability (es. SHAP) per comprendere l'impatto delle variabili"
-      },
-      {
-        "en": "Microservices-oriented web interfaces to deliver analytics to clients",
-        "it": "Interfacce web orientate a microservizi per portare analytics ai clienti"
-      },
-      {
-        "en": "Causal discovery / causal inference to support strategic decisions",
-        "it": "Causal discovery / inferenza causale per supportare decisioni strategiche"
-      }
-    ],
-    "keywords": ["Python", "Django", "Microservices", "ML", "SHAP", "Causal Discovery", "Causal Inference"]
-  },
-  "education": [
-    {
-      "degree": "PhD in Bioengineering & Robotics",
-      "institution": "University of Genoa",
-      "period": "Oct 2017 – Jul 2021",
-      "notes": [
-        "Research focus: telerehabilitation with biofeedback (non-immersive VR)",
-        "Worked with EMG signals to construct rehabilitative biofeedback, including idiopathic scoliosis context",
-        "Platforms/languages: Android, Unity (C#), Python, C++, Django, Matlab"
-      ],
-      "tags": ["Bioengineering", "Robotics", "Telerehabilitation", "Biofeedback", "EMG", "Android", "Unity", "Python", "C++", "Django", "Matlab"]
-    },
-    {
-      "degree": "Master's Degree in Bioengineering — Biomedical Technologies and Engineering for Health",
-      "institution": "University of Genoa",
-      "period": "2014 – 2017",
-      "notes": [
-        "Grade: 110/110",
-        "Curriculum in Biomedical Technologies and Engineering for Health",
-        "Skills across biomedical data/signal analysis, biomedical informatics, bioimaging, perceptual/interactive systems, clinical engineering, and health information systems"
-      ],
-      "tags": ["Bioengineering", "Biomedical Signals", "Biomedical Informatics", "Bioimaging", "Clinical Engineering", "Health Information Systems", "Matlab", "Web Development", "C++", "Shell Scripting", "VB.NET"]
-    },
-    {
-      "degree": "Bachelor's Degree in Bioengineering",
-      "institution": "University of Cagliari",
-      "period": "2010 – 2014",
-      "notes": [
-        "Grade: 105",
-        "Thesis: Android application for visualization and real-time processing of pressure values measured with flexible transducers (Electromedical Instrumentation 2)",
-        "Activities: student representative; first-year tutor"
-      ],
-      "tags": ["Bioengineering", "Android", "C++", "PCB Design"]
-    },
-    {
-      "degree": "Diploma — Scientific High School",
-      "institution": "Liceo Scientifico",
-      "period": "2005 – 2010",
-      "notes": [],
-      "tags": []
-    }
-  ],
   "background": [
     {
       "role": "R&D ML Architect",
@@ -287,6 +898,11 @@
       "organization": "University of Cagliari",
       "period": "Apr 2018 – Jul 2021",
       "focus": "Research on neuromotor home telerehabilitation for post-stroke outcomes; followed a thesis on exergame design and development.",
+      "evidence_bullets": [
+        "Designed a store-and-forward home telerehabilitation system for stroke within the DoMoMEA project.",
+        "Implemented a TV-based interface (Android TV box + Unity3D) integrating IMUs and pressure sensors via Bluetooth Classic.",
+        "Built a Django+PostgreSQL telehealth backend (served via Nginx+Gunicorn) for daily exercise data upload and clinician review."
+      ],
       "tools": ["Telerehabilitation", "Biosignals", "Unity", "Django", "Python", "Android"]
     },
     {
@@ -337,6 +953,215 @@
       "period": "Jan 2012 – Jan 2013",
       "focus": "Support role for incoming students; provided overview metrics on first-year academic performance to the course committee.",
       "tools": ["Student Support", "Reporting"]
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Danilo Pani",
+      "group_key": "academic",
+      "role": {
+        "en": "Associate Professor of Bioengineering — University of Cagliari",
+        "it": "Professore Associato di Bioingegneria — Università di Cagliari"
+      },
+      "context": {
+        "en": "PhD supervisor (DoMoMEA / stroke telerehabilitation system).",
+        "it": "Tutor PhD (DoMoMEA / sistema di telereabilitazione post-ictus)."
+      },
+      "public_summary": {
+        "en": "Public research footprint in biomedical signal processing, telemedicine, and tele-rehabilitation.",
+        "it": "Footprint pubblico su biomedical signal processing, telemedicina e tele-riabilitazione."
+      },
+      "epistemic": [
+        {
+          "en": "Adds academic accountability: methods and results were reviewed under supervision.",
+          "it": "Aggiunge accountability accademica: metodi e risultati valutati sotto supervisione."
+        },
+        {
+          "en": "Anchors the telerehab stack in biosignal methodology + clinical-facing telemedicine constraints.",
+          "it": "Ancora lo stack telerehab a metodologia sui biosignali + vincoli clinici della telemedicina."
+        }
+      ],
+      "must_say": {
+        "en": "PhD supervisor; public track record in biomedical signal processing, telemedicine, and tele-rehabilitation. His supervision signals methodological rigor and scientific grounding.",
+        "it": "Tutor del PhD; track record pubblico su biomedical signal processing, telemedicina e tele-riabilitazione. La sua supervisione segnala rigore metodologico e fondamento scientifico."
+      }
+    },
+    {
+      "name": "Luigi Raffo",
+      "group_key": "academic",
+      "role": {
+        "en": "Full Professor — University of Cagliari (Electronics / Systems)",
+        "it": "Professore Ordinario — Università di Cagliari (Elettronica / Sistemi)"
+      },
+      "context": {
+        "en": "PhD co-supervisor (DoMoMEA / stroke telerehabilitation system).",
+        "it": "Co-supervisor PhD (DoMoMEA / sistema di telereabilitazione post-ictus)."
+      },
+      "public_summary": {
+        "en": "Public footprint in electronics engineering and optimization; long-running academic leadership and supervision.",
+        "it": "Footprint pubblico in ingegneria elettronica e ottimizzazione; leadership accademica e supervisione di lungo corso."
+      },
+      "epistemic": [
+        {
+          "en": "Signals system-level rigor: architecture, constraints, and engineering trade-offs.",
+          "it": "Segnala rigore a livello di sistema: architettura, vincoli e trade-off ingegneristici."
+        },
+        {
+          "en": "Connects the project to high-standard engineering practice beyond a prototype mindset.",
+          "it": "Collega il progetto a pratica ingegneristica di alto livello oltre la mentalità da prototipo."
+        }
+      ],
+      "must_say": {
+        "en": "PhD co-supervisor; Full Professor with long-term leadership in electronics engineering and optimization. His involvement signals high-level engineering discipline.",
+        "it": "Co-supervisor del PhD; Professore Ordinario con leadership di lungo periodo in ingegneria elettronica e ottimizzazione. Il suo coinvolgimento segnala disciplina ingegneristica di alto livello."
+      }
+    },
+    {
+      "name": "Andrea Cereatti",
+      "group_key": "academic",
+      "role": {
+        "en": "Professor (Biomechanics / Human Movement) — Polytech. University of Turin (formerly Univ. of Sassari)",
+        "it": "Professore (Biomeccanica / Movimento umano) — Politecnico di Torino (ex Univ. di Sassari)"
+      },
+      "context": {
+        "en": "DoMoMEA consortium partner (stroke telerehabilitation PhD work)",
+        "it": "Partner consorzio DoMoMEA (telereabilitazione post-ictus, lavoro PhD)"
+      },
+      "public_summary": {
+        "en": "Scientific partner on DoMoMEA; public footprint in biomechanics and IMU-based movement analysis.",
+        "it": "Partner scientifico su DoMoMEA; footprint pubblico in biomeccanica e analisi del movimento basata su IMU."
+      },
+      "epistemic": [
+        {
+          "en": "Adds measurement validity pressure: biomechanics requires defensible metrics and protocols.",
+          "it": "Aggiunge pressione di validità della misura: la biomeccanica richiede metriche e protocolli difendibili."
+        },
+        {
+          "en": "Signals that the telerehab stack is not only software, but clinically interpretable movement analytics.",
+          "it": "Segnala che lo stack di telerehab non è solo software, ma analytics del movimento interpretabili clinicamente."
+        }
+      ],
+      "must_say": {
+        "en": "Scientific partner; public footprint as an international reference in biomechanics, especially IMU-based movement analysis. His involvement signals scientific validation in biomechanics.",
+        "it": "Partner scientifico; footprint pubblico come riferimento internazionale in biomeccanica, in particolare analisi del movimento con IMU. Il suo coinvolgimento segnala validazione scientifica in biomeccanica."
+      }
+    },
+    {
+      "name": "DoMoMEA consortium (11 companies)",
+      "group_key": "consortium",
+      "role": "Industrial consortium",
+      "context": {
+        "en": "Listed in the Annual Report as project partners",
+        "it": "Indicate nel report annuale come partner di progetto"
+      },
+      "public_summary": {
+        "en": "Industrial program context for a stroke telerehabilitation system: multi-actor constraints, delivery pressure, and non-lab requirements.",
+        "it": "Contesto di programma industriale per un sistema di telereabilitazione post-ictus: vincoli multi-attore, pressione di delivery e requisiti extra-lab."
+      },
+      "epistemic": [
+        {
+          "en": "Signals the project lived under program constraints (stakeholders, integration, deployment reality).",
+          "it": "Segnala che il progetto è vissuto sotto vincoli di programma (stakeholder, integrazione, realtà di deploy)."
+        },
+        {
+          "en": "Adds a credibility layer: the work had to survive coordination and real-world constraints, not just experiments.",
+          "it": "Aggiunge credibilità: il lavoro ha dovuto reggere coordinamento e vincoli reali, non solo esperimenti."
+        }
+      ],
+      "must_say": {
+        "en": "DoMoMEA consortium (11 companies): it shows the PhD work sat in a real R&D program with industrial constraints. This provides a non-trivial validation context.",
+        "it": "Consorzio DoMoMEA (11 aziende): mostra che il lavoro di PhD era dentro un programma R&D reale con vincoli industriali. Fornisce un contesto di validazione non banale."
+      }
+    },
+    {
+      "name": "Massimo Arciulo",
+      "group_key": "industrial",
+      "role": {
+        "en": "Executive leader — Data / Business / Telecom strategy",
+        "it": "Executive — strategia Data / Business / Telecom"
+      },
+      "context": {
+        "en": "Executive counterpart with public roles across pricing/revenue strategy and data governance (Telecom Italia, Poste Italiane, TIM, Linkem / OpNet).",
+        "it": "Controparte executive con ruoli pubblici tra strategia pricing/revenue e data governance (Telecom Italia, Poste Italiane, TIM, Linkem / OpNet)."
+      },
+      "public_summary": {
+        "en": "Education: Mathematical Economics (Sapienza University of Rome). Public leadership: Pricing & Data Management (Poste Italiane), CDO (TIM), CEO / co-CEO (Linkem / OpNet).",
+        "it": "Formazione: Economia Matematica (Sapienza Università di Roma). Leadership pubblica: Pricing & Data Management (Poste Italiane), CDO (TIM), CEO / co-CEO (Linkem / OpNet)."
+      },
+      "epistemic": [
+        {
+          "en": "Adds executive-grade constraints (governance, incentives, revenue logic) that force decision-ready outputs.",
+          "it": "Aggiunge vincoli da livello executive (governance, incentivi, logica revenue) che forzano output decision-ready."
+        },
+        {
+          "en": "Reinforces the importance of data governance and end-to-end process thinking in industrial decision intelligence.",
+          "it": "Rafforza l'importanza di data governance e pensiero end-to-end nella decision intelligence industriale."
+        }
+      ],
+      "must_say": {
+        "en": "Executive with 30+ years across telecom, pricing/revenue strategy, and data governance; public roles include CDO (TIM), Pricing & Data Management Director (Poste Italiane), and CEO / co-CEO (Linkem / OpNet). His perspective influenced my focus on operational decision intelligence and governance.",
+        "it": "Executive con 30+ anni in telecom, strategia pricing/revenue e data governance; ruoli pubblici includono CDO (TIM), Direttore Pricing & Data Management (Poste Italiane) e CEO / co-CEO (Linkem / OpNet). La sua prospettiva ha influenzato il mio focus su decision intelligence operativa e governance."
+      }
+    },
+    {
+      "name": "Giancarlo Cherchi",
+      "group_key": "industrial",
+      "role": {
+        "en": "CTO & Co-Founder — YouAndTech",
+        "it": "CTO & Co-Founder — YouAndTech"
+      },
+      "context": {
+        "en": "Technology counterpart for applied delivery: ICT architectures, infrastructure design, and integration constraints.",
+        "it": "Controparte tecnologica per delivery applicata: architetture ICT, design infrastrutturale e vincoli di integrazione."
+      },
+      "public_summary": {
+        "en": "CTO and co-founder at YouAndTech (ICT engineering and applied technology delivery).",
+        "it": "CTO e co-fondatore in YouAndTech (ingegneria ICT e delivery tecnologico applicato)."
+      },
+      "epistemic": [
+        {
+          "en": "Validates technical feasibility: interfaces, integration paths, and maintainability.",
+          "it": "Valida la fattibilità tecnica: interfacce, percorsi di integrazione e manutenibilità."
+        },
+        {
+          "en": "Adds delivery pressure that tests solutions in real operational contexts.",
+          "it": "Aggiunge pressione di delivery che testa le soluzioni in contesti operativi reali."
+        }
+      ],
+      "must_say": {
+        "en": "CTO & Co-Founder at YouAndTech. Represents applied engineering reality: architectures, infrastructure, and delivery constraints that make solutions deployable.",
+        "it": "CTO & Co-Founder di YouAndTech. Rappresenta la realtà dell'ingegneria applicata: architetture, infrastrutture e vincoli di delivery che rendono le soluzioni deployabili."
+      }
+    },
+    {
+      "name": "Stefano Cau",
+      "group_key": "industrial",
+      "role": {
+        "en": "CEO & Co-Founder — YouAndTech",
+        "it": "CEO & Co-Founder — YouAndTech"
+      },
+      "context": {
+        "en": "Execution/governance counterpart: delivery ownership, coordination, and stakeholder constraints in applied ICT projects.",
+        "it": "Controparte execution/governance: ownership della delivery, coordinamento e vincoli stakeholder in progetti ICT applicati."
+      },
+      "public_summary": {
+        "en": "CEO and co-founder at YouAndTech; public involvement includes sector/association representation (OICE — Sardinia).",
+        "it": "CEO e co-fondatore in YouAndTech; coinvolgimento pubblico include rappresentanza associativa di settore (OICE — Sardegna)."
+      },
+      "epistemic": [
+        {
+          "en": "Adds governance pressure: translating technical work into delivered outcomes.",
+          "it": "Aggiunge pressione di governance: tradurre il lavoro tecnico in outcome consegnati."
+        },
+        {
+          "en": "Strengthens the execution layer: coordination, prioritization, and end-to-end reliability.",
+          "it": "Rafforza lo strato di execution: coordinamento, prioritizzazione e affidabilità end-to-end."
+        }
+      ],
+      "must_say": {
+        "en": "CEO & Co-Founder at YouAndTech. Represents operational governance: from strategy to execution, with real delivery and coordination constraints.",
+        "it": "CEO & Co-Founder di YouAndTech. Rappresenta governance operativa: dalla strategia all'esecuzione, con vincoli reali di delivery e coordinamento."
+      }
     }
   ],
   "operatingSystem": {
@@ -407,7 +1232,49 @@
       "id": "bmi",
       "name": "BMI — Bioingegneria Modulare Italiana",
       "tagline": "Biomedical R&D container: reusable scientific infrastructure + modular clinical/biomed components.",
+      "spec": {
+        "status": "prototype",
+        "boundary": {
+          "en": "Research container (non-profit planned)",
+          "it": "Container di ricerca (non-profit pianificato)"
+        },
+        "purpose": {
+          "en": "Reusable biomedical engineering stack (acquisition → processing → modeling) designed to transfer into applied products without rewriting the core.",
+          "it": "Stack riusabile di bioingegneria (acquisizione → processing → modellazione) pensato per essere trasferito in prodotti applicati senza riscrivere il core."
+        },
+        "inputs": [
+          { "en": "IMU signals", "it": "Segnali IMU" },
+          { "en": "EMG signals", "it": "Segnali EMG" },
+          { "en": "Android acquisition + instrumentation", "it": "Acquisizione + strumentazione Android" },
+          { "en": "Python modules with explicit I/O", "it": "Moduli Python con I/O esplicito" }
+        ],
+        "outputs": [
+          { "en": "Acquisition app foundations (IMU) + real-time EMG integration", "it": "Fondazioni app di acquisizione (IMU) + integrazione EMG real-time" },
+          { "en": "Reusable preprocessing/sync patterns and data schemas", "it": "Pattern riusabili di preprocessing/sync e schemi dati" },
+          { "en": "Concept frameworks for longitudinal modeling (patient digital twin)", "it": "Framework concettuali per modellazione longitudinale (digital twin paziente)" }
+        ],
+        "reuse": [
+          { "en": "Acquisition/instrumentation stack reused by IGM and other verticalizations", "it": "Stack di acquisizione/strumentazione riutilizzato da IGM e altre verticalizzazioni" },
+          { "en": "Pipeline templates (explicit inputs/outputs, logging, reproducibility)", "it": "Template di pipeline (input/output espliciti, logging, riproducibilità)" }
+        ],
+        "constraints": [
+          { "en": "Not a product container: no commercial delivery commitments", "it": "Non è un container di prodotto: nessun commitment di delivery commerciale" },
+          { "en": "Focus is on reusable infrastructure, not one-off experiments", "it": "Focus su infrastruttura riusabile, non su esperimenti one-off" }
+        ],
+        "current_focus": [
+          { "en": "Stabilize acquisition stack (IMU) and EMG real-time integration", "it": "Stabilizzare stack di acquisizione (IMU) e integrazione EMG real-time" },
+          { "en": "Harden reusable schemas + reproducible pipelines", "it": "Rendere robusti schemi riusabili + pipeline riproducibili" },
+          { "en": "Evolve bmyCure4MM as a narrative technical case", "it": "Evolvere bmyCure4MM come caso tecnico narrativo" }
+        ]
+      },
       "purpose": "Build a reusable biomedical engineering stack (acquisition → processing → modeling) that can be transferred into applied products without rewriting the core.",
+      "evidence_bullets": [
+        "Origin: DoMoMEA PhD telerehabilitation system (stroke) drove the acquisition + telehealth stack foundations.",
+        "TV-based interface (Android TV box + Unity3D) integrating IMUs (MUSE by 221e) and custom pressure sensors.",
+        "Multi-device Bluetooth Classic synchronization patterns became reusable instrumentation building blocks.",
+        "Store-and-forward telemonitoring (Django+PostgreSQL served via Nginx+Gunicorn) informed BMI’s decision-ready outputs.",
+        "Clinician-configurable safety limits and remote configuration shaped BMI’s governance around constraints and auditability."
+      ],
       "whatIBuild": [
         "Reusable acquisition/instrumentation layers (IMU + low-cost real-time EMG)",
         "Python-first modules with explicit I/O, logging, versioning, tests, reproducible configs",
@@ -435,7 +1302,11 @@
       "contained": [
         {
           "name": "bmyCure4MM",
-          "tagline": "Biomedical AI / decision support: patient digital twin with longitudinal response + side-effects."
+          "url": "https://github.com/andreazedda/bmyCure4MM",
+          "tagline": {
+            "en": "Django platform for multiple myeloma: drug discovery tooling + PK/PD simulation + digital patient twins + clinical decision support.",
+            "it": "Piattaforma Django per il mieloma multiplo: tool di drug discovery + simulazione PK/PD + digital patient twins + supporto decisionale clinico."
+          }
         },
         {
           "name": "bmySquat",
@@ -451,6 +1322,39 @@
       "id": "sketchdata",
       "name": "SketchData",
       "tagline": "BI/automation container: interpretable ML, causal reasoning, and modular data pipelines.",
+      "spec": {
+        "status": "production",
+        "boundary": {
+          "en": "For-profit container",
+          "it": "Container for-profit"
+        },
+        "purpose": {
+          "en": "Turn business data into decision-ready outputs via interpretable models and causal reasoning, delivered as usable interfaces (dashboards/APIs).",
+          "it": "Trasformare dati business in output decision-ready con modelli interpretabili e ragionamento causale, consegnati come interfacce usabili (dashboard/API)."
+        },
+        "inputs": [
+          { "en": "Operational/time-series business data", "it": "Dati business operativi/time-series" },
+          { "en": "Config-driven pipelines", "it": "Pipeline config-driven" },
+          { "en": "Interpretable ML tooling (e.g., SHAP)", "it": "Tooling di ML interpretabile (es. SHAP)" }
+        ],
+        "outputs": [
+          { "en": "Decision briefs + dashboards", "it": "Decision brief + dashboard" },
+          { "en": "APIs/microservices to deliver analytics", "it": "API/microservizi per erogare analytics" }
+        ],
+        "reuse": [
+          { "en": "Reusable pipeline components with explicit I/O", "it": "Componenti di pipeline riusabili con I/O esplicito" },
+          { "en": "Forecasting + driver analysis patterns", "it": "Pattern di forecasting + driver analysis" }
+        ],
+        "constraints": [
+          { "en": "Not a generic BI platform; scoped to decision workflows", "it": "Non è una piattaforma BI generica; è scoped ai workflow decisionali" },
+          { "en": "Explanations must be auditable, not decorative", "it": "Le spiegazioni devono essere verificabili, non decorative" }
+        ],
+        "current_focus": [
+          { "en": "Interpretable forecasting + driver analysis", "it": "Forecasting interpretabile + driver analysis" },
+          { "en": "Causal discovery/inference workflows", "it": "Workflow di causal discovery/inferenza" },
+          { "en": "Delivery via web interfaces/APIs", "it": "Delivery via interfacce web/API" }
+        ]
+      },
       "purpose": "Turn business data into decision-ready outputs, with an architecture that stays modular as complexity grows (local → parallel → cloud/API).",
       "whatIBuild": [
         "Config-driven pipelines with explicit component I/O (swap modules without rewiring the whole system)",
@@ -487,6 +1391,36 @@
       "id": "igm",
       "name": "IGM — Ingegneria del Movimento",
       "tagline": "Movement analytics product container built on wearable sensors (IMU/EMG).",
+      "spec": {
+        "status": "prototype",
+        "boundary": {
+          "en": "Applied product container (built on BMI assets)",
+          "it": "Container di prodotto applicato (basato su asset BMI)"
+        },
+        "purpose": {
+          "en": "Ship a usable movement-analysis experience (metrics + workflows) by reusing BMI’s acquisition/instrumentation foundation.",
+          "it": "Rilasciare un’esperienza usabile di analisi del movimento (metriche + workflow) riusando la base di acquisizione/strumentazione di BMI."
+        },
+        "inputs": [
+          { "en": "Wearable IMU/EMG streams", "it": "Stream IMU/EMG da wearable" },
+          { "en": "BMI acquisition/instrumentation stack", "it": "Stack di acquisizione/strumentazione BMI" },
+          { "en": "Validation diagnostics + deterministic tests", "it": "Diagnostica di validazione + test deterministici" }
+        ],
+        "outputs": [
+          { "en": "Analysis tooling and automated reports", "it": "Tool di analisi e report automatici" },
+          { "en": "Instrumentation/QA improvements", "it": "Miglioramenti strumentazione/QA" }
+        ],
+        "reuse": [
+          { "en": "Reuses BMI acquisition base; feeds improvements back into BMI", "it": "Riuso base di acquisizione BMI; restituisce miglioramenti a BMI" }
+        ],
+        "constraints": [
+          { "en": "Not a general fitness app; focused on measurable, validated workflows", "it": "Non è un’app fitness generica; focus su workflow misurabili e validati" }
+        ],
+        "current_focus": [
+          { "en": "Deterministic Android instrumentation tests and diagnostics", "it": "Test di strumentazione Android deterministici e diagnostica" },
+          { "en": "Interpretable metrics and reporting UX", "it": "Metriche interpretabili e UX di reporting" }
+        ]
+      },
       "purpose": "Ship a usable movement-analysis experience (panel, metrics, workflows) by reusing BMI’s core acquisition/instrumentation stack.",
       "whatIBuild": [
         "Applied movement analysis: segmentation, phase detection, interpretable biomechanical metrics",
@@ -525,6 +1459,36 @@
       "id": "fztm",
       "name": "FZTM — From Zero to Million",
       "tagline": "Quant finance + educational systems: scenarios, constraints, and decision dashboards.",
+      "spec": {
+        "status": "prototype",
+        "boundary": {
+          "en": "For-profit container (finance/education)",
+          "it": "Container for-profit (finanza/educazione)"
+        },
+        "purpose": {
+          "en": "Make financial decisions explicit via models, assumptions, and stress-tested scenarios (automation-first, output-driven).",
+          "it": "Rendere esplicite le decisioni finanziarie tramite modelli, assunzioni e scenari stress-testati (automation-first, output-driven)."
+        },
+        "inputs": [
+          { "en": "Assumptions + constraints", "it": "Assunzioni + vincoli" },
+          { "en": "Scenario parameters + historical data (when applicable)", "it": "Parametri di scenario + dati storici (quando applicabile)" },
+          { "en": "Automation scripts and calculators", "it": "Script di automazione e calcolatori" }
+        ],
+        "outputs": [
+          { "en": "Dashboards/calculators and decision notes", "it": "Dashboard/calcolatori e note decisionali" },
+          { "en": "Scenario/stress-test artifacts", "it": "Artefatti di scenario/stress-test" }
+        ],
+        "reuse": [
+          { "en": "Reusable scenario templates and reporting formats", "it": "Template riusabili di scenario e formati di report" }
+        ],
+        "constraints": [
+          { "en": "Not investment advice; artifacts are for structured reasoning", "it": "Non è consulenza finanziaria; gli artefatti servono al ragionamento strutturato" }
+        ],
+        "current_focus": [
+          { "en": "Constraint-aware simulations", "it": "Simulazioni con vincoli" },
+          { "en": "Stress-testable decision dashboards", "it": "Dashboard decisionali stress-testabili" }
+        ]
+      },
       "purpose": "Make financial decisions explicit via models, assumptions, and stress-tested scenarios (automation-first, output-driven).",
       "whatIBuild": [
         "Scenario modeling and constraint-aware simulations",
@@ -553,6 +1517,34 @@
       "id": "es",
       "name": "ES — Esercizi Svolti",
       "tagline": "Educational container: structured problem-solving systems (not an archive).",
+      "spec": {
+        "status": "production",
+        "boundary": {
+          "en": "For-profit educational container",
+          "it": "Container educativo for-profit"
+        },
+        "purpose": {
+          "en": "Increase learning value via structure, method, tooling, and progression—beyond generic exercise repositories.",
+          "it": "Aumentare il valore didattico tramite struttura, metodo, tooling e progressione—oltre i repository generici di esercizi."
+        },
+        "inputs": [
+          { "en": "Problem sets and curricula", "it": "Esercizi e curricula" },
+          { "en": "Templates and structured formats", "it": "Template e formati strutturati" }
+        ],
+        "outputs": [
+          { "en": "Exercise collections and study tracks", "it": "Raccolte di esercizi e percorsi di studio" },
+          { "en": "Reusable templates for consistent delivery", "it": "Template riusabili per delivery consistente" }
+        ],
+        "reuse": [
+          { "en": "Reusable explanation templates and grading/check criteria", "it": "Template riusabili di spiegazione e criteri di valutazione/check" }
+        ],
+        "constraints": [
+          { "en": "Not an archive; everything must be method-scaffolded", "it": "Non è un archivio; tutto deve essere scaffoldato da metodo" }
+        ],
+        "current_focus": [
+          { "en": "Structured educational content delivery", "it": "Delivery di contenuti educativi strutturati" }
+        ]
+      },
       "purpose": "Increase learning value via structure, method, tooling, and progression—beyond generic exercise repositories.",
       "whatIBuild": [
         "Problem → solution libraries with method-driven explanations",
@@ -577,6 +1569,25 @@
       ]
     }
   ],
+  "contexts": {
+    "disclaimer": {
+      "en": "Listed for context; exposure does not imply employment or endorsement.",
+      "it": "Elencati per contesto; l’esposizione non implica impiego o endorsement."
+    },
+    "direct_work": [
+      "SketchData",
+      "YouAndTech",
+      "University of Cagliari",
+      "University of Genoa",
+      "Camelot Biomedical Systems"
+    ],
+    "operational_exposure": [
+      "Motorola",
+      "ITA Airways",
+      "Aura (early-stage startup)"
+    ]
+  },
+  "projectExamples": [],
   "collaborationModes": [
     {
       "mode": "R&D / Prototyping",
@@ -739,80 +1750,135 @@
     }
   ],
   "reading": {
-    "current": [
+    "domains": [
+      {
+        "domain": { "en": "Causality", "it": "Causalità" },
+        "books": [
+          {
+            "title": "Causal Inference: The Mixtape",
+            "author": "Scott Cunningham",
+            "status": "reading",
+            "topic_tags": ["Causal Inference"],
+            "why_it_matters": {
+              "en": "Shaped my ability to reason about identification and causal estimands under real-world constraints.",
+              "it": "Ha rafforzato la capacità di ragionare su identificazione ed estimand causali sotto vincoli reali."
+            }
+          },
+          {
+            "title": "The Book of Why",
+            "author": "Judea Pearl",
+            "status": "reading",
+            "topic_tags": ["Causality"],
+            "why_it_matters": {
+              "en": "Strengthened graph-based causal thinking and the discipline of explicit assumptions.",
+              "it": "Ha rafforzato il pensiero causale basato su grafi e la disciplina delle assunzioni esplicite."
+            }
+          }
+        ]
+      },
+      {
+        "domain": { "en": "Systems & Engineering", "it": "Sistemi e ingegneria" },
+        "books": [
+          {
+            "title": "Designing Data-Intensive Applications",
+            "author": "Martin Kleppmann",
+            "status": "completed",
+            "topic_tags": ["Software Engineering", "Data Systems"],
+            "why_it_matters": {
+              "en": "Shaped how I design data systems with explicit tradeoffs, failure modes, and operational invariants.",
+              "it": "Ha plasmato il modo in cui progetto sistemi dati con tradeoff espliciti, failure mode e invarianti operative."
+            }
+          },
+          {
+            "title": "Clean Code",
+            "author": "Robert C. Martin",
+            "status": "completed",
+            "topic_tags": ["Software Craftsmanship"],
+            "why_it_matters": {
+              "en": "Reinforced maintainability as an engineering constraint (naming, structure, tests, refactoring discipline).",
+              "it": "Ha rafforzato la manutenibilità come vincolo ingegneristico (naming, struttura, test, disciplina di refactoring)."
+            }
+          }
+        ]
+      },
+      {
+        "domain": { "en": "Statistics & Modeling", "it": "Statistica e modellazione" },
+        "books": [
+          {
+            "title": "Statistical Rethinking",
+            "author": "Richard McElreath",
+            "status": "reading",
+            "topic_tags": ["Bayesian Statistics"],
+            "why_it_matters": {
+              "en": "Improved my Bayesian modeling intuition and how to connect assumptions to diagnostics and prediction.",
+              "it": "Ha migliorato l’intuizione per la modellazione bayesiana e il collegamento tra assunzioni, diagnostica e previsione."
+            }
+          },
+          {
+            "title": "Python Machine Learning",
+            "author": "Sebastian Raschka",
+            "status": "completed",
+            "topic_tags": ["Machine Learning", "Python"],
+            "why_it_matters": {
+              "en": "Supported practical ML implementation patterns and helped standardize baselines and evaluation workflows.",
+              "it": "Ha supportato pattern pratici di implementazione ML e aiutato a standardizzare baseline e workflow di valutazione."
+            }
+          }
+        ]
+      },
+      {
+        "domain": { "en": "Finance", "it": "Finanza" },
+        "books": []
+      },
+      {
+        "domain": { "en": "Bioengineering", "it": "Bioingegneria" },
+        "books": []
+      }
+    ],
+    "now_reading": [
       {
         "title": "Causal Inference: The Mixtape",
         "author": "Scott Cunningham",
-        "category": {
-          "en": "Causal Inference",
-          "it": "Inferenza Causale"
-        },
-        "notes": {
-          "en": "Deep dive into causal inference methods and econometric techniques",
-          "it": "Approfondimento su metodi di inferenza causale e tecniche econometriche"
-        }
+        "topic_tags": ["Causal Inference"],
+        "status": "reading",
+        "needs_verification": false
       },
       {
         "title": "The Book of Why",
         "author": "Judea Pearl",
-        "category": {
-          "en": "Causality",
-          "it": "Causalità"
-        },
-        "notes": {
-          "en": "Foundational understanding of causal reasoning and do-calculus",
-          "it": "Comprensione fondamentale del ragionamento causale e do-calculus"
-        }
+        "topic_tags": ["Causality"],
+        "status": "reading",
+        "needs_verification": false
       },
       {
         "title": "Statistical Rethinking",
         "author": "Richard McElreath",
-        "category": {
-          "en": "Bayesian Statistics",
-          "it": "Statistica Bayesiana"
-        },
-        "notes": {
-          "en": "Bayesian data analysis with practical examples",
-          "it": "Analisi dati Bayesiana con esempi pratici"
-        }
+        "topic_tags": ["Bayesian Statistics"],
+        "status": "reading",
+        "needs_verification": false
       }
     ],
     "completed": [
       {
         "title": "Designing Data-Intensive Applications",
         "author": "Martin Kleppmann",
-        "category": {
-          "en": "Software Engineering",
-          "it": "Ingegneria del Software"
-        },
-        "impact": {
-          "en": "Shaped my approach to data pipeline architecture and system design",
-          "it": "Ha plasmato il mio approccio all'architettura di pipeline dati e system design"
-        }
+        "topic_tags": ["Software Engineering", "Data Systems"],
+        "status": "completed",
+        "needs_verification": false
       },
       {
         "title": "Python Machine Learning",
         "author": "Sebastian Raschka",
-        "category": {
-          "en": "Machine Learning",
-          "it": "Machine Learning"
-        },
-        "impact": {
-          "en": "Foundation for practical ML implementation and best practices",
-          "it": "Fondazione per implementazione pratica di ML e best practices"
-        }
+        "topic_tags": ["Machine Learning", "Python"],
+        "status": "completed",
+        "needs_verification": false
       },
       {
         "title": "Clean Code",
         "author": "Robert C. Martin",
-        "category": {
-          "en": "Software Craftsmanship",
-          "it": "Artigianato del Software"
-        },
-        "impact": {
-          "en": "Influenced code quality standards and maintainability principles",
-          "it": "Ha influenzato standard di qualità del codice e principi di manutenibilità"
-        }
+        "topic_tags": ["Software Craftsmanship"],
+        "status": "completed",
+        "needs_verification": false
       }
     ]
   },

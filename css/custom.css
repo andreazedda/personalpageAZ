@@ -150,6 +150,307 @@ strong {
   min-height: auto;
 }
 
+.section-compact {
+  padding: var(--spacing-md) 0;
+}
+
+/* ===== DOSSIER UI ===== */
+.contract-banner {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--border-radius);
+  background: rgba(18, 25, 37, 0.65);
+  box-shadow: var(--shadow-sm);
+}
+
+.contract-badge {
+  align-self: start;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  background: rgba(212, 175, 55, 0.08);
+  color: var(--color-secondary);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+}
+
+.contract-title {
+  margin-bottom: 0.35rem;
+}
+
+.contract-text {
+  margin-bottom: 0.4rem;
+  color: var(--color-primary);
+}
+
+.contract-subtext {
+  margin-bottom: 0;
+  color: var(--color-text-light);
+}
+
+.dossier-index {
+  position: sticky;
+  top: 74px;
+  z-index: 900;
+  padding: var(--spacing-sm);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--border-radius);
+  background: rgba(11, 15, 20, 0.8);
+  backdrop-filter: saturate(1.6) blur(14px);
+  -webkit-backdrop-filter: saturate(1.6) blur(14px);
+}
+
+.dossier-index-title {
+  margin: 0 0 var(--spacing-xs);
+  font-size: 1rem;
+  color: var(--color-text-light);
+  letter-spacing: 0.12em;
+}
+
+.dossier-index-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.discovery-progress {
+  margin: 0 0 var(--spacing-sm);
+  padding: var(--spacing-sm);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--border-radius);
+  background: rgba(18, 25, 37, 0.55);
+}
+
+.discovery-progress-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
+}
+
+.discovery-progress-label {
+  color: var(--color-primary);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.discovery-progress-text {
+  color: var(--color-text-light);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
+.discovery-progress-bar {
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  overflow: hidden;
+}
+
+.discovery-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: rgba(212, 175, 55, 0.65);
+  transition: width var(--transition-speed);
+}
+
+.discovery-progress-hint {
+  margin: var(--spacing-xs) 0 0;
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 720px) {
+  .discovery-progress-hint {
+    display: none;
+  }
+}
+
+/* Progressive disclosure blocks */
+details.discovery-step {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--border-radius);
+  background: rgba(18, 25, 37, 0.35);
+  padding: 0;
+  overflow: hidden;
+  transition: transform var(--transition-speed), border-color var(--transition-speed);
+}
+
+details.discovery-step + details.discovery-step {
+  margin-top: var(--spacing-md);
+}
+
+details.discovery-step[open] {
+  box-shadow: var(--shadow-sm);
+  border-color: rgba(212, 175, 55, 0.22);
+}
+
+summary.discovery-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: var(--spacing-sm);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+  user-select: none;
+  background: rgba(11, 15, 20, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+summary.discovery-summary::-webkit-details-marker {
+  display: none;
+}
+
+summary.discovery-summary::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  flex: 0 0 10px;
+  border-right: 2px solid rgba(212, 175, 55, 0.55);
+  border-bottom: 2px solid rgba(212, 175, 55, 0.55);
+  transform: rotate(-45deg);
+  transition: transform var(--transition-speed);
+  margin-left: auto;
+}
+
+details.discovery-step[open] > summary.discovery-summary::after {
+  transform: rotate(45deg);
+}
+
+details.discovery-step:hover {
+  border-color: rgba(212, 175, 55, 0.18);
+  transform: translateY(-1px);
+}
+
+summary.discovery-summary:hover {
+  background: rgba(11, 15, 20, 0.32);
+}
+
+summary.discovery-summary:focus-visible {
+  outline: 2px solid rgba(212, 175, 55, 0.35);
+  outline-offset: -2px;
+}
+
+.discovery-title {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.discovery-badge {
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  background: rgba(212, 175, 55, 0.06);
+  color: var(--color-accent);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+}
+
+details.discovery-step > *:not(summary) {
+  padding: 0 var(--spacing-sm) var(--spacing-sm);
+}
+
+/* Reduce excessive spacing when existing section blocks already include margins */
+details.discovery-step .text-center {
+  margin-top: var(--spacing-xs);
+}
+
+/* Keep existing vertical rhythm when subsections are details */
+details.dossier-subsection {
+  margin-top: var(--spacing-lg);
+}
+
+.index-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  background: rgba(212, 175, 55, 0.04);
+  color: var(--color-accent);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.index-link:hover {
+  border-color: rgba(212, 175, 55, 0.35);
+  color: var(--color-secondary);
+}
+
+.dossier-subsection {
+  margin-top: var(--spacing-lg);
+}
+
+.dossier-subtitle {
+  text-align: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.contexts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--spacing-md);
+}
+
+.context-card {
+  padding: var(--spacing-md);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--border-radius);
+  background: rgba(18, 25, 37, 0.55);
+}
+
+.context-card h4 {
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Project technical spec (dossier card) */
+.project-spec {
+  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-sm);
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(18, 25, 37, 0.35);
+}
+
+.project-spec .spec-row {
+  margin-bottom: 0.6rem;
+}
+
+.project-spec .spec-row:last-child {
+  margin-bottom: 0;
+}
+
+.project-spec strong {
+  color: var(--color-accent);
+}
+
+.project-spec ul {
+  margin-top: 0.35rem;
+  padding-left: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .contract-banner {
+    grid-template-columns: 1fr;
+  }
+  .dossier-index {
+    top: 64px;
+  }
+  .contexts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .section-alt {
   background: var(--color-bg-alt);
 }
@@ -588,7 +889,8 @@ header {
 }
 
 /* ===== PROJECT CARDS ===== */
-#projects-grid {
+#projects-grid,
+#project-examples-grid {
   display: grid;
   gap: calc(var(--spacing-md) + 0.25rem);
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
@@ -838,6 +1140,166 @@ header {
   gap: var(--spacing-md);
 }
 
+#collaborators-content {
+  display: grid;
+  gap: var(--spacing-md);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: var(--spacing-md);
+}
+
+.collaborators-group-title {
+  grid-column: 1 / -1;
+  margin: var(--spacing-md) 0 0 0;
+  color: var(--color-primary);
+}
+
+.collaborators-lead {
+  max-width: 860px;
+  margin: 0 auto;
+  color: var(--color-text-light);
+  text-align: center;
+}
+
+.collaborator-item {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-speed), border-color var(--transition-speed);
+}
+
+.collaborator-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.collaborator-card-link:hover .collaborator-item,
+.collaborator-card-link:focus-visible .collaborator-item {
+  border-color: rgba(212, 175, 55, 0.45);
+  transform: translateY(-2px);
+}
+
+.collaborator-top {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
+}
+
+.collaborator-avatar {
+  width: 46px;
+  height: 46px;
+  flex: 0 0 46px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: linear-gradient(135deg, var(--color-secondary), transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.collaborator-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.collaborator-avatar span {
+  color: var(--color-primary);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.collaborator-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.collaborator-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+}
+
+.collaborator-period {
+  color: var(--color-text-light);
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.collaborator-role {
+  color: var(--color-secondary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.collaborator-context,
+.collaborator-note {
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xs);
+}
+
+.collaborator-block-label {
+  display: inline-block;
+  margin-top: var(--spacing-xs);
+  color: var(--color-secondary);
+  font-weight: 700;
+}
+
+.collaborator-epistemic ul {
+  list-style-position: inside;
+  margin: 0.35rem 0 0 0;
+  padding: 0;
+}
+
+.collaborator-epistemic li {
+  padding: 0.12rem 0;
+}
+
+.collaborator-mustsay-text {
+  margin: 0.35rem 0 0 0;
+  color: var(--color-text);
+}
+
+.collaborator-link-label {
+  display: inline-block;
+  margin-top: var(--spacing-xs);
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
+.collaborator-sources {
+  margin-top: var(--spacing-xs);
+}
+
+.collaborator-sources-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.collaborator-sources-links a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  background: rgba(212, 175, 55, 0.04);
+  color: var(--color-accent);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.collaborator-sources-links a:hover {
+  border-color: rgba(212, 175, 55, 0.35);
+  color: var(--color-secondary);
+}
+
 #operating-system {
   display: grid;
   gap: var(--spacing-md);
@@ -960,6 +1422,13 @@ header {
   flex-wrap: wrap;
   gap: var(--spacing-md);
   justify-content: center;
+}
+
+.proof-category-title {
+  flex-basis: 100%;
+  text-align: center;
+  color: var(--color-text-light);
+  margin: var(--spacing-sm) 0 0;
 }
 
 .proof-item {

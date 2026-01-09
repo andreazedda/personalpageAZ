@@ -35,15 +35,9 @@
                 <nav id="navigation">
                     <ul class="navigation-menu">
                         <li class="active"><a href="#hero" data-i18n="nav.home">Home</a></li>
-                        <li><a href="#focus-now" data-i18n="nav.focusNow">Focus Now</a></li>
-                        <li><a href="#education" data-i18n="nav.education">Education</a></li>
-                        <li><a href="#about" data-i18n="nav.about">About</a></li>
-                        <li><a href="#capabilities" data-i18n="nav.capabilities">Capabilities</a></li>
-                        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
-                        <li><a href="#proof" data-i18n="nav.proof">Proof</a></li>
-                        <li><a href="#future" data-i18n="nav.future">Future</a></li>
-                        <li><a href="#reading" data-i18n="nav.reading">Reading</a></li>
-                        <li><a href="#courses" data-i18n="nav.courses">Courses</a></li>
+                        <li><a href="#dossier-index" data-i18n="nav.index">Index</a></li>
+                        <li><a href="#note" data-i18n="nav.note">NOTE</a></li>
+                        <li><a href="#evidence" data-i18n="nav.evidence">EVIDENCE</a></li>
                         <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -53,6 +47,58 @@
 
     <!-- Main Content -->
     <main id="main">
+
+        <!-- Reading Contract (Dossier Banner) -->
+        <section id="reading-contract" class="section section-alt section-compact" aria-label="Reading contract">
+            <div class="container">
+                <div class="contract-banner">
+                    <div class="contract-badge" aria-hidden="true">DOSSIER</div>
+                    <div class="contract-content">
+                        <h2 class="contract-title" data-i18n="contract.title">Reading Contract</h2>
+                        <p class="contract-text" data-i18n="contract.text">This is not a portfolio; it is an exhaustive technical and research dossier.</p>
+                        <p class="contract-subtext" data-i18n="contract.subtext">NOTE = principles, governance, operating system, methods. EVIDENCE = verifiable facts (roles, projects, outputs, repositories, publications, demos, reading list).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Document Index (Sticky) -->
+        <section id="dossier-index" class="section section-compact" aria-label="Document index">
+            <div class="container">
+                <div class="dossier-index">
+                    <h2 class="dossier-index-title" data-i18n="index.title">DOCUMENT INDEX</h2>
+                    <div class="discovery-progress" id="discovery-progress" aria-label="Discovery progress">
+                        <div class="discovery-progress-row">
+                            <span class="discovery-progress-label" data-i18n="discovery.label">Discovery</span>
+                            <span class="discovery-progress-text" id="discovery-progress-text">0/0</span>
+                        </div>
+                        <div class="discovery-progress-bar" aria-hidden="true">
+                            <div class="discovery-progress-fill" id="discovery-progress-fill" style="width:0%"></div>
+                        </div>
+                        <p class="discovery-progress-hint" data-i18n="discovery.hint">Click to unlock more detail. The more you open, the more you learn about my method and context.</p>
+                    </div>
+                    <nav class="dossier-index-nav" aria-label="Document index links">
+                        <a href="#note" class="index-link" data-i18n="index.note">NOTE</a>
+                        <a href="#note-operating-system" class="index-link" data-i18n="index.os">Operating System</a>
+                        <a href="#note-collaboration" class="index-link" data-i18n="index.collab">Collaboration Modes</a>
+                        <a href="#note-focus" class="index-link" data-i18n="index.focus">Focus Now</a>
+                        <a href="#note-capabilities" class="index-link" data-i18n="index.capabilities">Capabilities</a>
+                        <a href="#note-toolbox" class="index-link" data-i18n="index.toolbox">Toolbox</a>
+                        <a href="#note-future" class="index-link" data-i18n="index.future">Future Plans</a>
+                        <a href="#evidence" class="index-link" data-i18n="index.evidence">EVIDENCE</a>
+                        <a href="#evidence-contexts" class="index-link" data-i18n="index.contexts">Operational & Research Contexts</a>
+                        <a href="#evidence-background" class="index-link" data-i18n="index.background">Background</a>
+                        <a href="#evidence-education" class="index-link" data-i18n="index.education">Education</a>
+                        <a href="#evidence-containers" class="index-link" data-i18n="index.containers">Containers</a>
+                        <a href="#evidence-examples" class="index-link" data-i18n="index.examples">Project Examples</a>
+                        <a href="#proof" class="index-link" data-i18n="index.proof">Proof</a>
+                        <a href="#reading" class="index-link" data-i18n="index.reading">Reading</a>
+                        <a href="#evidence-courses" class="index-link" data-i18n="index.courses">Courses</a>
+                        <a href="#contact" class="index-link" data-i18n="index.contact">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
 
         <!-- Hero Section -->
         <section id="hero" class="section">
@@ -102,218 +148,209 @@
                             <span class="hero-fact-label" data-i18n="hero.factCollaboration">Collaboration</span>
                             <span class="hero-fact-value">R&D prototyping · Decision intelligence systems · Motion analytics</span>
                         </div>
-                        <div class="hero-panel-note">
-                            <span class="hero-panel-note-label">TODO</span>
-                            <span class="hero-panel-note-value" data-i18n="hero.note">Add Italian copy later.</span>
-                        </div>
                     </aside>
                 </div>
             </div>
         </section>
 
-        <!-- Focus Now Section -->
-        <section id="focus-now" class="section section-alt">
+        <!-- NOTE Layer (Principles / Governance / Methods) -->
+        <section id="note" class="section" aria-label="NOTE layer">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle" data-i18n="focus.subtitle">Current Work</span>
-                    <h2 class="section-title" data-i18n="focus.title">Focus Now</h2>
+                    <span class="section-subtitle" data-i18n="note.subtitle">NOTE</span>
+                    <h2 class="section-title" data-i18n="note.title">Principles & Methods</h2>
                 </div>
-                <p class="section-lead" data-i18n="focus.lead">What I'm building right now and the methods I use to turn data into decision-ready outputs.</p>
-                <div id="focus-now-content">
-                    <!-- Content rendered by profile.js -->
-                    <div class="focus-header">
-                        <h3>R&D ML Architect — Sketchdata Srl</h3>
-                        <p class="period">Jan 2024 – Present</p>
-                        <p class="description">Building ML solutions for business intelligence and forecasting with emphasis on explainability and causal reasoning.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+                <p class="section-lead" data-i18n="note.lead">Governance boundaries, operating system, and the methods used to turn data into decision-ready outputs.</p>
 
-        <!-- Education Section -->
-        <section id="education" class="section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-subtitle" data-i18n="education.subtitle">Training</span>
-                    <h2 class="section-title" data-i18n="education.title">Education</h2>
-                </div>
-                <p class="section-lead" data-i18n="education.lead">Degrees and training that shaped my research approach and engineering standards.</p>
-
-                <div id="education-list">
-                    <!-- Content rendered by profile.js -->
-                    <div class="education-item">
-                        <h4>PhD in Bioengineering & Robotics</h4>
-                        <p class="org-period">University of Genoa • Oct 2017 – Jul 2021</p>
-                        <ul class="education-notes">
-                            <li>Research focus: telerehabilitation and biofeedback (non-immersive VR)</li>
-                            <li>Worked with EMG biofeedback in clinical-adjacent contexts</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-subtitle" data-i18n="about.subtitle">Background</span>
-                    <h2 class="section-title" data-i18n="about.title">About</h2>
-                </div>
-
-                <p class="section-lead" data-i18n="about.lead">A compact timeline of research and industry work, with the tooling that shaped my approach.</p>
-
-                <div id="background-list">
-                    <!-- Content rendered by profile.js -->
-                    <div class="background-item">
-                        <h4>PhD in Bioengineering & Robotics</h4>
-                        <p class="org-period">University of Genoa • Oct 2017 – Jul 2021</p>
-                        <p class="focus">Telerehabilitation and biofeedback (non-immersive VR); EMG biofeedback work</p>
-                    </div>
-                </div>
-
-                <div class="mt-lg">
-                    <h3 class="text-center mb-md" data-i18n="os.title">Operating System</h3>
+                <details id="note-operating-system" class="dossier-subsection discovery-step" open>
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="os.title">Operating System</span>
+                        <span class="discovery-badge" data-i18n="discovery.core">CORE</span>
+                    </summary>
                     <div id="operating-system">
-                        <!-- Content rendered by profile.js -->
                         <div class="operating-item">
-                            <h4>Decision rules</h4>
+                            <h4>Rules</h4>
                             <ul>
                                 <li>Projects do not exist standalone: everything lives inside a container.</li>
                                 <li>If a boundary decision is ambiguous → it stays in BMI.</li>
                                 <li>Stop if it’s not modellable, explainable, and verifiable.</li>
+                                <li>Prefer explicit inputs/outputs and reproducible runs over ad-hoc iteration.</li>
                             </ul>
                         </div>
                     </div>
-                </div>
+                </details>
 
-                <div class="mt-lg">
-                    <h3 class="text-center mb-md" data-i18n="collab.title">Collaboration Modes</h3>
+                <details id="note-collaboration" class="dossier-subsection discovery-step">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="collab.title">Collaboration Modes</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
                     <div id="collaboration-modes">
                         <!-- Content rendered by profile.js -->
-                        <div class="collab-mode">
-                            <h4>R&D / Prototyping</h4>
-                            <p>From problem definition to proof-of-concept and reproducible experiments</p>
-                        </div>
                     </div>
-                </div>
+                </details>
+
+                <details id="note-focus" class="dossier-subsection discovery-step">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="focus.title">Focus Now</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <p class="text-center text-light" data-i18n="focus.lead">What I'm building right now and the methods I use to turn data into decision-ready outputs.</p>
+                    <div id="focus-now-content">
+                        <!-- Content rendered by profile.js -->
+                    </div>
+                </details>
+
+                <details id="note-capabilities" class="dossier-subsection discovery-step">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="capabilities.title">Capabilities</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <p class="text-center text-light" data-i18n="capabilities.lead">Services are scoped as deliverables: reproducible analysis, decision support, and production-ready interfaces (BI / health / wearables).</p>
+                    <div id="services-grid">
+                        <!-- Content rendered by profile.js -->
+                    </div>
+                </details>
+
+                <details id="note-toolbox" class="dossier-subsection discovery-step">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="toolbox.title">Toolbox</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <div id="toolbox-content">
+                        <!-- Content rendered by profile.js -->
+                    </div>
+                </details>
+
+                <details id="note-future" class="dossier-subsection discovery-step">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="future.title">Future Plans</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <p class="text-center text-light" data-i18n="future.lead">What I'm building and where I'm investing my time.</p>
+                    <div id="future-plans-content">
+                        <!-- Content rendered by profile.js -->
+                    </div>
+                </details>
             </div>
         </section>
 
-        <!-- Capabilities Section -->
-        <section id="capabilities" class="section section-alt">
+        <!-- EVIDENCE Layer (Verifiable facts) -->
+        <section id="evidence" class="section section-alt" aria-label="EVIDENCE layer">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle" data-i18n="capabilities.subtitle">Services</span>
-                    <h2 class="section-title" data-i18n="capabilities.title">Capabilities</h2>
+                    <span class="section-subtitle" data-i18n="evidence.subtitle">EVIDENCE</span>
+                    <h2 class="section-title" data-i18n="evidence.title">Verifiable Artifacts & Context</h2>
                 </div>
-                <p class="section-lead" data-i18n="capabilities.lead">Engagements are scoped as deliverables: reproducible experiments, decision support, and usable interfaces.</p>
-                
-                <div id="services-grid">
-                    <!-- Content rendered by profile.js -->
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fa fa-line-chart" aria-hidden="true"></i>
-                        </div>
-                        <h3>ML & Decision Intelligence</h3>
-                        <p>Forecasting, driver analysis (SHAP), decision-ready outputs</p>
+                <p class="section-lead" data-i18n="evidence.lead">Roles, containers, outputs, public artifacts, reading list, and academic coursework.</p>
+
+                <details id="evidence-background" class="dossier-subsection discovery-step" open>
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="about.title">About</span>
+                        <span class="discovery-badge" data-i18n="discovery.core">CORE</span>
+                    </summary>
+                    <p class="text-center text-light" data-i18n="about.lead">A compact timeline of research and industry work, with the tooling that shaped my approach.</p>
+                    <div id="background-list">
+                        <!-- Content rendered by profile.js -->
                     </div>
-                </div>
 
-                <div class="mt-lg">
-                    <h3 class="text-center mb-md" data-i18n="toolbox.title">Toolbox</h3>
-                    <div class="text-center mb-md" id="toolbox-tags">
-                        <!-- Tags rendered by profile.js -->
-                        <span class="tag">Python</span>
-                        <span class="tag">Django</span>
-                        <span class="tag">Machine Learning</span>
+                    <div class="mt-lg" id="collaborators-section" style="display:none;">
+                        <h3 class="text-center mb-md" data-i18n="collaborators.title">People I’ve worked with</h3>
+                        <p class="collaborators-lead" data-i18n="collaborators.lead">People I collaborated with in research or industry.</p>
+                        <div id="collaborators-content">
+                            <!-- Content rendered by profile.js -->
+                        </div>
                     </div>
-                    <div id="toolbox-capabilities">
-                        <!-- Capabilities rendered by profile.js -->
-                        <ul>
-                            <li>Interpretable predictive modeling for business intelligence</li>
-                        </ul>
+                </details>
+
+                <details id="evidence-contexts" class="dossier-subsection discovery-step">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="contexts.title">Operational & Research Contexts</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <p class="text-center text-light" data-i18n="contexts.disclaimer">Listed for context; exposure does not imply employment or endorsement.</p>
+                    <div id="contexts-content">
+                        <!-- Content rendered by profile.js -->
+                        <div class="contexts-grid">
+                            <div class="context-card">
+                                <h4 data-i18n="contexts.directWork">DIRECT WORK</h4>
+                                <ul>
+                                    <li>SketchData</li>
+                                    <li>YouAndTech</li>
+                                    <li>University of Cagliari</li>
+                                    <li>University of Genoa</li>
+                                    <li>Camelot Biomedical Systems</li>
+                                </ul>
+                            </div>
+                            <div class="context-card">
+                                <h4 data-i18n="contexts.exposure">OPERATIONAL EXPOSURE</h4>
+                                <ul>
+                                    <li>Motorola</li>
+                                    <li>ITA Airways</li>
+                                    <li>Aura (early-stage startup)</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
+                </details>
 
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-subtitle" data-i18n="projects.subtitle">Pillars</span>
-                    <h2 class="section-title">Containers</h2>
-                </div>
-                <p class="section-lead" data-i18n="projects.lead">A container-first ecosystem: each pillar encodes governance boundaries, reusable assets, and the current status of delivery.</p>
-                
-                <div id="projects-grid">
-                    <!-- Content rendered by profile.js -->
-                    <article class="project-card" id="project-bmi" data-status="prototype">
-                        <div class="project-header">
-                            <div class="project-header-row">
-                                <h3>BMI — Bioingegneria Modulare Italiana</h3>
-                                <span class="status-badge status-prototype">Prototype</span>
+                <details id="evidence-education" class="dossier-subsection discovery-step">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="education.title">Education</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <p class="text-center text-light" data-i18n="education.lead">Degrees and training that shaped my research approach and engineering standards.</p>
+                    <div id="education-list">
+                        <div class="education-item">
+                            <div class="education-header">
+                                <h4>PhD in Biomedical Engineering</h4>
                             </div>
-                            <p class="project-tagline">Biomedical R&amp;D container: reusable scientific infrastructure + modular clinical/biomed components.</p>
+                            <p class="org-period">University of Cagliari • 2017–2021</p>
+                            <div class="education-notes">
+                                <div class="mb-sm">
+                                    <strong data-i18n="education.researchFocusTitle">Research focus</strong>
+                                    <ul>
+                                        <li>Home neuromotor telerehabilitation system for stroke patients (DoMoMEA).</li>
+                                        <li>Low-cost sensing + gamified feedback loops for adherence and correctness.</li>
+                                        <li>Remote personalization + continuous progress monitoring.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <strong data-i18n="education.coreStackTitle">Core stack</strong>
+                                    <ul>
+                                        <li>Android TV box + Unity3D for the patient UI.</li>
+                                        <li>IMU sensing (MUSE by 221e) + custom pressure sensors.</li>
+                                        <li>Multi-device Bluetooth Classic connectivity.</li>
+                                        <li>Store-and-forward telemonitoring with Django + PostgreSQL.</li>
+                                        <li>Nginx + Gunicorn for serving the web app.</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="project-body">
-                            <p class="project-purpose"><strong>Purpose:</strong> Build a reusable biomedical engineering stack (acquisition → processing → modeling) that can be transferred into applied products without rewriting the core.</p>
-                        </div>
-                    </article>
+                    </div>
+                </details>
 
-                    <article class="project-card" id="project-sketchdata" data-status="production">
-                        <div class="project-header">
-                            <div class="project-header-row">
-                                <h3>SketchData</h3>
-                                <span class="status-badge status-production">Production</span>
-                            </div>
-                            <p class="project-tagline">BI/automation container: interpretable ML, causal reasoning, and modular data pipelines.</p>
-                        </div>
-                        <div class="project-body">
-                            <p class="project-purpose"><strong>Purpose:</strong> Turn business data into decision-ready outputs, with an architecture that stays modular as complexity grows (local → parallel → cloud/API).</p>
-                        </div>
-                    </article>
+                <details id="evidence-containers" class="dossier-subsection discovery-step">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title">Containers</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <p class="text-center text-light" data-i18n="projects.lead">A container-first ecosystem: each pillar encodes governance boundaries, reusable assets, and the current status of delivery.</p>
+                    <div id="projects-grid">
+                        <!-- Content rendered by profile.js -->
+                    </div>
+                </details>
 
-                    <article class="project-card" id="project-igm" data-status="prototype">
-                        <div class="project-header">
-                            <div class="project-header-row">
-                                <h3>IGM — Ingegneria del Movimento</h3>
-                                <span class="status-badge status-prototype">Prototype</span>
-                            </div>
-                            <p class="project-tagline">Movement analytics product container built on wearable sensors (IMU/EMG).</p>
-                        </div>
-                        <div class="project-body">
-                            <p class="project-purpose"><strong>Purpose:</strong> Ship a usable movement-analysis experience (panel, metrics, workflows) by reusing BMI’s core acquisition/instrumentation stack.</p>
-                        </div>
-                    </article>
-
-                    <article class="project-card" id="project-fztm" data-status="prototype">
-                        <div class="project-header">
-                            <div class="project-header-row">
-                                <h3>FZTM — From Zero to Million</h3>
-                                <span class="status-badge status-prototype">Prototype</span>
-                            </div>
-                            <p class="project-tagline">Quant finance + educational systems: scenarios, constraints, and decision dashboards.</p>
-                        </div>
-                        <div class="project-body">
-                            <p class="project-purpose"><strong>Purpose:</strong> Make financial decisions explicit via models, assumptions, and stress-tested scenarios (automation-first, output-driven).</p>
-                        </div>
-                    </article>
-
-                    <article class="project-card" id="project-es" data-status="production">
-                        <div class="project-header">
-                            <div class="project-header-row">
-                                <h3>ES — Esercizi Svolti</h3>
-                                <span class="status-badge status-production">Production</span>
-                            </div>
-                            <p class="project-tagline">Educational container: structured problem-solving systems (not an archive).</p>
-                        </div>
-                        <div class="project-body">
-                            <p class="project-purpose"><strong>Purpose:</strong> Increase learning value via structure, method, tooling, and progression—beyond generic exercise repositories.</p>
-                        </div>
-                    </article>
-                </div>
+                <details id="evidence-examples" class="dossier-subsection discovery-step">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="projectExamples.title">Project Examples</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <p class="text-center text-light" data-i18n="projectExamples.lead">Concrete builds that show what I actually ship inside the containers above.</p>
+                    <div id="project-examples-grid">
+                        <!-- Content rendered by profile.js -->
+                    </div>
+                </details>
             </div>
         </section>
 
@@ -325,31 +362,34 @@
                     <h2 class="section-title" data-i18n="proof.title">Selected Proof</h2>
                 </div>
                 <p class="section-lead" data-i18n="proof.lead">Links to public artifacts. Placeholders are intentionally marked TODO until a public URL exists.</p>
-                
-                <div id="proofs-list">
-                    <!-- Content rendered by profile.js -->
-                    <div class="proof-item">
-                        <a href="https://www.linkedin.com/in/andrea-zedda/" class="proof-link" target="_blank" rel="noopener noreferrer">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span>Professional Profile</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Future Plans Section -->
-        <section id="future" class="section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-subtitle" data-i18n="future.subtitle">Next Steps</span>
-                    <h2 class="section-title" data-i18n="future.title">Future Plans</h2>
-                </div>
-                <p class="section-lead" data-i18n="future.lead">What I'm building and where I'm investing my time.</p>
-                
-                <div id="future-plans-content">
-                    <!-- Content rendered by profile.js -->
-                </div>
+                <details class="discovery-step" id="proof-discovery">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="discovery.proofTitle">Proof (artifacts)</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <div id="proofs-list">
+                        <div class="proof-category-title"><strong>PhD work (DoMoMEA)</strong></div>
+                        <div class="proof-item">
+                            <span class="proof-link placeholder">
+                                <span>Stroke telerehabilitation system (DoMoMEA) — PhD work (2017–2021)</span>
+                                <span class="status-badge status-concept">Not public yet</span>
+                            </span>
+                            <ul class="proof-bullets">
+                                <li>Android TV box + Unity3D patient-facing system for home therapy.</li>
+                                <li>IMU sensing (MUSE by 221e) + custom pressure sensors (insole/glove/under-elbow).</li>
+                                <li>Multi-device Bluetooth Classic connections to the TV box.</li>
+                                <li>Store-and-forward upload + clinician review via Django/PostgreSQL (Nginx/Gunicorn).</li>
+                                <li>Per-repetition metrics (angles, timing, errors, score) stored for longitudinal tracking.</li>
+                                <li>Clinician-configurable safety limits + remote configuration updates.</li>
+                                <li>Development status in 2019: 2/5 exercise blocks integrated; tuned on healthy subjects.</li>
+                                <li>Pilot RCT plan: 8 weeks, 5 days/week; IPPA/PIADS/QUEST/SUS for usability/acceptability.</li>
+                                <li>Engineering issue: Unity↔Android constraints; coroutine-based workaround + lifecycle mitigation.</li>
+                            </ul>
+                            <div class="proof-source">PhD Annual Report (Cycle XXXIII, 2019)</div>
+                        </div>
+                    </div>
+                </details>
             </div>
         </section>
 
@@ -360,26 +400,37 @@
                     <span class="section-subtitle" data-i18n="reading.subtitle">Learning</span>
                     <h2 class="section-title" data-i18n="reading.title">Reading</h2>
                 </div>
-                <p class="section-lead" data-i18n="reading.lead">Books currently reading and completed that have shaped my approach.</p>
-                
-                <div id="reading-content">
-                    <!-- Content rendered by profile.js -->
-                </div>
+                <p class="section-lead" data-i18n="reading.lead">Reading is organized by domain; each book includes why it matters (what capability it shaped).</p>
+
+                <details class="discovery-step" id="reading-discovery">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="discovery.readingTitle">Reading (why it matters)</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <div id="reading-content">
+                        <!-- Content rendered by profile.js -->
+                    </div>
+                </details>
             </div>
         </section>
 
-        <!-- University Courses Section -->
-        <section id="courses" class="section">
+        <!-- University Courses Section (Evidence) -->
+        <section id="evidence-courses" class="section section-alt">
             <div class="container">
                 <div class="section-header">
                     <span class="section-subtitle" data-i18n="courses.subtitle">Academic Training</span>
                     <h2 class="section-title" data-i18n="courses.title">University Courses</h2>
                 </div>
                 <p class="section-lead" data-i18n="courses.lead">Exams and courses completed during my academic journey.</p>
-                
-                <div id="courses-content">
-                    <!-- Content rendered by profile.js -->
-                </div>
+                <details class="discovery-step" id="courses-discovery">
+                    <summary class="discovery-summary">
+                        <span class="discovery-title" data-i18n="discovery.coursesTitle">Courses (details)</span>
+                        <span class="discovery-badge" data-i18n="discovery.unlock">UNLOCK</span>
+                    </summary>
+                    <div id="courses-content">
+                        <!-- Content rendered by profile.js -->
+                    </div>
+                </details>
             </div>
         </section>
 
