@@ -426,6 +426,33 @@ details.dossier-subsection {
   margin-bottom: 0.6rem;
 }
 
+.context-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.context-logo {
+  height: 22px;
+  width: auto;
+  max-width: 120px;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
+.project-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.project-logo {
+  height: 30px;
+  width: auto;
+  max-width: 180px;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
 .project-spec .spec-row:last-child {
   margin-bottom: 0;
 }
@@ -1030,6 +1057,23 @@ header {
 .contained-name {
   font-weight: 700;
   color: var(--color-primary);
+}
+
+.contained-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contained-logo {
+  height: 22px;
+  width: auto;
+  max-width: 140px;
+  border-radius: 6px;
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  background: rgba(212, 175, 55, 0.04);
+  flex: 0 0 auto;
+  object-fit: contain;
 }
 
 .contained-tagline {

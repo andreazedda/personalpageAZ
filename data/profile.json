@@ -8,8 +8,8 @@
     "location": "Cagliari, Sardinia, Italy",
     "email": "andrea.zedda@outlook.it",
     "tagline": {
-      "en": "I design data-driven decision systems: causal inference + interpretable predictive modeling for business intelligence, and sensor-fusion motion analytics for bioengineering.",
-      "it": "Progetto sistemi decisionali data-driven: inferenza causale e modelli predittivi interpretabili per la business intelligence, e motion analytics con sensor fusion per la bioingegneria."
+      "en": "I design data-driven decision systems: causal inference + interpretable predictive modeling for business intelligence, and sensor-fusion motion analytics for bioengineering. I also like teaching, writing (investing/personal finance, philosophy), and building/repairing things; I currently run a Chia coin miner.",
+      "it": "Progetto sistemi decisionali data-driven: inferenza causale e modelli predittivi interpretabili per la business intelligence, e motion analytics con sensor fusion per la bioingegneria. Mi piace anche insegnare, scrivere (investimenti/finanza personale, filosofia) e costruire/riparare cose; attualmente ho un miner di Chia coin."
     }
   },
   "hero": {
@@ -30,6 +30,10 @@
       {
         "en": "Motion analytics: sensor fusion and biomechanical metrics (IMU/EMG)",
         "it": "Motion analytics: sensor fusion e metriche biomeccaniche (IMU/EMG)"
+      },
+      {
+        "en": "Teaching + structured writing (investing/personal finance, philosophy)",
+        "it": "Insegnamento + scrittura strutturata (investimenti/finanza personale, filosofia)"
       }
     ],
     "primary_cta": {
@@ -49,8 +53,8 @@
   },
   "about": {
     "paragraph": {
-      "en": "I build decision-ready systems: causal reasoning + interpretable models for business intelligence, and sensor-fusion motion analytics for bioengineering. I work container-first (BMI, SketchData, IGM, FZTM, ES): each pillar defines boundaries, reusable assets, and what is considered ‘done’.",
-      "it": "Costruisco sistemi decision-ready: ragionamento causale e modelli interpretabili per la business intelligence, e motion analytics con sensor fusion per la bioingegneria. Lavoro container-first (BMI, SketchData, IGM, FZTM, ES): ogni pilastro definisce confini, asset riusabili e cosa significa ‘finito’."
+      "en": "I build decision-ready systems: causal reasoning + interpretable models for business intelligence, and sensor-fusion motion analytics for bioengineering. I care about collaboration and intellectual work, and I like tinkering: repairing and building new projects, including a Chia coin miner.",
+      "it": "Costruisco sistemi decision-ready: ragionamento causale e modelli interpretabili per la business intelligence, e motion analytics con sensor fusion per la bioingegneria. Tengo molto alla collaborazione e al lavoro intellettuale, e mi piace sperimentare: riparare e costruire nuovi progetti, incluso un miner di Chia coin."
     },
     "boundary_rules": [
       {
@@ -1321,6 +1325,7 @@
     {
       "id": "sketchdata",
       "name": "SketchData",
+      "logo": "images/logo-sketchdata.png",
       "tagline": "BI/automation container: interpretable ML, causal reasoning, and modular data pipelines.",
       "spec": {
         "status": "production",
@@ -1458,6 +1463,7 @@
     {
       "id": "fztm",
       "name": "FZTM — From Zero to Million",
+      "logo": "images/logo-fztm.png",
       "tagline": "Quant finance + educational systems: scenarios, constraints, and decision dashboards.",
       "spec": {
         "status": "prototype",
@@ -1510,12 +1516,31 @@
         "Modeling"
       ],
       "links": [
-        { "label": "Public overview", "url": "#", "placeholder": true }
+        { "label": "FZTM blog", "url": "https://fromzerotomilliondollars.wordpress.com/" }
+      ],
+      "contained": [
+        {
+          "name": "FZTM blog",
+          "url": "https://fromzerotomilliondollars.wordpress.com/",
+          "image": "images/logo-fztm.png",
+          "tagline": {
+            "en": "Public-facing narrative/learning asset (company-track).",
+            "it": "Asset pubblico narrativo/formativo (traiettoria aziendale)."
+          }
+        },
+        {
+          "name": "Chia coin miner",
+          "tagline": {
+            "en": "Personal tinkering/ops artifact: running a Chia coin miner.",
+            "it": "Artefatto personale di tinkering/ops: ho un miner di Chia coin."
+          }
+        }
       ]
     },
     {
       "id": "es",
       "name": "ES — Esercizi Svolti",
+      "logo": "images/logo-esercizi-svolti.png",
       "tagline": "Educational container: structured problem-solving systems (not an archive).",
       "spec": {
         "status": "production",
@@ -1565,11 +1590,26 @@
         "Technical Writing"
       ],
       "links": [
-        { "label": "Public overview", "url": "#", "placeholder": true }
+        { "label": "Esercizi Svolti", "url": "https://esercizi-svolti.com/" }
+      ],
+      "contained": [
+        {
+          "name": "Esercizi Svolti",
+          "url": "https://esercizi-svolti.com/",
+          "image": "images/logo-esercizi-svolti.png",
+          "tagline": {
+            "en": "Solved-exercises website (company-track).",
+            "it": "Sito di esercizi svolti (traiettoria aziendale)."
+          }
+        }
       ]
     }
   ],
   "contexts": {
+    "logos": {
+      "SketchData": "images/logo-sketchdata.png",
+      "YouAndTech": "images/logo-youandtech.png"
+    },
     "disclaimer": {
       "en": "Listed for context; exposure does not imply employment or endorsement.",
       "it": "Elencati per contesto; l’esposizione non implica impiego o endorsement."

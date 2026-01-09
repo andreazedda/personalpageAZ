@@ -342,6 +342,18 @@
 
     const direct = Array.isArray(profileData.contexts.direct_work) ? profileData.contexts.direct_work : [];
     const exposure = Array.isArray(profileData.contexts.operational_exposure) ? profileData.contexts.operational_exposure : [];
+    const logos = profileData.contexts && profileData.contexts.logos && typeof profileData.contexts.logos === 'object'
+      ? profileData.contexts.logos
+      : {};
+
+    const renderContextItem = (value) => {
+      const name = t(value);
+      const logo = value != null && logos[value] ? String(logos[value]) : '';
+      const logoHtml = logo
+        ? `<img class="context-logo" src="${logo}" alt="${name} logo" loading="lazy" decoding="async" />`
+        : '';
+      return `<li class="context-item">${logoHtml}<span class="context-name">${name}</span></li>`;
+    };
 
     if (!direct.length && !exposure.length) {
       container.innerHTML = '';
@@ -353,13 +365,13 @@
         <div class="context-card">
           <h4>${ui('contexts.directWork', 'DIRECT WORK')}</h4>
           <ul>
-            ${direct.map(x => `<li>${t(x)}</li>`).join('')}
+            ${direct.map(renderContextItem).join('')}
           </ul>
         </div>
         <div class="context-card">
           <h4>${ui('contexts.exposure', 'OPERATIONAL EXPOSURE')}</h4>
           <ul>
-            ${exposure.map(x => `<li>${t(x)}</li>`).join('')}
+            ${exposure.map(renderContextItem).join('')}
           </ul>
         </div>
       </div>
@@ -877,6 +889,10 @@
       const links = Array.isArray(project.links) ? project.links : [];
       const contained = Array.isArray(project.contained) ? project.contained : [];
       const evidenceBullets = Array.isArray(project.evidence_bullets) ? project.evidence_bullets : [];
+      const projectLogo = project && project.logo ? String(project.logo) : '';
+      const projectLogoHtml = projectLogo
+        ? `<img class="project-logo" src="${projectLogo}" alt="${t(project.name)} logo" loading="lazy" decoding="async" />`
+        : '';
 
       const spec = project && project.spec && typeof project.spec === 'object' ? project.spec : null;
       const linksHtml = links.length
@@ -903,9 +919,14 @@
                 const name = item && item.name ? item.name : 'Item';
                 const tagline = item && item.tagline ? item.tagline : '';
                 const url = item && item.url ? normalizeExternalUrl(item.url) : '';
+                const image = item && item.image ? String(item.image) : '';
+                const logoHtml = image
+                  ? `<img class="contained-logo" src="${image}" alt="${t(name)} logo" loading="lazy" decoding="async" />`
+                  : '';
+
                 const nameHtml = url
-                  ? `<a class="contained-name" href="${url}" target="_blank" rel="noopener noreferrer">${t(name)}</a>`
-                  : `<span class="contained-name">${t(name)}</span>`;
+                  ? `<a class="contained-name" href="${url}" target="_blank" rel="noopener noreferrer">${logoHtml}<span class="contained-name-text">${t(name)}</span></a>`
+                  : `<span class="contained-name">${logoHtml}<span class="contained-name-text">${t(name)}</span></span>`;
                 return `<li>${nameHtml}${tagline ? ` — <span class="contained-tagline">${t(tagline)}</span>` : ''}</li>`;
               }).join('')}
             </ul>
@@ -917,7 +938,7 @@
         <article class="project-card" id="${projectAnchorId(project)}" data-status="${status}">
           <div class="project-header">
             <div class="project-header-row">
-              <h3>${t(project.name)}</h3>
+              <h3 class="project-title">${projectLogoHtml}<span class="project-title-text">${t(project.name)}</span></h3>
               <span class="status-badge status-${status}">${statusLabelI18n(status)}</span>
             </div>
             <p class="project-tagline">${t(project.tagline)}</p>
