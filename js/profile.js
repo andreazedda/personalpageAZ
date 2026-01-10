@@ -9,7 +9,7 @@
 
   const DATA_URL = 'data/profile.json';
   const SUPPORTED_LANGS = ['en', 'it'];
-  const DEFAULT_LANG = 'en';
+  const DEFAULT_LANG = 'it';
   const LANG_STORAGE_KEY = 'personalpageAZ.lang';
 
   let profileData = null;
@@ -52,8 +52,8 @@
       // no-op
     }
 
-    const fromBrowser = normalizeLang(navigator.language || navigator.userLanguage);
-    return fromBrowser || DEFAULT_LANG;
+    // Site default: Italian (override browser language).
+    return DEFAULT_LANG;
   }
 
   function saveLang(lang) {
@@ -713,6 +713,7 @@
     const heroTitle = document.querySelector('#hero-title');
     const heroSubtitle = document.querySelector('#hero-subtitle');
     const heroTagline = document.querySelector('#hero-tagline');
+    const heroPhoto = document.querySelector('#hero-photo');
     const heroLocation = document.querySelector('#hero-location');
     const heroCurrent = document.querySelector('#hero-current');
     const heroLinkedIn = document.querySelector('#hero-linkedin');
@@ -732,6 +733,16 @@
 
     if (heroTagline && person.tagline) {
       heroTagline.textContent = t(person.tagline);
+    }
+
+    if (heroPhoto) {
+      const src = person.image ? String(person.image) : '';
+      if (src) {
+        heroPhoto.setAttribute('src', src);
+      }
+      if (person.name) {
+        heroPhoto.setAttribute('alt', String(person.name));
+      }
     }
 
     const highlights = Array.isArray(hero.bullets)

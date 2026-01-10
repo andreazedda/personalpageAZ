@@ -6,6 +6,7 @@
       "it": "Bioingegnere PhD · Architetto R&S ML"
     },
     "location": "Cagliari, Sardinia, Italy",
+    "image": "images/immagine_di_az.jpg",
     "email": "andrea.zedda@outlook.it",
     "tagline": {
       "en": "I design data-driven decision systems: causal inference + interpretable predictive modeling for business intelligence, and sensor-fusion motion analytics for bioengineering. I also like teaching, writing (investing/personal finance, philosophy), and building/repairing things; I currently run a Chia coin miner.",
@@ -312,9 +313,15 @@
         "it": "Tutor PhD (DoMoMEA / sistema di telereabilitazione post-ictus)."
       },
       "public_summary": {
-        "en": "Public research footprint in biomedical signal processing, telemedicine, and tele-rehabilitation.",
-        "it": "Footprint pubblico su biomedical signal processing, telemedicina e tele-riabilitazione."
+        "en": "Head of the MeDSP Lab; public research footprint in biomedical signal processing, telemedicine, and telerehabilitation.",
+        "it": "Responsabile del MeDSP Lab; footprint pubblico su biomedical signal processing, telemedicina e telereabilitazione."
       },
+      "sources": [
+        {
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1924-0875"
+        }
+      ],
       "epistemic": [
         {
           "en": "Adds academic accountability: methods and results were reviewed under supervision.",
@@ -531,6 +538,7 @@
   },
   "i18n": {
     "en": {
+      "a11y.skip": "Skip to content",
       "nav.home": "Home",
       "nav.index": "Index",
       "nav.note": "NOTE",
@@ -703,6 +711,7 @@
       "courses.levelBachelors": "Bachelor's Degree"
     },
     "it": {
+      "a11y.skip": "Salta al contenuto",
       "nav.home": "Home",
       "nav.index": "Indice",
       "nav.note": "NOTA",
@@ -972,9 +981,15 @@
         "it": "Tutor PhD (DoMoMEA / sistema di telereabilitazione post-ictus)."
       },
       "public_summary": {
-        "en": "Public research footprint in biomedical signal processing, telemedicine, and tele-rehabilitation.",
-        "it": "Footprint pubblico su biomedical signal processing, telemedicina e tele-riabilitazione."
+        "en": "Head of the MeDSP Lab; public research footprint in biomedical signal processing, telemedicine, and telerehabilitation.",
+        "it": "Responsabile del MeDSP Lab; footprint pubblico su biomedical signal processing, telemedicina e telereabilitazione."
       },
+      "sources": [
+        {
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1924-0875"
+        }
+      ],
       "epistemic": [
         {
           "en": "Adds academic accountability: methods and results were reviewed under supervision.",
@@ -1608,7 +1623,8 @@
   "contexts": {
     "logos": {
       "SketchData": "images/logo-sketchdata.png",
-      "YouAndTech": "images/logo-youandtech.png"
+      "YouAndTech": "images/logo-youandtech.png",
+      "DoMoMEA": "images/domomea.png"
     },
     "disclaimer": {
       "en": "Listed for context; exposure does not imply employment or endorsement.",
@@ -1617,6 +1633,7 @@
     "direct_work": [
       "SketchData",
       "YouAndTech",
+      "DoMoMEA",
       "University of Cagliari",
       "University of Genoa",
       "Camelot Biomedical Systems"
