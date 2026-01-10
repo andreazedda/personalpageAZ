@@ -87,6 +87,20 @@
     return (Array.isArray(list) ? list : []).map(item => t(item)).filter(Boolean);
   }
 
+  /**
+   * Safely set text or HTML content on an element
+   * Uses innerHTML if content contains HTML tags, otherwise textContent for safety
+   */
+  function setContent(element, content) {
+    if (!element) return;
+    const text = String(content || '');
+    if (text.includes('<i class=') || text.includes('<')) {
+      element.innerHTML = text;
+    } else {
+      element.textContent = text;
+    }
+  }
+
   function normalizeExternalUrl(url) {
     const raw = String(url || '').trim();
     if (!raw) return '';
@@ -120,7 +134,12 @@
       if (!key) return;
       const text = ui(key, null);
       if (text == null) return;
-      node.textContent = text;
+      // Use innerHTML if text contains HTML tags, otherwise textContent for safety
+      if (text.includes('<')) {
+        node.innerHTML = text;
+      } else {
+        node.textContent = text;
+      }
     });
 
     const langLinks = document.querySelectorAll('.lang-switch [data-lang]');

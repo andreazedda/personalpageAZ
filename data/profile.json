@@ -1,4 +1,4 @@
-﻿{
+{
   "person": {
     "name": "Andrea Zedda",
     "title": {
@@ -9,8 +9,8 @@
     "image": "images/immagine_di_az.jpg",
     "email": "andrea.zedda@outlook.it",
     "tagline": {
-      "en": "I use engineering to ask philosophical questions: what can we know from data? How do we make assumptions testable? What makes a model trustworthy? My work spans causal inference, interpretable ML, and biosignal processing—not as separate domains, but as different expressions of the same inquiry: building systems that respect epistemic limits and explain their reasoning.",
-      "it": "Uso l'ingegneria per porre domande filosofiche: cosa possiamo sapere dai dati? Come rendiamo testabili le assunzioni? Cosa rende affidabile un modello? Il mio lavoro spazia tra inferenza causale, ML interpretabile e biosegnali—non come domini separati, ma come espressioni diverse della stessa indagine: costruire sistemi che rispettano i limiti epistemici e spiegano il loro ragionamento."
+      "en": "What can we know from data, and what are we merely assuming? How do we test causal claims? What makes a model trustworthy? My work spans causal inference, interpretable ML, and biosignal processing—different fields of inquiry asking structurally similar questions about evidence, explanation, and limits.",
+      "it": "Cosa possiamo sapere dai dati, e cosa stiamo solo assumendo? Come testiamo le ipotesi causali? Cosa rende affidabile un modello? Il mio lavoro spazia tra inferenza causale, ML interpretabile e biosegnali—campi diversi che pongono domande strutturalmente simili su evidenza, spiegazione e limiti."
     }
   },
   "hero": {
@@ -21,20 +21,20 @@
     },
     "bullets": [
       {
-        "en": "I interrogate causality: what moves what? How do we test causal claims against data?",
-        "it": "Interrogo la causalità: cosa muove cosa? Come testiamo le ipotesi causali sui dati?"
+        "en": "<i class=\"fa fa-chain\"></i> Causality: moving beyond correlation to test what moves what, making assumptions explicit and challengeable",
+        "it": "<i class=\"fa fa-chain\"></i> Causalità: oltre la correlazione per testare cosa muove cosa, rendendo le assunzioni esplicite e contestabili"
       },
       {
-        "en": "I demand explainability: models that can articulate their reasoning and expose their limits",
-        "it": "Richiedo spiegabilità: modelli che articolano il loro ragionamento ed espongono i loro limiti"
+        "en": "<i class=\"fa fa-lightbulb-o\"></i> Explainability: models must articulate their reasoning and expose their limits, not just predict",
+        "it": "<i class=\"fa fa-lightbulb-o\"></i> Spiegabilità: i modelli devono articolare il loro ragionamento ed esporre i loro limiti, non solo predire"
       },
       {
-        "en": "I enforce reproducibility: explicit assumptions, testable pipelines, verifiable conclusions",
-        "it": "Impongo riproducibilità: assunzioni esplicite, pipeline testabili, conclusioni verificabili"
+        "en": "<i class=\"fa fa-check-circle-o\"></i> Reproducibility: explicit inputs, testable pipelines, verifiable conclusions—science, not stories",
+        "it": "<i class=\"fa fa-check-circle-o\"></i> Riproducibilità: input espliciti, pipeline testabili, conclusioni verificabili—scienza, non storie"
       },
       {
-        "en": "I traverse domains (biosignals, BI, finance) to extract transferable patterns, not accumulate specializations",
-        "it": "Attraverso domini (biosegnali, BI, finanza) per estrarre pattern trasferibili, non accumulare specializzazioni"
+        "en": "<i class=\"fa fa-arrows-alt\"></i> Cross-domain work (biosignals, BI, finance) as pattern extraction, not specialization accumulation",
+        "it": "<i class=\"fa fa-arrows-alt\"></i> Lavoro cross-domain (biosegnali, BI, finanza) come estrazione di pattern, non accumulo di specializzazioni"
       }
     ],
     "primary_cta": {
@@ -54,25 +54,25 @@
   },
   "about": {
     "paragraph": {
-      "en": "I'm drawn to the activity of thinking itself\u2014the process of connecting ideas, questioning assumptions, and building understanding. I approach problems through structured reasoning: making constraints explicit, testing models against reality, and preferring clarity over complexity. My work in causal inference and interpretable ML is an expression of this: systems that explain their logic, make their assumptions testable, and respect the limits of what we can know. Beyond work, I'm fascinated by philosophical inquiry, investing/personal finance (as applied decision theory), and hands-on building\u2014whether that's repairing things, running a Chia miner, or designing new tools. First and foremost, I'm a human being who values collaboration, intellectual honesty, and the joy of understanding how things actually work.",
-      "it": "Sono attratto dall'attivit\u00e0 del pensare in s\u00e9\u2014il processo di connettere idee, mettere in discussione assunzioni e costruire comprensione. Affronto i problemi attraverso il ragionamento strutturato: rendere i vincoli espliciti, testare i modelli contro la realt\u00e0 e preferire la chiarezza alla complessit\u00e0. Il mio lavoro nell'inferenza causale e nel ML interpretabile \u00e8 un'espressione di questo: sistemi che spiegano la loro logica, rendono testabili le loro assunzioni e rispettano i limiti di ci\u00f2 che possiamo sapere. Al di l\u00e0 del lavoro, sono affascinato dall'indagine filosofica, dagli investimenti/finanza personale (come teoria decisionale applicata) e dalla costruzione pratica\u2014che sia riparare oggetti, gestire un miner di Chia o progettare nuovi strumenti. Prima di tutto, sono un essere umano che valorizza la collaborazione, l'onest\u00e0 intellettuale e la gioia di capire come funzionano davvero le cose."
+      "en": "Problems are approached through structured reasoning: constraints made explicit, models tested against reality, clarity preferred over complexity. Work in causal inference and interpretable ML reflects this: systems that explain their logic, make assumptions testable, and respect limits of knowledge. Outside technical work, interests span philosophical inquiry, investing/personal finance (as applied decision theory under uncertainty), and hands-on building—repairing things, running a Chia miner, designing tools. Values: collaboration, intellectual honesty, understanding how things actually work.",
+      "it": "I problemi vengono affrontati attraverso ragionamento strutturato: vincoli resi espliciti, modelli testati contro la realtà, chiarezza preferita alla complessità. Il lavoro in inferenza causale e ML interpretabile riflette questo: sistemi che spiegano la loro logica, rendono testabili le assunzioni e rispettano i limiti della conoscenza. Al di là del lavoro tecnico, interessi che spaziano dall'indagine filosofica agli investimenti/finanza personale (come teoria decisionale applicata sotto incertezza) alla costruzione pratica—riparare oggetti, gestire un miner di Chia, progettare strumenti. Valori: collaborazione, onestà intellettuale, capire come funzionano davvero le cose."
     },
     "boundary_rules": [
       {
-        "en": "Projects do not exist standalone: everything lives inside a container.",
-        "it": "I progetti non esistono standalone: tutto vive dentro un container."
+        "en": "<i class=\"fa fa-cube\"></i> Projects do not exist standalone: everything lives inside a container.",
+        "it": "<i class=\"fa fa-cube\"></i> I progetti non esistono standalone: tutto vive dentro un container."
       },
       {
-        "en": "If a boundary decision is ambiguous → it stays in BMI.",
-        "it": "Se una decisione di confine è ambigua → resta in BMI."
+        "en": "<i class=\"fa fa-filter\"></i> If a boundary decision is ambiguous → it stays in BMI.",
+        "it": "<i class=\"fa fa-filter\"></i> Se una decisione di confine è ambigua → resta in BMI."
       },
       {
-        "en": "Stop if it’s not modellable, explainable, and verifiable.",
-        "it": "Stop se non è modellabile, spiegabile e verificabile."
+        "en": "<i class=\"fa fa-pause-circle\"></i> Stop if it’s not modellable, explainable, and verifiable.",
+        "it": "<i class=\"fa fa-pause-circle\"></i> Stop se non è modellabile, spiegabile e verificabile."
       },
       {
-        "en": "Prefer explicit inputs/outputs and reproducible runs over ad-hoc iteration.",
-        "it": "Preferisco input/output espliciti e run riproducibili rispetto a iterazioni ad-hoc."
+        "en": "<i class=\"fa fa-refresh\"></i> Prefer explicit inputs/outputs and reproducible runs over ad-hoc iteration.",
+        "it": "<i class=\"fa fa-refresh\"></i> Preferisco input/output espliciti e run riproducibili rispetto a iterazioni ad-hoc."
       }
     ]
   },
@@ -174,83 +174,111 @@
     "items": [
       {
         "title": {
-          "en": "Causal reasoning under real constraints",
-          "it": "Ragionamento causale sotto vincoli reali"
+          "en": "<i class=\"fa fa-link\"></i> Causal reasoning under real constraints",
+          "it": "<i class=\"fa fa-link\"></i> Ragionamento causale sotto vincoli reali"
         },
         "one_liner": {
           "en": "Moving beyond correlation: making causal assumptions explicit, testable, and challengeable. The goal is not 'finding causality' but articulating what we're assuming and where the reasoning can break.",
           "it": "Oltre la correlazione: rendere le assunzioni causali esplicite, testabili e contestabili. L'obiettivo non è 'trovare causalità' ma articolare cosa assumiamo e dove il ragionamento può rompersi."
         },
-        "tags": ["Causal Inference", "DAGs", "Identification"]
+        "tags": [
+          "Causal Inference",
+          "DAGs",
+          "Identification"
+        ]
       },
       {
         "title": {
-          "en": "Models that explain themselves",
-          "it": "Modelli che si spiegano"
+          "en": "<i class=\"fa fa-eye\"></i> Models that explain themselves",
+          "it": "<i class=\"fa fa-eye\"></i> Modelli che si spiegano"
         },
         "one_liner": {
-          "en": "Interpretability is not optional decoration; it's epistemic necessity. Models must articulate their logic, expose their drivers, and declare their limits. Otherwise, they're black boxes pretending to be knowledge.",
-          "it": "L'interpretabilità non è decorazione opzionale; è necessità epistemica. I modelli devono articolare la loro logica, esporre i loro driver e dichiarare i loro limiti. Altrimenti sono scatole nere che fingono di essere conoscenza."
+          "en": "Interpretability as epistemic requirement, not optional decoration. Models should articulate their logic, expose their drivers, and declare their limits. Without this, they remain black boxes.",
+          "it": "L'interpretabilità come requisito epistemico, non decorazione opzionale. I modelli dovrebbero articolare la loro logica, esporre i loro driver e dichiarare i loro limiti. Senza questo, restano scatole nere."
         },
-        "tags": ["SHAP", "Explainability", "Transparency"]
+        "tags": [
+          "SHAP",
+          "Explainability",
+          "Transparency"
+        ]
       },
       {
         "title": {
-          "en": "Reproducibility as intellectual hygiene",
-          "it": "Riproducibilità come igiene intellettuale"
+          "en": "<i class=\"fa fa-repeat\"></i> Reproducibility as intellectual hygiene",
+          "it": "<i class=\"fa fa-repeat\"></i> Riproducibilità come igiene intellettuale"
         },
         "one_liner": {
-          "en": "If someone else can't rebuild your analysis from your code and data, you haven't done science—you've told a story. Explicit I/O, config-driven pipelines, and automated testing are philosophical commitments, not just engineering habits.",
-          "it": "Se qualcun altro non può ricostruire la tua analisi dal tuo codice e dati, non hai fatto scienza—hai raccontato una storia. I/O esplicito, pipeline config-driven e testing automatizzato sono impegni filosofici, non solo abitudini ingegneristiche."
+          "en": "Analysis that cannot be rebuilt from code and data is storytelling, not science. Explicit I/O, config-driven pipelines, and automated testing as epistemological practice.",
+          "it": "Analisi che non può essere ricostruita da codice e dati è storytelling, non scienza. I/O esplicito, pipeline config-driven e testing automatizzato come pratica epistemologica."
         },
-        "tags": ["Reproducibility", "Pipelines", "Testing"]
+        "tags": [
+          "Reproducibility",
+          "Pipelines",
+          "Testing"
+        ]
       },
       {
         "title": {
-          "en": "Cross-domain pattern extraction",
-          "it": "Estrazione di pattern cross-domain"
+          "en": "<i class=\"fa fa-sitemap\"></i> Cross-domain pattern extraction",
+          "it": "<i class=\"fa fa-sitemap\"></i> Estrazione di pattern cross-domain"
         },
         "one_liner": {
-          "en": "The same structural questions recur in biosignal analysis, business forecasting, and investment decisions. I'm not 'doing different things'—I'm applying the same epistemic framework to different substrate. The goal is transferable reasoning, not accumulated specialization.",
-          "it": "Le stesse domande strutturali ricorrono nell'analisi dei biosegnali, nel forecasting aziendale e nelle decisioni di investimento. Non sto 'facendo cose diverse'—applico lo stesso framework epistemico a substrati diversi. L'obiettivo è ragionamento trasferibile, non specializzazione accumulata."
+          "en": "Structural questions recur across biosignal analysis, business forecasting, and investment decisions. Same epistemic framework, different substrate. The goal: transferable reasoning, not accumulated specialization.",
+          "it": "Domande strutturali ricorrenti nell'analisi dei biosegnali, nel forecasting aziendale e nelle decisioni di investimento. Stesso framework epistemico, substrato diverso. Obiettivo: ragionamento trasferibile, non specializzazione accumulata."
         },
-        "tags": ["Transfer Learning", "Invariant Patterns", "Cross-Domain"]
+        "tags": [
+          "Transfer Learning",
+          "Invariant Patterns",
+          "Cross-Domain"
+        ]
       }
     ]
   },
   "collaboration_modes": [
     {
       "title": {
-        "en": "R&D prototyping",
-        "it": "Prototipazione R&S"
+        "en": "<i class=\"fa fa-flask\"></i> R&D prototyping",
+        "it": "<i class=\"fa fa-flask\"></i> Prototipazione R&S"
       },
       "one_liner": {
         "en": "From problem definition to proof-of-concept with reproducible experiments.",
         "it": "Dal problema al proof-of-concept con esperimenti riproducibili."
       },
-      "tags": ["Prototyping", "Reproducibility", "Experiments"]
+      "tags": [
+        "Prototyping",
+        "Reproducibility",
+        "Experiments"
+      ]
     },
     {
       "title": {
-        "en": "Decision intelligence",
-        "it": "Decision intelligence"
+        "en": "<i class=\"fa fa-line-chart\"></i> Decision intelligence",
+        "it": "<i class=\"fa fa-line-chart\"></i> Decision intelligence"
       },
       "one_liner": {
         "en": "Interpretable ML + causal analysis turned into dashboards, reports, and APIs.",
         "it": "ML interpretabile + analisi causale trasformati in dashboard, report e API."
       },
-      "tags": ["ML", "Explainability", "Causal"]
+      "tags": [
+        "ML",
+        "Explainability",
+        "Causal"
+      ]
     },
     {
       "title": {
-        "en": "Motion analytics",
-        "it": "Motion analytics"
+        "en": "<i class=\"fa fa-heartbeat\"></i> Motion analytics",
+        "it": "<i class=\"fa fa-heartbeat\"></i> Motion analytics"
       },
       "one_liner": {
         "en": "Sensor fusion (IMU/EMG) and biomechanical metrics with validation-minded engineering.",
         "it": "Sensor fusion (IMU/EMG) e metriche biomeccaniche con approccio orientato alla validazione."
       },
-      "tags": ["IMU", "EMG", "Sensor Fusion"]
+      "tags": [
+        "IMU",
+        "EMG",
+        "Sensor Fusion"
+      ]
     }
   ],
   "proof": {
@@ -340,7 +368,7 @@
   },
   "people": [
     {
-      "name": "Danilo Pani",
+      "name": "<i class='fa fa-user'></i> Danilo Pani",
       "group_key": "academic",
       "role": {
         "en": "Associate Professor of Bioengineering — University of Cagliari",
@@ -381,7 +409,7 @@
       "url": null
     },
     {
-      "name": "Luigi Raffo",
+      "name": "<i class='fa fa-user'></i> Luigi Raffo",
       "group_key": "academic",
       "role": {
         "en": "Full Professor — University of Cagliari (Electronics / Systems)",
@@ -416,7 +444,7 @@
       "url": null
     },
     {
-      "name": "Massimo Arciulo",
+      "name": "<i class='fa fa-user'></i> Massimo Arciulo",
       "group_key": "industrial",
       "role": {
         "en": "Executive leader — Data / Business / Telecom strategy",
@@ -451,7 +479,7 @@
       "url": null
     },
     {
-      "name": "Giancarlo Cherchi",
+      "name": "<i class='fa fa-user'></i> Giancarlo Cherchi",
       "group_key": "industrial",
       "role": {
         "en": "CTO & Co-Founder — YouAndTech",
@@ -486,7 +514,7 @@
       "url": null
     },
     {
-      "name": "Stefano Cau",
+      "name": "<i class='fa fa-user'></i> Stefano Cau",
       "group_key": "industrial",
       "role": {
         "en": "CEO & Co-Founder — YouAndTech",
@@ -531,7 +559,12 @@
           "en": "Interpretable forecasting, driver analysis (SHAP), and causal discovery for decision support delivered via web interfaces.",
           "it": "Forecasting interpretabile, driver analysis (SHAP) e causal discovery per decision support via interfacce web."
         },
-        "tags": ["ML", "SHAP", "Causal", "Django"]
+        "tags": [
+          "ML",
+          "SHAP",
+          "Causal",
+          "Django"
+        ]
       },
       {
         "title": "R&D Software Developer (Bioengineer)",
@@ -541,7 +574,11 @@
           "en": "Django systems, Unity development, and applied ML (clustering, Bayesian networks) for BI and product work.",
           "it": "Sistemi Django, sviluppo Unity e ML applicato (clustering, reti bayesiane) per BI e prodotto."
         },
-        "tags": ["Django", "Unity", "ML"]
+        "tags": [
+          "Django",
+          "Unity",
+          "ML"
+        ]
       },
       {
         "title": "PhD in Bioengineering & Robotics",
@@ -551,7 +588,11 @@
           "en": "Telerehabilitation and biofeedback (non-immersive VR), with EMG signals work and systems engineering.",
           "it": "Telereabilitazione e biofeedback (VR non-immersiva), lavoro su segnali EMG e systems engineering."
         },
-        "tags": ["Bioengineering", "Telerehabilitation", "EMG"]
+        "tags": [
+          "Bioengineering",
+          "Telerehabilitation",
+          "EMG"
+        ]
       }
     ],
     "education": [
@@ -577,10 +618,10 @@
   "i18n": {
     "en": {
       "a11y.skip": "Skip to content",
-      "nav.home": "Home",
-      "nav.index": "Index",
-      "nav.note": "NOTE",
-      "nav.evidence": "EVIDENCE",
+      "nav.home": "<i class=\"fa fa-home\"></i> Home",
+      "nav.index": "<i class=\"fa fa-list\"></i> Index",
+      "nav.note": "<i class=\"fa fa-file-text\"></i> NOTE",
+      "nav.evidence": "<i class=\"fa fa-check-square\"></i> EVIDENCE",
       "nav.focusNow": "Focus Now",
       "nav.education": "Education",
       "nav.about": "About",
@@ -590,43 +631,38 @@
       "nav.future": "Future",
       "nav.reading": "Reading",
       "nav.courses": "Courses",
-      "nav.contact": "Contact",
-
+      "nav.contact": "<i class=\"fa fa-envelope\"></i> Contact",
       "contract.title": "Reading Contract",
       "contract.text": "This is not a portfolio. It is an epistemic-operational dossier: a document that reveals how I think, before what I've built.",
       "contract.subtext": "NOTE = epistemic position, reasoning method, mental models. EVIDENCE = artifacts that prove coherence between thought and execution.",
-
-      "index.title": "📑 DOCUMENT INDEX",
-      "index.note": "📝 NOTE",
-      "index.evidence": "✅ EVIDENCE",
-      "index.os": "🎯 Working Method",
-      "index.collab": "🤝 Collaboration Modes",
-      "index.focus": "🔬 Focus Now",
-      "index.capabilities": "💼 Capabilities",
-      "index.toolbox": "🛠️ Toolbox",
-      "index.future": "🚀 Future Plans",
-      "index.contexts": "🌐 Operational & Research Contexts",
-      "index.background": "📍 Background",
-      "index.education": "🎓 Education",
-      "index.containers": "📦 Containers",
-      "index.examples": "💡 Project Examples",
-      "index.proof": "✅ Proof",
-      "index.reading": "📚 Reading",
-      "index.courses": "📖 Courses",
-      "index.contact": "📧 Contact",
-
-      "note.subtitle": "📝 NOTE",
+      "index.title": "<i class=\"fa fa-list-alt\"></i> DOCUMENT INDEX",
+      "index.note": "<i class=\"fa fa-file-text-o\"></i> NOTE",
+      "index.evidence": "<i class=\"fa fa-check-square-o\"></i> EVIDENCE",
+      "index.os": "<i class=\"fa fa-bullseye\"></i> Working Method",
+      "index.collab": "<i class=\"fa fa-handshake-o\"></i> Collaboration Modes",
+      "index.focus": "<i class=\"fa fa-flask\"></i> Focus Now",
+      "index.capabilities": "<i class=\"fa fa-briefcase\"></i> Capabilities",
+      "index.toolbox": "<i class=\"fa fa-wrench\"></i> Toolbox",
+      "index.future": "<i class=\"fa fa-rocket\"></i> Future Plans",
+      "index.contexts": "<i class=\"fa fa-globe\"></i> Operational & Research Contexts",
+      "index.background": "<i class=\"fa fa-map-marker\"></i> Background",
+      "index.education": "<i class=\"fa fa-graduation-cap\"></i> Education",
+      "index.containers": "<i class=\"fa fa-archive\"></i> Containers",
+      "index.examples": "<i class=\"fa fa-lightbulb-o\"></i> Project Examples",
+      "index.proof": "<i class=\"fa fa-check-square-o\"></i> Proof",
+      "index.reading": "<i class=\"fa fa-book\"></i> Reading",
+      "index.courses": "<i class=\"fa fa-book\"></i> Courses",
+      "index.contact": "<i class=\"fa fa-envelope-o\"></i> Contact",
+      "note.subtitle": "<i class=\"fa fa-file-text-o\"></i> NOTE",
       "note.title": "Principles & Methods",
-      "note.lead": "How I think: epistemic position, reasoning method, and why I work across domains.",
-      "evidence.subtitle": "✅ EVIDENCE",
+      "note.lead": "<i class='fa fa-angle-right'></i> How I think: epistemic position, reasoning method, and why I work across domains.",
+      "evidence.subtitle": "<i class=\"fa fa-check-square-o\"></i> EVIDENCE",
       "evidence.title": "Verifiable Artifacts & Context",
-      "evidence.lead": "My journey: roles, projects, concrete outputs, public artifacts, reading list, and academic coursework.",
-
-      "contexts.title": "🌐 Operational & Research Contexts",
+      "evidence.lead": "<i class='fa fa-angle-right'></i> My journey: roles, projects, concrete outputs, public artifacts, reading list, and academic coursework.",
+      "contexts.title": "<i class=\"fa fa-globe\"></i> Operational & Research Contexts",
       "contexts.disclaimer": "Listed for context; presence does not imply current employment or endorsement.",
       "contexts.directWork": "DIRECT WORK",
       "contexts.exposure": "OPERATIONAL EXPOSURE",
-
       "discovery.label": "Discovery",
       "discovery.hint": "Click to unlock more detail. The more you open, the more you learn about my method and context.",
       "discovery.progress": "Knowledge",
@@ -636,11 +672,9 @@
       "discovery.proofTitle": "Proof (artifacts)",
       "discovery.readingTitle": "Reading (why it matters)",
       "discovery.coursesTitle": "Courses (details)",
-
       "education.researchFocusTitle": "Research focus",
       "education.coreStackTitle": "Core stack",
       "projects.originLabel": "Origin of BMI acquisition + telerehab stack",
-
       "projects.spec.status": "Status",
       "projects.spec.boundary": "Boundary",
       "projects.spec.purpose": "Purpose",
@@ -649,39 +683,32 @@
       "projects.spec.reuse": "Reuse",
       "projects.spec.constraints": "Constraints",
       "projects.spec.currentFocus": "Current focus",
-
       "reading.domainTitle": "Reading by domain",
       "reading.why": "Why it matters",
-
-      "hero.kicker": "Epistemic Brief",
-      "hero.pillarsLabel": "Pillars:",
-      "hero.ctaProjects": "See Projects",
-      "hero.ctaEmail": "Email",
-      "hero.factCurrent": "Current",
-      "hero.factLocation": "Location",
-      "hero.factCollaboration": "Collaboration",
+      "hero.kicker": "<i class='fa fa-file-text-o'></i> Epistemic Brief",
+      "hero.pillarsLabel": "<i class=\"fa fa-th-list\"></i> Pillars:",
+      "hero.ctaProjects": "<i class='fa fa-folder-open-o'></i> See Projects",
+      "hero.ctaEmail": "<i class='fa fa-envelope-o'></i> Email",
+      "hero.factCurrent": "<i class='fa fa-briefcase'></i> Current",
+      "hero.factLocation": "<i class='fa fa-map-marker'></i> Location",
+      "hero.factCollaboration": "<i class='fa fa-handshake-o'></i> Collaboration",
       "hero.note": "Engineer by training, philosopher by inclination. I use causal inference and interpretable ML to ask: what can we know, and what are we merely assuming?",
-
-      "epistemic.subtitle": "🧠 Epistemic Position",
+      "epistemic.subtitle": "<i class=\"fa fa-brain\"></i> Epistemic Position",
       "epistemic.title": "How I Think",
-      "epistemic.lead": "The questions that drive my work, and why I traverse domains instead of specializing.",
-      "epistemic.questionsLabel": "Core questions",
-      "epistemic.methodLabel": "How I approach problems",
-      "epistemic.domainsLabel": "Why diverse domains?",
-      "epistemic.commitmentLabel": "Commitment",
-
-      "focus.subtitle": "🔬 Current Work",
+      "epistemic.lead": "<i class='fa fa-angle-right'></i> The questions that drive my work, and why I traverse domains instead of specializing.",
+      "epistemic.questionsLabel": "<i class=\"fa fa-question-circle-o\"></i> Core questions",
+      "epistemic.methodLabel": "<i class=\"fa fa-cogs\"></i> How I approach problems",
+      "epistemic.domainsLabel": "<i class=\"fa fa-sitemap\"></i> Why diverse domains?",
+      "epistemic.commitmentLabel": "<i class=\"fa fa-compass\"></i> Commitment",
+      "focus.subtitle": "<i class=\"fa fa-flask\"></i> Current Work",
       "focus.title": "Active Inquiries",
-      "focus.lead": "The structural questions I'm pursuing right now, expressed as methods rather than tools.",
-
-      "education.subtitle": "🎓 Training",
+      "focus.lead": "<i class='fa fa-angle-right'></i> The structural questions I'm pursuing right now, expressed as methods rather than tools.",
+      "education.subtitle": "<i class=\"fa fa-graduation-cap\"></i> Training",
       "education.title": "Education",
       "education.lead": "Degrees and training that shaped my approach to research and engineering.",
-
-      "about.subtitle": "📍 Background",
-      "about.title": "Who I Am",
+      "about.subtitle": "<i class=\"fa fa-map-marker\"></i> Background",
+      "about.title": "<i class=\"fa fa-user\"></i> Who I Am",
       "about.lead": "I'm a thinking human being first: curious, systematic, and driven by the joy of understanding. My approach and what I care about.",
-
       "collaborators.title": "People I’ve worked with",
       "collaborators.lead": "Colleagues and collaborators in research and industry.",
       "collaborators.linkLabel": "Profile",
@@ -691,65 +718,52 @@
       "collaborators.group.academic": "Academic context",
       "collaborators.group.consortium": "Consortium / program context",
       "collaborators.group.industrial": "Industry / operations context",
-
-      "os.title": "🎯 Working Method",
-      "collab.title": "🤝 Collaboration Modes",
-
-      "capabilities.subtitle": "💼 Services",
-      "capabilities.title": "Capabilities",
+      "os.title": "<i class=\"fa fa-bullseye\"></i> Working Method",
+      "collab.title": "<i class=\"fa fa-handshake-o\"></i> Collaboration Modes",
+      "capabilities.subtitle": "<i class=\"fa fa-briefcase\"></i> Services",
+      "capabilities.title": "<i class=\"fa fa-briefcase\"></i> Capabilities",
       "capabilities.lead": "What I can do for you: reproducible analysis, decision support, and production-ready interfaces (BI, health, wearables).",
-
-      "toolbox.title": "🛠️ Toolbox",
-
-      "projects.subtitle": "📦 Pillars",
+      "toolbox.title": "<i class=\"fa fa-wrench\"></i> Toolbox",
+      "projects.subtitle": "<i class=\"fa fa-archive\"></i> Pillars",
       "projects.lead": "My projects organized in containers: each defines boundaries, reusable assets, and current status.",
       "projects.purposeLabel": "Purpose:",
       "projects.whatIBuildLabel": "What I build:",
       "projects.outputsLabel": "Outputs:",
       "projects.containedLabel": "Contained:",
-
-      "projectExamples.subtitle": "💡 Examples",
+      "projectExamples.subtitle": "<i class=\"fa fa-lightbulb-o\"></i> Examples",
       "projectExamples.title": "Project Examples",
       "projectExamples.lead": "Concrete projects: what I've actually built inside the containers.",
       "projectExamples.withinLabel": "Within:",
       "projectExamples.highlightsLabel": "Highlights:",
       "projectExamples.linkLabel": "Link",
-
-      "people.subtitle": "👥 People",
-      "people.title": "People",
+      "people.subtitle": "<i class=\"fa fa-users\"></i> People",
+      "people.title": "<i class=\"fa fa-users\"></i> People",
       "people.lead": "Colleagues and collaborators I've worked with (details available on request).",
-
       "reading.nowTitle": "Now Reading",
       "reading.completedTitle": "Completed",
       "reading.verifyBadge": "Verify",
-
       "proof.categoriesTitle": "Selected proof",
       "proof.badgePrivate": "Private",
       "proof.badgeNotPublic": "Not public yet",
       "proof.badgeOnRequest": "Available on request",
       "proof.badgeTodo": "TODO",
-
-      "proof.subtitle": "✅ Verification",
+      "proof.subtitle": "<i class=\"fa fa-check-square-o\"></i> Verification",
       "proof.title": "Selected Proof",
       "proof.lead": "Links to my public artifacts. Placeholders are marked TODO until a public URL is available.",
-
-      "contact.subtitle": "📧 Get in touch",
+      "contact.subtitle": "<i class=\"fa fa-envelope-o\"></i> Get in touch",
       "contact.title": "Contact",
       "contact.lead": "Best way to reach me is email. For collaborations, LinkedIn is the fastest way to sync.",
       "contact.copyEmail": "Copy Email",
       "contact.sendEmail": "Send Email",
-
-      "future.subtitle": "🚀 Next Steps",
+      "future.subtitle": "<i class=\"fa fa-rocket\"></i> Next Steps",
       "future.title": "Future Plans",
       "future.lead": "What I'm working on now and where I'm investing my time.",
-
-      "reading.subtitle": "📚 Learning",
+      "reading.subtitle": "<i class=\"fa fa-book\"></i> Learning",
       "reading.title": "Reading",
       "reading.lead": "Books I'm reading or have completed that have influenced how I work.",
       "reading.currentLabel": "Currently Reading",
       "reading.completedLabel": "Completed",
-
-      "courses.subtitle": "🎓 Academic Training",
+      "courses.subtitle": "<i class=\"fa fa-graduation-cap\"></i> Academic Training",
       "courses.title": "University Courses",
       "courses.lead": "Exams and courses completed during my academic journey.",
       "courses.levelPhd": "PhD",
@@ -758,10 +772,10 @@
     },
     "it": {
       "a11y.skip": "Salta al contenuto",
-      "nav.home": "Home",
-      "nav.index": "Indice",
-      "nav.note": "NOTA",
-      "nav.evidence": "EVIDENZE",
+      "nav.home": "<i class=\"fa fa-home\"></i> Home",
+      "nav.index": "<i class=\"fa fa-list\"></i> Indice",
+      "nav.note": "<i class=\"fa fa-file-text\"></i> NOTA",
+      "nav.evidence": "<i class=\"fa fa-check-square\"></i> EVIDENZE",
       "nav.focusNow": "Focus ora",
       "nav.education": "Formazione",
       "nav.about": "Chi sono",
@@ -771,43 +785,38 @@
       "nav.future": "Futuro",
       "nav.reading": "Letture",
       "nav.courses": "Corsi",
-      "nav.contact": "Contatti",
-
+      "nav.contact": "<i class=\"fa fa-envelope\"></i> Contatti",
       "contract.title": "Contratto di lettura",
       "contract.text": "Questo non è un portfolio. È un dossier epistemico-operativo: un documento che rivela come penso, prima di cosa ho costruito.",
       "contract.subtext": "NOTA = posizione epistemica, metodo di ragionamento, modelli mentali. EVIDENZE = artefatti che provano coerenza tra pensiero ed esecuzione.",
-
-      "index.title": "📑 INDICE DOCUMENTO",
-      "index.note": "📝 NOTA",
-      "index.evidence": "✅ EVIDENZE",
-      "index.os": "🎯 Metodo di lavoro",
-      "index.collab": "🤝 Modalità di collaborazione",
-      "index.focus": "🔬 Focus ora",
-      "index.capabilities": "💼 Competenze",
-      "index.toolbox": "🛠️ Strumenti",
-      "index.future": "🚀 Piani futuri",
-      "index.contexts": "🌐 Contesti operativi e di ricerca",
-      "index.background": "📍 Percorso",
-      "index.education": "🎓 Formazione",
-      "index.containers": "📦 Container",
-      "index.examples": "💡 Esempi di progetto",
-      "index.proof": "✅ Evidenze",
-      "index.reading": "📚 Letture",
-      "index.courses": "📖 Corsi",
-      "index.contact": "📧 Contatti",
-
-      "note.subtitle": "📝 NOTA",
+      "index.title": "<i class=\"fa fa-list-alt\"></i> INDICE DOCUMENTO",
+      "index.note": "<i class=\"fa fa-file-text-o\"></i> NOTA",
+      "index.evidence": "<i class=\"fa fa-check-square-o\"></i> EVIDENZE",
+      "index.os": "<i class=\"fa fa-bullseye\"></i> Metodo di lavoro",
+      "index.collab": "<i class=\"fa fa-handshake-o\"></i> Modalità di collaborazione",
+      "index.focus": "<i class=\"fa fa-flask\"></i> Focus ora",
+      "index.capabilities": "<i class=\"fa fa-briefcase\"></i> Competenze",
+      "index.toolbox": "<i class=\"fa fa-wrench\"></i> Strumenti",
+      "index.future": "<i class=\"fa fa-rocket\"></i> Piani futuri",
+      "index.contexts": "<i class=\"fa fa-globe\"></i> Contesti operativi e di ricerca",
+      "index.background": "<i class=\"fa fa-map-marker\"></i> Percorso",
+      "index.education": "<i class=\"fa fa-graduation-cap\"></i> Formazione",
+      "index.containers": "<i class=\"fa fa-archive\"></i> Container",
+      "index.examples": "<i class=\"fa fa-lightbulb-o\"></i> Esempi di progetto",
+      "index.proof": "<i class=\"fa fa-check-square-o\"></i> Evidenze",
+      "index.reading": "<i class=\"fa fa-book\"></i> Letture",
+      "index.courses": "<i class=\"fa fa-book\"></i> Corsi",
+      "index.contact": "<i class=\"fa fa-envelope-o\"></i> Contatti",
+      "note.subtitle": "<i class=\"fa fa-file-text-o\"></i> NOTA",
       "note.title": "Principi e metodi",
-      "note.lead": "Come penso: posizione epistemica, metodo di ragionamento e perché lavoro su più domini.",
-      "evidence.subtitle": "✅ EVIDENZE",
+      "note.lead": "<i class='fa fa-angle-right'></i> Come penso: posizione epistemica, metodo di ragionamento e perché lavoro su più domini.",
+      "evidence.subtitle": "<i class=\"fa fa-check-square-o\"></i> EVIDENZE",
       "evidence.title": "Artefatti e contesto verificabili",
-      "evidence.lead": "Il mio percorso: ruoli ricoperti, progetti, output concreti, artefatti pubblici, letture e corsi universitari.",
-
-      "contexts.title": "🌐 Contesti operativi e di ricerca",
+      "evidence.lead": "<i class='fa fa-angle-right'></i> Il mio percorso: ruoli ricoperti, progetti, output concreti, artefatti pubblici, letture e corsi universitari.",
+      "contexts.title": "<i class=\"fa fa-globe\"></i> Contesti operativi e di ricerca",
       "contexts.disclaimer": "Elencati per contesto; la presenza in lista non implica impiego attuale o endorsement.",
       "contexts.directWork": "LAVORO DIRETTO",
       "contexts.exposure": "ESPOSIZIONE OPERATIVA",
-
       "discovery.label": "Scoperta",
       "discovery.hint": "Clicca per sbloccare più dettaglio. Più apri, più scopri il mio metodo e il mio contesto.",
       "discovery.progress": "Conoscenza",
@@ -817,11 +826,9 @@
       "discovery.proofTitle": "Evidenze (artifact)",
       "discovery.readingTitle": "Letture (perché contano)",
       "discovery.coursesTitle": "Corsi (dettagli)",
-
       "education.researchFocusTitle": "Focus di ricerca",
       "education.coreStackTitle": "Stack core",
       "projects.originLabel": "Origine dello stack BMI (acquisizione + telerehab)",
-
       "projects.spec.status": "Stato",
       "projects.spec.boundary": "Confine",
       "projects.spec.purpose": "Scopo",
@@ -830,40 +837,33 @@
       "projects.spec.reuse": "Riutilizzo",
       "projects.spec.constraints": "Vincoli",
       "projects.spec.currentFocus": "Focus attuale",
-
       "reading.domainTitle": "Letture per dominio",
       "reading.why": "Perché conta",
-
-      "hero.kicker": "Sintesi epistemica",
-      "hero.pillarsLabel": "Pilastri:",
-      "hero.ctaProjects": "Vedi progetti",
-      "hero.ctaEmail": "Email",
-      "hero.factCurrent": "Attuale",
-      "hero.factLocation": "Sede",
-      "hero.factCollaboration": "Collaborazione",
+      "hero.kicker": "<i class='fa fa-file-text-o'></i> Sintesi epistemica",
+      "hero.pillarsLabel": "<i class=\"fa fa-th-list\"></i> Pilastri:",
+      "hero.ctaProjects": "<i class='fa fa-folder-open-o'></i> Vedi progetti",
+      "hero.ctaEmail": "<i class='fa fa-envelope-o'></i> Email",
+      "hero.factCurrent": "<i class='fa fa-briefcase'></i> Attuale",
+      "hero.factLocation": "<i class='fa fa-map-marker'></i> Sede",
+      "hero.factCollaboration": "<i class='fa fa-handshake-o'></i> Collaborazione",
       "hero.note": "Ingegnere per formazione, filosofo per inclinazione. Uso inferenza causale e ML interpretabile per chiedere: cosa possiamo sapere, e cosa stiamo solo assumendo?",
-
-      "epistemic.subtitle": "🧠 Posizione epistemica",
+      "epistemic.subtitle": "<i class=\"fa fa-brain\"></i> Posizione epistemica",
       "epistemic.title": "Come penso",
-      "epistemic.lead": "Le domande che guidano il mio lavoro, e perché attraverso domini invece di specializzarmi.",
-      "epistemic.questionsLabel": "Domande centrali",
-      "epistemic.methodLabel": "Come affronto i problemi",
-      "epistemic.domainsLabel": "Perché domini diversi?",
-      "epistemic.commitmentLabel": "Impegno",
-
-      "focus.subtitle": "🔬 Lavoro attuale",
+      "epistemic.lead": "<i class='fa fa-angle-right'></i> Le domande che guidano il mio lavoro, e perché attraverso domini invece di specializzarmi.",
+      "epistemic.questionsLabel": "<i class=\"fa fa-question-circle-o\"></i> Domande centrali",
+      "epistemic.methodLabel": "<i class=\"fa fa-cogs\"></i> Come affronto i problemi",
+      "epistemic.domainsLabel": "<i class=\"fa fa-sitemap\"></i> Perché domini diversi?",
+      "epistemic.commitmentLabel": "<i class=\"fa fa-compass\"></i> Impegno",
+      "focus.subtitle": "<i class=\"fa fa-flask\"></i> Lavoro attuale",
       "focus.title": "Indagini attive",
-      "focus.lead": "Le domande strutturali che sto perseguendo ora, espresse come metodi piuttosto che strumenti.",
-
-      "education.subtitle": "🎓 Formazione",
+      "focus.lead": "<i class='fa fa-angle-right'></i> Le domande strutturali che sto perseguendo ora, espresse come metodi piuttosto che strumenti.",
+      "education.subtitle": "<i class=\"fa fa-graduation-cap\"></i> Formazione",
       "education.title": "Formazione",
       "education.lead": "Titoli e percorsi che hanno formato il mio approccio alla ricerca e all'ingegneria.",
-
-      "about.subtitle": "📍 Percorso",
-      "about.title": "Chi sono",
+      "about.subtitle": "<i class=\"fa fa-map-marker\"></i> Percorso",
+      "about.title": "<i class=\"fa fa-user\"></i> Chi sono",
       "about.lead": "Sono prima di tutto un essere umano pensante: curioso, sistematico e mosso dalla gioia di capire. Il mio approccio e ciò a cui tengo.",
-
-      "collaborators.title": "👥 Persone con cui ho lavorato",
+      "collaborators.title": "<i class=\"fa fa-users\"></i> Persone con cui ho lavorato",
       "collaborators.lead": "Colleghi e collaboratori in ambito ricerca e industria.",
       "collaborators.linkLabel": "Profilo",
       "collaborators.sourcesLabel": "Fonti",
@@ -872,65 +872,52 @@
       "collaborators.group.academic": "Contesto accademico",
       "collaborators.group.consortium": "Contesto consorzio / programma",
       "collaborators.group.industrial": "Contesto industria / operations",
-
-      "os.title": "🎯 Metodo di lavoro",
-      "collab.title": "🤝 Modalità di collaborazione",
-
-      "capabilities.subtitle": "💼 Servizi",
-      "capabilities.title": "Competenze",
+      "os.title": "<i class=\"fa fa-bullseye\"></i> Metodo di lavoro",
+      "collab.title": "<i class=\"fa fa-handshake-o\"></i> Modalità di collaborazione",
+      "capabilities.subtitle": "<i class=\"fa fa-briefcase\"></i> Servizi",
+      "capabilities.title": "<i class=\"fa fa-briefcase\"></i> Competenze",
       "capabilities.lead": "Cosa posso fare per te: analisi riproducibili, supporto decisionale e interfacce pronte per l'uso (BI, sanità, wearables).",
-
-      "toolbox.title": "🛠️ Strumenti",
-
-      "projects.subtitle": "📦 Pilastri",
+      "toolbox.title": "<i class=\"fa fa-wrench\"></i> Strumenti",
+      "projects.subtitle": "<i class=\"fa fa-archive\"></i> Pilastri",
       "projects.lead": "I miei progetti organizzati in container: ciascuno definisce confini, asset riusabili e lo stato di avanzamento.",
       "projects.purposeLabel": "Scopo:",
       "projects.whatIBuildLabel": "Cosa costruisco:",
       "projects.outputsLabel": "Output:",
       "projects.containedLabel": "Contenuti:",
-
-      "projectExamples.subtitle": "💡 Esempi",
+      "projectExamples.subtitle": "<i class=\"fa fa-lightbulb-o\"></i> Esempi",
       "projectExamples.title": "Esempi di progetto",
       "projectExamples.lead": "Progetti concreti: cosa ho realizzato davvero all'interno dei container.",
       "projectExamples.withinLabel": "Dentro:",
       "projectExamples.highlightsLabel": "Punti chiave:",
       "projectExamples.linkLabel": "Link",
-
-      "people.subtitle": "👥 Persone",
-      "people.title": "Persone",
+      "people.subtitle": "<i class=\"fa fa-users\"></i> Persone",
+      "people.title": "<i class=\"fa fa-users\"></i> Persone",
       "people.lead": "Colleghi e collaboratori con cui ho lavorato (dettagli disponibili su richiesta).",
-
       "reading.nowTitle": "In lettura",
       "reading.completedTitle": "Completati",
       "reading.verifyBadge": "Verifica",
-
       "proof.categoriesTitle": "Evidenze selezionate",
       "proof.badgePrivate": "Privato",
       "proof.badgeNotPublic": "Non pubblico",
       "proof.badgeOnRequest": "Disponibile su richiesta",
       "proof.badgeTodo": "TODO",
-
-      "proof.subtitle": "✅ Verifica",
+      "proof.subtitle": "<i class=\"fa fa-check-square-o\"></i> Verifica",
       "proof.title": "Evidenze",
       "proof.lead": "Link ai miei artefatti pubblici. I placeholder sono marcati TODO finché non sarà disponibile un URL pubblico.",
-
-      "contact.subtitle": "📧 Contatti",
+      "contact.subtitle": "<i class=\"fa fa-envelope-o\"></i> Contatti",
       "contact.title": "Contatti",
       "contact.lead": "Il modo migliore per contattarmi è via email. Per collaborazioni, LinkedIn è il canale più rapido per allinearci.",
       "contact.copyEmail": "Copia email",
       "contact.sendEmail": "Invia email",
-
-      "future.subtitle": "🚀 Prossimi passi",
+      "future.subtitle": "<i class=\"fa fa-rocket\"></i> Prossimi passi",
       "future.title": "Obiettivi futuri",
       "future.lead": "Su cosa sto lavorando ora e dove sto investendo il mio tempo.",
-
-      "reading.subtitle": "📚 Apprendimento",
+      "reading.subtitle": "<i class=\"fa fa-book\"></i> Apprendimento",
       "reading.title": "Letture",
       "reading.lead": "Libri che sto leggendo o che ho completato e che hanno influenzato il mio modo di lavorare.",
       "reading.currentLabel": "In lettura",
       "reading.completedLabel": "Completati",
-
-      "courses.subtitle": "🎓 Formazione accademica",
+      "courses.subtitle": "<i class=\"fa fa-graduation-cap\"></i> Formazione accademica",
       "courses.title": "Corsi universitari",
       "courses.lead": "Esami e corsi sostenuti durante il mio percorso accademico.",
       "courses.levelPhd": "Dottorato",
@@ -942,16 +929,30 @@
     {
       "role": "R&D ML Architect",
       "organization": "Sketchdata Srl",
-      "period": "Jan 2024 – Present",
+      "period": "<i class='fa fa-calendar'></i> Jan 2024 – Present",
       "focus": "Machine learning for business intelligence services: interpretable forecasting, explainability (driver analysis), causal discovery, and decision-ready delivery via microservices-oriented interfaces.",
-      "tools": ["Python", "Machine Learning", "SHAP", "Causal Inference", "Microservices"]
+      "tools": [
+        "Python",
+        "Machine Learning",
+        "SHAP",
+        "Causal Inference",
+        "Microservices"
+      ]
     },
     {
       "role": "R&D Software Developer (Bioengineer)",
       "organization": "YouAndTech",
-      "period": "Dec 2021 – Dec 2023",
+      "period": "<i class='fa fa-calendar'></i> Dec 2021 – Dec 2023",
       "focus": "Django-based management systems; Unity development; AI algorithms; business intelligence modeling with geometric deep learning patterns, clustering, and Bayesian networks.",
-      "tools": ["Python", "Django", "Unity", "XGBoost", "SHAP", "K-means", "Bayesian Networks"]
+      "tools": [
+        "Python",
+        "Django",
+        "Unity",
+        "XGBoost",
+        "SHAP",
+        "K-means",
+        "Bayesian Networks"
+      ]
     },
     {
       "role": {
@@ -959,10 +960,10 @@
         "it": "Bioingegnere R&S (PON TEX-STYLE)"
       },
       "organization": {
-        "en": "University of Cagliari",
-        "it": "Università di Cagliari"
+        "en": "<i class='fa fa-building-o'></i> University of Cagliari",
+        "it": "<i class='fa fa-building-o'></i> Università di Cagliari"
       },
-      "period": "Oct 2020 – Oct 2021",
+      "period": "<i class='fa fa-calendar'></i> Oct 2020 – Oct 2021",
       "focus": {
         "en": "Enabled Bluetooth communication for wearable systems on Android; built an immersive VR demonstrator (Oculus Quest 1) for a sensorized automotive environment; collected HRV and pressure data. This experience reinforced my focus on integration constraints and clean, reproducible data capture.",
         "it": "Ho abilitato la comunicazione Bluetooth per sistemi wearable su Android; ho realizzato un dimostratore VR immersivo (Oculus Quest 1) per un ambiente automotive sensorizzato; ho raccolto dati HRV e di pressione. Questa esperienza ha rafforzato il mio focus su vincoli di integrazione e acquisizione dati pulita e riproducibile."
@@ -981,68 +982,120 @@
           "it": "Raccolta dati per segnali HRV e pressione."
         }
       ],
-      "tools": ["Android", "Bluetooth", "Unity (C#)", "Oculus Quest", "Wearables", "HRV", "Pressure Sensors", "Data Collection"]
+      "tools": [
+        "Android",
+        "Bluetooth",
+        "Unity (C#)",
+        "Oculus Quest",
+        "Wearables",
+        "HRV",
+        "Pressure Sensors",
+        "Data Collection"
+      ]
     },
     {
       "role": "Research on post-stroke neuromotor telerehabilitation (DoMoMEA)",
       "organization": "University of Cagliari",
-      "period": "Apr 2018 – Jul 2021",
+      "period": "<i class='fa fa-calendar'></i> Apr 2018 – Jul 2021",
       "focus": "Research on neuromotor home telerehabilitation for post-stroke outcomes; followed a thesis on exergame design and development.",
       "evidence_bullets": [
         "Designed a store-and-forward home telerehabilitation system for stroke within the DoMoMEA project.",
         "Implemented a TV-based interface (Android TV box + Unity3D) integrating IMUs and pressure sensors via Bluetooth Classic.",
         "Built a Django+PostgreSQL telehealth backend (served via Nginx+Gunicorn) for daily exercise data upload and clinician review."
       ],
-      "tools": ["Telerehabilitation", "Biosignals", "Unity", "Django", "Python", "Android"]
+      "tools": [
+        "Telerehabilitation",
+        "Biosignals",
+        "Unity",
+        "Django",
+        "Python",
+        "Android"
+      ]
     },
     {
       "role": "Android Developer (Freelance) — Let’s Project",
       "organization": "Let’s Webereable (third-party project)",
-      "period": "Jun 2018 – Nov 2018",
+      "period": "<i class='fa fa-calendar'></i> Jun 2018 – Nov 2018",
       "focus": "Android app for real-time visualization of electrophysiological signals via Bluetooth (ECG + respiration), with synchronized recording for offline analysis.",
-      "tools": ["Android", "Bluetooth", "ECG", "Real-time Monitoring", "Matlab"]
+      "tools": [
+        "Android",
+        "Bluetooth",
+        "ECG",
+        "Real-time Monitoring",
+        "Matlab"
+      ]
     },
     {
       "role": "Research on telerehabilitation for adolescent idiopathic scoliosis",
       "organization": "University of Cagliari",
-      "period": "Oct 2017 – Oct 2018",
+      "period": "<i class='fa fa-calendar'></i> Oct 2017 – Oct 2018",
       "focus": "Led development of a telerehabilitation platform with real-time EMG acquisition on Android and remote recording; co-supervised undergraduate theses in EMG monitoring and rehab support platforms.",
-      "tools": ["Android", "EMG", "Matlab", "Biosignals"]
+      "tools": [
+        "Android",
+        "EMG",
+        "Matlab",
+        "Biosignals"
+      ]
     },
     {
       "role": "Medical Technology Integration Specialist (Research Scholarship)",
       "organization": "University of Cagliari",
-      "period": "Apr 2017 – Oct 2017",
+      "period": "<i class='fa fa-calendar'></i> Apr 2017 – Oct 2017",
       "focus": "Studied and modified configurable assistive medical technology systems for the European telecare project HEREiAM; planned integrations of medical devices (e.g., glucometer, coagulometer).",
-      "tools": ["Telehealth", "Android", "System Integration"]
+      "tools": [
+        "Telehealth",
+        "Android",
+        "System Integration"
+      ]
     },
     {
       "role": "Educational Tutor — Analog & Digital Electronic Design",
       "organization": "University of Cagliari",
-      "period": "Apr 2017 – Apr 2018",
+      "period": "<i class='fa fa-calendar'></i> Apr 2017 – Apr 2018",
       "focus": "Tutoring and support for a 10-credit course on analog and digital electronic design for biomedical engineering students.",
-      "tools": ["Arduino", "Analog Circuits", "Digital Circuits"]
+      "tools": [
+        "Arduino",
+        "Analog Circuits",
+        "Digital Circuits"
+      ]
     },
     {
       "role": "Master’s candidate in bioengineering (industry placement)",
       "organization": "CAMELOT biomedical systems S.r.l.",
-      "period": "Jun 2016 – Jan 2017",
+      "period": "<i class='fa fa-calendar'></i> Jun 2016 – Jan 2017",
       "focus": "Participated in a telemedicine project (C/C++/Matlab, WFDB); contributed to web platform design work (HTML/CSS/JS, AngularJS).",
-      "tools": ["C", "C++", "Matlab", "WFDB", "HTML", "CSS", "JavaScript", "AngularJS"]
+      "tools": [
+        "C",
+        "C++",
+        "Matlab",
+        "WFDB",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "AngularJS"
+      ]
     },
     {
       "role": "Biomedical Engineering Intern (Bachelor’s studies)",
       "organization": "University of Cagliari",
-      "period": "Jun 2013 – Jun 2014",
+      "period": "<i class='fa fa-calendar'></i> Jun 2013 – Jun 2014",
       "focus": "Designed and built an electronic board to transmit pressure-mat data to an Android smartphone via Bluetooth; supported PCB design/fabrication/soldering and Android app development for data collection.",
-      "tools": ["PCB", "DXP", "Bluetooth", "Android"]
+      "tools": [
+        "PCB",
+        "DXP",
+        "Bluetooth",
+        "Android"
+      ]
     },
     {
       "role": "First-year tutor",
       "organization": "University of Cagliari",
-      "period": "Jan 2012 – Jan 2013",
+      "period": "<i class='fa fa-calendar'></i> Jan 2012 – Jan 2013",
       "focus": "Support role for incoming students; provided overview metrics on first-year academic performance to the course committee.",
-      "tools": ["Student Support", "Reporting"]
+      "tools": [
+        "Student Support",
+        "Reporting"
+      ]
     }
   ],
   "collaborators": [
@@ -1339,28 +1392,70 @@
           "it": "Stack riusabile di bioingegneria (acquisizione → processing → modellazione) pensato per essere trasferito in prodotti applicati senza riscrivere il core."
         },
         "inputs": [
-          { "en": "IMU signals", "it": "Segnali IMU" },
-          { "en": "EMG signals", "it": "Segnali EMG" },
-          { "en": "Android acquisition + instrumentation", "it": "Acquisizione + strumentazione Android" },
-          { "en": "Python modules with explicit I/O", "it": "Moduli Python con I/O esplicito" }
+          {
+            "en": "IMU signals",
+            "it": "Segnali IMU"
+          },
+          {
+            "en": "EMG signals",
+            "it": "Segnali EMG"
+          },
+          {
+            "en": "Android acquisition + instrumentation",
+            "it": "Acquisizione + strumentazione Android"
+          },
+          {
+            "en": "Python modules with explicit I/O",
+            "it": "Moduli Python con I/O esplicito"
+          }
         ],
         "outputs": [
-          { "en": "Acquisition app foundations (IMU) + real-time EMG integration", "it": "Fondazioni app di acquisizione (IMU) + integrazione EMG real-time" },
-          { "en": "Reusable preprocessing/sync patterns and data schemas", "it": "Pattern riusabili di preprocessing/sync e schemi dati" },
-          { "en": "Concept frameworks for longitudinal modeling (patient digital twin)", "it": "Framework concettuali per modellazione longitudinale (digital twin paziente)" }
+          {
+            "en": "Acquisition app foundations (IMU) + real-time EMG integration",
+            "it": "Fondazioni app di acquisizione (IMU) + integrazione EMG real-time"
+          },
+          {
+            "en": "Reusable preprocessing/sync patterns and data schemas",
+            "it": "Pattern riusabili di preprocessing/sync e schemi dati"
+          },
+          {
+            "en": "Concept frameworks for longitudinal modeling (patient digital twin)",
+            "it": "Framework concettuali per modellazione longitudinale (digital twin paziente)"
+          }
         ],
         "reuse": [
-          { "en": "Acquisition/instrumentation stack reused by IGM and other verticalizations", "it": "Stack di acquisizione/strumentazione riutilizzato da IGM e altre verticalizzazioni" },
-          { "en": "Pipeline templates (explicit inputs/outputs, logging, reproducibility)", "it": "Template di pipeline (input/output espliciti, logging, riproducibilità)" }
+          {
+            "en": "Acquisition/instrumentation stack reused by IGM and other verticalizations",
+            "it": "Stack di acquisizione/strumentazione riutilizzato da IGM e altre verticalizzazioni"
+          },
+          {
+            "en": "Pipeline templates (explicit inputs/outputs, logging, reproducibility)",
+            "it": "Template di pipeline (input/output espliciti, logging, riproducibilità)"
+          }
         ],
         "constraints": [
-          { "en": "Not a product container: no commercial delivery commitments", "it": "Non è un container di prodotto: nessun commitment di delivery commerciale" },
-          { "en": "Focus is on reusable infrastructure, not one-off experiments", "it": "Focus su infrastruttura riusabile, non su esperimenti one-off" }
+          {
+            "en": "Not a product container: no commercial delivery commitments",
+            "it": "Non è un container di prodotto: nessun commitment di delivery commerciale"
+          },
+          {
+            "en": "Focus is on reusable infrastructure, not one-off experiments",
+            "it": "Focus su infrastruttura riusabile, non su esperimenti one-off"
+          }
         ],
         "current_focus": [
-          { "en": "Stabilize acquisition stack (IMU) and EMG real-time integration", "it": "Stabilizzare stack di acquisizione (IMU) e integrazione EMG real-time" },
-          { "en": "Harden reusable schemas + reproducible pipelines", "it": "Rendere robusti schemi riusabili + pipeline riproducibili" },
-          { "en": "Evolve bmyCure4MM as a narrative technical case", "it": "Evolvere bmyCure4MM come caso tecnico narrativo" }
+          {
+            "en": "Stabilize acquisition stack (IMU) and EMG real-time integration",
+            "it": "Stabilizzare stack di acquisizione (IMU) e integrazione EMG real-time"
+          },
+          {
+            "en": "Harden reusable schemas + reproducible pipelines",
+            "it": "Rendere robusti schemi riusabili + pipeline riproducibili"
+          },
+          {
+            "en": "Evolve bmyCure4MM as a narrative technical case",
+            "it": "Evolvere bmyCure4MM come caso tecnico narrativo"
+          }
         ]
       },
       "purpose": "Build a reusable biomedical engineering stack (acquisition → processing → modeling) that can be transferred into applied products without rewriting the core.",
@@ -1393,7 +1488,11 @@
         "Modular Pipelines"
       ],
       "links": [
-        { "label": "Public overview", "url": "#", "placeholder": true }
+        {
+          "label": "Public overview",
+          "url": "#",
+          "placeholder": true
+        }
       ],
       "contained": [
         {
@@ -1430,26 +1529,62 @@
           "it": "Trasformare dati business in output decision-ready con modelli interpretabili e ragionamento causale, consegnati come interfacce usabili (dashboard/API)."
         },
         "inputs": [
-          { "en": "Operational/time-series business data", "it": "Dati business operativi/time-series" },
-          { "en": "Config-driven pipelines", "it": "Pipeline config-driven" },
-          { "en": "Interpretable ML tooling (e.g., SHAP)", "it": "Tooling di ML interpretabile (es. SHAP)" }
+          {
+            "en": "Operational/time-series business data",
+            "it": "Dati business operativi/time-series"
+          },
+          {
+            "en": "Config-driven pipelines",
+            "it": "Pipeline config-driven"
+          },
+          {
+            "en": "Interpretable ML tooling (e.g., SHAP)",
+            "it": "Tooling di ML interpretabile (es. SHAP)"
+          }
         ],
         "outputs": [
-          { "en": "Decision briefs + dashboards", "it": "Decision brief + dashboard" },
-          { "en": "APIs/microservices to deliver analytics", "it": "API/microservizi per erogare analytics" }
+          {
+            "en": "Decision briefs + dashboards",
+            "it": "Decision brief + dashboard"
+          },
+          {
+            "en": "APIs/microservices to deliver analytics",
+            "it": "API/microservizi per erogare analytics"
+          }
         ],
         "reuse": [
-          { "en": "Reusable pipeline components with explicit I/O", "it": "Componenti di pipeline riusabili con I/O esplicito" },
-          { "en": "Forecasting + driver analysis patterns", "it": "Pattern di forecasting + driver analysis" }
+          {
+            "en": "Reusable pipeline components with explicit I/O",
+            "it": "Componenti di pipeline riusabili con I/O esplicito"
+          },
+          {
+            "en": "Forecasting + driver analysis patterns",
+            "it": "Pattern di forecasting + driver analysis"
+          }
         ],
         "constraints": [
-          { "en": "Not a generic BI platform; scoped to decision workflows", "it": "Non è una piattaforma BI generica; è scoped ai workflow decisionali" },
-          { "en": "Explanations must be auditable, not decorative", "it": "Le spiegazioni devono essere verificabili, non decorative" }
+          {
+            "en": "Not a generic BI platform; scoped to decision workflows",
+            "it": "Non è una piattaforma BI generica; è scoped ai workflow decisionali"
+          },
+          {
+            "en": "Explanations must be auditable, not decorative",
+            "it": "Le spiegazioni devono essere verificabili, non decorative"
+          }
         ],
         "current_focus": [
-          { "en": "Interpretable forecasting + driver analysis", "it": "Forecasting interpretabile + driver analysis" },
-          { "en": "Causal discovery/inference workflows", "it": "Workflow di causal discovery/inferenza" },
-          { "en": "Delivery via web interfaces/APIs", "it": "Delivery via interfacce web/API" }
+          {
+            "en": "Interpretable forecasting + driver analysis",
+            "it": "Forecasting interpretabile + driver analysis"
+          },
+          {
+            "en": "Causal discovery/inference workflows",
+            "it": "Workflow di causal discovery/inferenza"
+          },
+          {
+            "en": "Delivery via web interfaces/APIs",
+            "it": "Delivery via interfacce web/API"
+          }
         ]
       },
       "purpose": "Turn business data into decision-ready outputs, with an architecture that stays modular as complexity grows (local → parallel → cloud/API).",
@@ -1476,12 +1611,25 @@
         "Microservices"
       ],
       "links": [
-        { "label": "Public overview", "url": "#", "placeholder": true }
+        {
+          "label": "Public overview",
+          "url": "#",
+          "placeholder": true
+        }
       ],
       "contained": [
-        { "name": "Jungle", "tagline": "Operational/automation module family (workflow-first)." },
-        { "name": "MAP", "tagline": "Analytics/pipeline module family (explicit inputs/outputs)." },
-        { "name": "RADIAL", "tagline": "Decision support module family (reports, dashboards, APIs)." }
+        {
+          "name": "Jungle",
+          "tagline": "Operational/automation module family (workflow-first)."
+        },
+        {
+          "name": "MAP",
+          "tagline": "Analytics/pipeline module family (explicit inputs/outputs)."
+        },
+        {
+          "name": "RADIAL",
+          "tagline": "Decision support module family (reports, dashboards, APIs)."
+        }
       ]
     },
     {
@@ -1499,23 +1647,50 @@
           "it": "Rilasciare un’esperienza usabile di analisi del movimento (metriche + workflow) riusando la base di acquisizione/strumentazione di BMI."
         },
         "inputs": [
-          { "en": "Wearable IMU/EMG streams", "it": "Stream IMU/EMG da wearable" },
-          { "en": "BMI acquisition/instrumentation stack", "it": "Stack di acquisizione/strumentazione BMI" },
-          { "en": "Validation diagnostics + deterministic tests", "it": "Diagnostica di validazione + test deterministici" }
+          {
+            "en": "Wearable IMU/EMG streams",
+            "it": "Stream IMU/EMG da wearable"
+          },
+          {
+            "en": "BMI acquisition/instrumentation stack",
+            "it": "Stack di acquisizione/strumentazione BMI"
+          },
+          {
+            "en": "Validation diagnostics + deterministic tests",
+            "it": "Diagnostica di validazione + test deterministici"
+          }
         ],
         "outputs": [
-          { "en": "Analysis tooling and automated reports", "it": "Tool di analisi e report automatici" },
-          { "en": "Instrumentation/QA improvements", "it": "Miglioramenti strumentazione/QA" }
+          {
+            "en": "Analysis tooling and automated reports",
+            "it": "Tool di analisi e report automatici"
+          },
+          {
+            "en": "Instrumentation/QA improvements",
+            "it": "Miglioramenti strumentazione/QA"
+          }
         ],
         "reuse": [
-          { "en": "Reuses BMI acquisition base; feeds improvements back into BMI", "it": "Riuso base di acquisizione BMI; restituisce miglioramenti a BMI" }
+          {
+            "en": "Reuses BMI acquisition base; feeds improvements back into BMI",
+            "it": "Riuso base di acquisizione BMI; restituisce miglioramenti a BMI"
+          }
         ],
         "constraints": [
-          { "en": "Not a general fitness app; focused on measurable, validated workflows", "it": "Non è un’app fitness generica; focus su workflow misurabili e validati" }
+          {
+            "en": "Not a general fitness app; focused on measurable, validated workflows",
+            "it": "Non è un’app fitness generica; focus su workflow misurabili e validati"
+          }
         ],
         "current_focus": [
-          { "en": "Deterministic Android instrumentation tests and diagnostics", "it": "Test di strumentazione Android deterministici e diagnostica" },
-          { "en": "Interpretable metrics and reporting UX", "it": "Metriche interpretabili e UX di reporting" }
+          {
+            "en": "Deterministic Android instrumentation tests and diagnostics",
+            "it": "Test di strumentazione Android deterministici e diagnostica"
+          },
+          {
+            "en": "Interpretable metrics and reporting UX",
+            "it": "Metriche interpretabili e UX di reporting"
+          }
         ]
       },
       "purpose": "Ship a usable movement-analysis experience (panel, metrics, workflows) by reusing BMI’s core acquisition/instrumentation stack.",
@@ -1539,7 +1714,11 @@
         "Android Testing"
       ],
       "links": [
-        { "label": "Public overview", "url": "#", "placeholder": true }
+        {
+          "label": "Public overview",
+          "url": "#",
+          "placeholder": true
+        }
       ],
       "contained": [
         {
@@ -1568,23 +1747,50 @@
           "it": "Rendere esplicite le decisioni finanziarie tramite modelli, assunzioni e scenari stress-testati (automation-first, output-driven)."
         },
         "inputs": [
-          { "en": "Assumptions + constraints", "it": "Assunzioni + vincoli" },
-          { "en": "Scenario parameters + historical data (when applicable)", "it": "Parametri di scenario + dati storici (quando applicabile)" },
-          { "en": "Automation scripts and calculators", "it": "Script di automazione e calcolatori" }
+          {
+            "en": "Assumptions + constraints",
+            "it": "Assunzioni + vincoli"
+          },
+          {
+            "en": "Scenario parameters + historical data (when applicable)",
+            "it": "Parametri di scenario + dati storici (quando applicabile)"
+          },
+          {
+            "en": "Automation scripts and calculators",
+            "it": "Script di automazione e calcolatori"
+          }
         ],
         "outputs": [
-          { "en": "Dashboards/calculators and decision notes", "it": "Dashboard/calcolatori e note decisionali" },
-          { "en": "Scenario/stress-test artifacts", "it": "Artefatti di scenario/stress-test" }
+          {
+            "en": "Dashboards/calculators and decision notes",
+            "it": "Dashboard/calcolatori e note decisionali"
+          },
+          {
+            "en": "Scenario/stress-test artifacts",
+            "it": "Artefatti di scenario/stress-test"
+          }
         ],
         "reuse": [
-          { "en": "Reusable scenario templates and reporting formats", "it": "Template riusabili di scenario e formati di report" }
+          {
+            "en": "Reusable scenario templates and reporting formats",
+            "it": "Template riusabili di scenario e formati di report"
+          }
         ],
         "constraints": [
-          { "en": "Not investment advice; artifacts are for structured reasoning", "it": "Non è consulenza finanziaria; gli artefatti servono al ragionamento strutturato" }
+          {
+            "en": "Not investment advice; artifacts are for structured reasoning",
+            "it": "Non è consulenza finanziaria; gli artefatti servono al ragionamento strutturato"
+          }
         ],
         "current_focus": [
-          { "en": "Constraint-aware simulations", "it": "Simulazioni con vincoli" },
-          { "en": "Stress-testable decision dashboards", "it": "Dashboard decisionali stress-testabili" }
+          {
+            "en": "Constraint-aware simulations",
+            "it": "Simulazioni con vincoli"
+          },
+          {
+            "en": "Stress-testable decision dashboards",
+            "it": "Dashboard decisionali stress-testabili"
+          }
         ]
       },
       "purpose": "Make financial decisions explicit via models, assumptions, and stress-tested scenarios (automation-first, output-driven).",
@@ -1608,7 +1814,10 @@
         "Modeling"
       ],
       "links": [
-        { "label": "FZTM blog", "url": "https://fromzerotomilliondollars.wordpress.com/" }
+        {
+          "label": "FZTM blog",
+          "url": "https://fromzerotomilliondollars.wordpress.com/"
+        }
       ],
       "contained": [
         {
@@ -1645,21 +1854,42 @@
           "it": "Aumentare il valore didattico tramite struttura, metodo, tooling e progressione—oltre i repository generici di esercizi."
         },
         "inputs": [
-          { "en": "Problem sets and curricula", "it": "Esercizi e curricula" },
-          { "en": "Templates and structured formats", "it": "Template e formati strutturati" }
+          {
+            "en": "Problem sets and curricula",
+            "it": "Esercizi e curricula"
+          },
+          {
+            "en": "Templates and structured formats",
+            "it": "Template e formati strutturati"
+          }
         ],
         "outputs": [
-          { "en": "Exercise collections and study tracks", "it": "Raccolte di esercizi e percorsi di studio" },
-          { "en": "Reusable templates for consistent delivery", "it": "Template riusabili per delivery consistente" }
+          {
+            "en": "Exercise collections and study tracks",
+            "it": "Raccolte di esercizi e percorsi di studio"
+          },
+          {
+            "en": "Reusable templates for consistent delivery",
+            "it": "Template riusabili per delivery consistente"
+          }
         ],
         "reuse": [
-          { "en": "Reusable explanation templates and grading/check criteria", "it": "Template riusabili di spiegazione e criteri di valutazione/check" }
+          {
+            "en": "Reusable explanation templates and grading/check criteria",
+            "it": "Template riusabili di spiegazione e criteri di valutazione/check"
+          }
         ],
         "constraints": [
-          { "en": "Not an archive; everything must be method-scaffolded", "it": "Non è un archivio; tutto deve essere scaffoldato da metodo" }
+          {
+            "en": "Not an archive; everything must be method-scaffolded",
+            "it": "Non è un archivio; tutto deve essere scaffoldato da metodo"
+          }
         ],
         "current_focus": [
-          { "en": "Structured educational content delivery", "it": "Delivery di contenuti educativi strutturati" }
+          {
+            "en": "Structured educational content delivery",
+            "it": "Delivery di contenuti educativi strutturati"
+          }
         ]
       },
       "purpose": "Increase learning value via structure, method, tooling, and progression—beyond generic exercise repositories.",
@@ -1682,7 +1912,10 @@
         "Technical Writing"
       ],
       "links": [
-        { "label": "Esercizi Svolti", "url": "https://esercizi-svolti.com/" }
+        {
+          "label": "Esercizi Svolti",
+          "url": "https://esercizi-svolti.com/"
+        }
       ],
       "contained": [
         {
@@ -1886,13 +2119,18 @@
   "reading": {
     "domains": [
       {
-        "domain": { "en": "Causality", "it": "Causalità" },
+        "domain": {
+          "en": "Causality",
+          "it": "Causalità"
+        },
         "books": [
           {
             "title": "Causal Inference: The Mixtape",
             "author": "Scott Cunningham",
             "status": "reading",
-            "topic_tags": ["Causal Inference"],
+            "topic_tags": [
+              "Causal Inference"
+            ],
             "why_it_matters": {
               "en": "Shaped my ability to reason about identification and causal estimands under real-world constraints.",
               "it": "Ha rafforzato la capacità di ragionare su identificazione ed estimand causali sotto vincoli reali."
@@ -1902,7 +2140,9 @@
             "title": "The Book of Why",
             "author": "Judea Pearl",
             "status": "reading",
-            "topic_tags": ["Causality"],
+            "topic_tags": [
+              "Causality"
+            ],
             "why_it_matters": {
               "en": "Strengthened graph-based causal thinking and the discipline of explicit assumptions.",
               "it": "Ha rafforzato il pensiero causale basato su grafi e la disciplina delle assunzioni esplicite."
@@ -1911,13 +2151,19 @@
         ]
       },
       {
-        "domain": { "en": "Systems & Engineering", "it": "Sistemi e ingegneria" },
+        "domain": {
+          "en": "Systems & Engineering",
+          "it": "Sistemi e ingegneria"
+        },
         "books": [
           {
             "title": "Designing Data-Intensive Applications",
             "author": "Martin Kleppmann",
             "status": "completed",
-            "topic_tags": ["Software Engineering", "Data Systems"],
+            "topic_tags": [
+              "Software Engineering",
+              "Data Systems"
+            ],
             "why_it_matters": {
               "en": "Shaped how I design data systems with explicit tradeoffs, failure modes, and operational invariants.",
               "it": "Ha plasmato il modo in cui progetto sistemi dati con tradeoff espliciti, failure mode e invarianti operative."
@@ -1927,7 +2173,9 @@
             "title": "Clean Code",
             "author": "Robert C. Martin",
             "status": "completed",
-            "topic_tags": ["Software Craftsmanship"],
+            "topic_tags": [
+              "Software Craftsmanship"
+            ],
             "why_it_matters": {
               "en": "Reinforced maintainability as an engineering constraint (naming, structure, tests, refactoring discipline).",
               "it": "Ha rafforzato la manutenibilità come vincolo ingegneristico (naming, struttura, test, disciplina di refactoring)."
@@ -1936,13 +2184,18 @@
         ]
       },
       {
-        "domain": { "en": "Statistics & Modeling", "it": "Statistica e modellazione" },
+        "domain": {
+          "en": "Statistics & Modeling",
+          "it": "Statistica e modellazione"
+        },
         "books": [
           {
             "title": "Statistical Rethinking",
             "author": "Richard McElreath",
             "status": "reading",
-            "topic_tags": ["Bayesian Statistics"],
+            "topic_tags": [
+              "Bayesian Statistics"
+            ],
             "why_it_matters": {
               "en": "Improved my Bayesian modeling intuition and how to connect assumptions to diagnostics and prediction.",
               "it": "Ha migliorato l’intuizione per la modellazione bayesiana e il collegamento tra assunzioni, diagnostica e previsione."
@@ -1952,7 +2205,10 @@
             "title": "Python Machine Learning",
             "author": "Sebastian Raschka",
             "status": "completed",
-            "topic_tags": ["Machine Learning", "Python"],
+            "topic_tags": [
+              "Machine Learning",
+              "Python"
+            ],
             "why_it_matters": {
               "en": "Supported practical ML implementation patterns and helped standardize baselines and evaluation workflows.",
               "it": "Ha supportato pattern pratici di implementazione ML e aiutato a standardizzare baseline e workflow di valutazione."
@@ -1961,11 +2217,17 @@
         ]
       },
       {
-        "domain": { "en": "Finance", "it": "Finanza" },
+        "domain": {
+          "en": "Finance",
+          "it": "Finanza"
+        },
         "books": []
       },
       {
-        "domain": { "en": "Bioengineering", "it": "Bioingegneria" },
+        "domain": {
+          "en": "Bioengineering",
+          "it": "Bioingegneria"
+        },
         "books": []
       }
     ],
@@ -1973,21 +2235,27 @@
       {
         "title": "Causal Inference: The Mixtape",
         "author": "Scott Cunningham",
-        "topic_tags": ["Causal Inference"],
+        "topic_tags": [
+          "Causal Inference"
+        ],
         "status": "reading",
         "needs_verification": false
       },
       {
         "title": "The Book of Why",
         "author": "Judea Pearl",
-        "topic_tags": ["Causality"],
+        "topic_tags": [
+          "Causality"
+        ],
         "status": "reading",
         "needs_verification": false
       },
       {
         "title": "Statistical Rethinking",
         "author": "Richard McElreath",
-        "topic_tags": ["Bayesian Statistics"],
+        "topic_tags": [
+          "Bayesian Statistics"
+        ],
         "status": "reading",
         "needs_verification": false
       }
@@ -1996,21 +2264,29 @@
       {
         "title": "Designing Data-Intensive Applications",
         "author": "Martin Kleppmann",
-        "topic_tags": ["Software Engineering", "Data Systems"],
+        "topic_tags": [
+          "Software Engineering",
+          "Data Systems"
+        ],
         "status": "completed",
         "needs_verification": false
       },
       {
         "title": "Python Machine Learning",
         "author": "Sebastian Raschka",
-        "topic_tags": ["Machine Learning", "Python"],
+        "topic_tags": [
+          "Machine Learning",
+          "Python"
+        ],
         "status": "completed",
         "needs_verification": false
       },
       {
         "title": "Clean Code",
         "author": "Robert C. Martin",
-        "topic_tags": ["Software Craftsmanship"],
+        "topic_tags": [
+          "Software Craftsmanship"
+        ],
         "status": "completed",
         "needs_verification": false
       }

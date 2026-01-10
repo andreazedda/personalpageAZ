@@ -37,6 +37,65 @@
   }
 }
 
+/* ===== ICON STYLING ===== */
+.fa {
+  margin-right: 0.5rem;
+  color: var(--color-secondary);
+  opacity: 0.9;
+  min-width: 1.2em;
+  text-align: center;
+  transition: all var(--transition-speed) ease;
+}
+
+.fa:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+h2 .fa, h3 .fa, h4 .fa {
+  margin-right: 0.75rem;
+  font-size: 0.95em;
+}
+
+h1 .fa {
+  margin-right: 1rem;
+  font-size: 0.9em;
+}
+
+.subtitle .fa {
+  color: var(--color-accent);
+  opacity: 0.85;
+}
+
+/* List items with icons */
+li .fa, p .fa, span .fa {
+  margin-right: 0.4rem;
+  font-size: 0.9em;
+}
+
+/* Calendar and timeline icons */
+.fa-calendar, .fa-clock-o {
+  color: var(--color-accent);
+}
+
+/* Organization and location icons */
+.fa-building-o, .fa-university, .fa-map-marker {
+  color: var(--color-primary);
+  opacity: 0.8;
+}
+
+/* Interactive icons */
+.fa-link, .fa-external-link, .fa-envelope-o {
+  color: var(--color-secondary);
+  opacity: 0.7;
+}
+
+/* Status icons */
+.fa-check-circle, .fa-check-square-o {
+  color: #4ade80;
+  opacity: 0.9;
+}
+
 /* ===== RESET & BASE ===== */
 html {
   scroll-behavior: smooth;
@@ -152,10 +211,70 @@ strong {
 .section {
   padding: var(--spacing-xl) 0;
   min-height: auto;
+  position: relative;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent, 
+    rgba(212, 175, 55, 0.2) 20%, 
+    rgba(212, 175, 55, 0.2) 80%, 
+    transparent
+  );
+}
+
+.section:first-of-type::before {
+  display: none;
 }
 
 .section-compact {
   padding: var(--spacing-md) 0;
+}
+
+/* Section headers with enhanced visibility */
+.section h2,
+.section h3 {
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.section .subtitle {
+  display: inline-block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* Improve list readability */
+ul, ol {
+  margin-left: 1.5rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+li {
+  margin-bottom: 0.75rem;
+  line-height: 1.8;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* Nested lists */
+li ul, li ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* ===== DOSSIER UI ===== */
@@ -896,11 +1015,45 @@ header {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   padding: var(--spacing-md);
-  transition: border-color var(--transition-speed);
+  transition: all var(--transition-speed) ease;
+  position: relative;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-secondary), transparent);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  opacity: 0;
+  transition: opacity var(--transition-speed);
 }
 
 .card:hover {
-  border-color: rgba(255, 255, 255, 0.14);
+  border-color: rgba(212, 175, 55, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+/* Card titles with icons */
+.card h3,
+.card h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.card h3 .fa,
+.card h4 .fa {
+  flex-shrink: 0;
 }
 
 /* ===== SERVICE CARDS ===== */
