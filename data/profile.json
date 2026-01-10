@@ -1,4 +1,4 @@
-{
+﻿{
   "person": {
     "name": "Andrea Zedda",
     "title": {
@@ -9,8 +9,8 @@
     "image": "images/immagine_di_az.jpg",
     "email": "andrea.zedda@outlook.it",
     "tagline": {
-      "en": "I design data-driven decision systems: causal inference + interpretable predictive modeling for business intelligence, and sensor-fusion motion analytics for bioengineering. I also like teaching, writing (investing/personal finance, philosophy), and building/repairing things; I currently run a Chia coin miner.",
-      "it": "Progetto sistemi decisionali data-driven: inferenza causale e modelli predittivi interpretabili per la business intelligence, e motion analytics con sensor fusion per la bioingegneria. Mi piace anche insegnare, scrivere (investimenti/finanza personale, filosofia) e costruire/riparare cose; attualmente ho un miner di Chia coin."
+      "en": "I use engineering to ask philosophical questions: what can we know from data? How do we make assumptions testable? What makes a model trustworthy? My work spans causal inference, interpretable ML, and biosignal processing—not as separate domains, but as different expressions of the same inquiry: building systems that respect epistemic limits and explain their reasoning.",
+      "it": "Uso l'ingegneria per porre domande filosofiche: cosa possiamo sapere dai dati? Come rendiamo testabili le assunzioni? Cosa rende affidabile un modello? Il mio lavoro spazia tra inferenza causale, ML interpretabile e biosegnali—non come domini separati, ma come espressioni diverse della stessa indagine: costruire sistemi che rispettano i limiti epistemici e spiegano il loro ragionamento."
     }
   },
   "hero": {
@@ -21,20 +21,20 @@
     },
     "bullets": [
       {
-        "en": "Decision intelligence: interpretable ML + driver analysis (SHAP)",
-        "it": "Decision intelligence: ML interpretabile + driver analysis (SHAP)"
+        "en": "I interrogate causality: what moves what? How do we test causal claims against data?",
+        "it": "Interrogo la causalità: cosa muove cosa? Come testiamo le ipotesi causali sui dati?"
       },
       {
-        "en": "Causal discovery/inference for decision support and strategy",
-        "it": "Causal discovery/inferenza causale per decision support e strategia"
+        "en": "I demand explainability: models that can articulate their reasoning and expose their limits",
+        "it": "Richiedo spiegabilità: modelli che articolano il loro ragionamento ed espongono i loro limiti"
       },
       {
-        "en": "Motion analytics: sensor fusion and biomechanical metrics (IMU/EMG)",
-        "it": "Motion analytics: sensor fusion e metriche biomeccaniche (IMU/EMG)"
+        "en": "I enforce reproducibility: explicit assumptions, testable pipelines, verifiable conclusions",
+        "it": "Impongo riproducibilità: assunzioni esplicite, pipeline testabili, conclusioni verificabili"
       },
       {
-        "en": "Teaching + structured writing (investing/personal finance, philosophy)",
-        "it": "Insegnamento + scrittura strutturata (investimenti/finanza personale, filosofia)"
+        "en": "I traverse domains (biosignals, BI, finance) to extract transferable patterns, not accumulate specializations",
+        "it": "Attraverso domini (biosegnali, BI, finanza) per estrarre pattern trasferibili, non accumulare specializzazioni"
       }
     ],
     "primary_cta": {
@@ -54,8 +54,8 @@
   },
   "about": {
     "paragraph": {
-      "en": "I build decision-ready systems: causal reasoning + interpretable models for business intelligence, and sensor-fusion motion analytics for bioengineering. I care about collaboration and intellectual work, and I like tinkering: repairing and building new projects, including a Chia coin miner.",
-      "it": "Costruisco sistemi decision-ready: ragionamento causale e modelli interpretabili per la business intelligence, e motion analytics con sensor fusion per la bioingegneria. Tengo molto alla collaborazione e al lavoro intellettuale, e mi piace sperimentare: riparare e costruire nuovi progetti, incluso un miner di Chia coin."
+      "en": "I'm drawn to the activity of thinking itself\u2014the process of connecting ideas, questioning assumptions, and building understanding. I approach problems through structured reasoning: making constraints explicit, testing models against reality, and preferring clarity over complexity. My work in causal inference and interpretable ML is an expression of this: systems that explain their logic, make their assumptions testable, and respect the limits of what we can know. Beyond work, I'm fascinated by philosophical inquiry, investing/personal finance (as applied decision theory), and hands-on building\u2014whether that's repairing things, running a Chia miner, or designing new tools. First and foremost, I'm a human being who values collaboration, intellectual honesty, and the joy of understanding how things actually work.",
+      "it": "Sono attratto dall'attivit\u00e0 del pensare in s\u00e9\u2014il processo di connettere idee, mettere in discussione assunzioni e costruire comprensione. Affronto i problemi attraverso il ragionamento strutturato: rendere i vincoli espliciti, testare i modelli contro la realt\u00e0 e preferire la chiarezza alla complessit\u00e0. Il mio lavoro nell'inferenza causale e nel ML interpretabile \u00e8 un'espressione di questo: sistemi che spiegano la loro logica, rendono testabili le loro assunzioni e rispettano i limiti di ci\u00f2 che possiamo sapere. Al di l\u00e0 del lavoro, sono affascinato dall'indagine filosofica, dagli investimenti/finanza personale (come teoria decisionale applicata) e dalla costruzione pratica\u2014che sia riparare oggetti, gestire un miner di Chia o progettare nuovi strumenti. Prima di tutto, sono un essere umano che valorizza la collaborazione, l'onest\u00e0 intellettuale e la gioia di capire come funzionano davvero le cose."
     },
     "boundary_rules": [
       {
@@ -75,6 +75,44 @@
         "it": "Preferisco input/output espliciti e run riproducibili rispetto a iterazioni ad-hoc."
       }
     ]
+  },
+  "epistemic_position": {
+    "core_questions": {
+      "en": [
+        "What can we reliably know from data, and where do claims exceed evidence?",
+        "How do we make assumptions explicit enough to be challenged?",
+        "What makes a model trustworthy beyond statistical fit?",
+        "Why does the same pattern appear in biosignals, business processes, and investment decisions?"
+      ],
+      "it": [
+        "Cosa possiamo sapere in modo affidabile dai dati, e dove le affermazioni eccedono l'evidenza?",
+        "Come rendiamo le assunzioni esplicite abbastanza da poter essere contestate?",
+        "Cosa rende un modello affidabile al di là del fit statistico?",
+        "Perché lo stesso pattern emerge in biosegnali, processi aziendali e decisioni di investimento?"
+      ]
+    },
+    "how_i_think": {
+      "en": [
+        "I privilege structure over accumulation: transferable models > domain-specific tricks",
+        "I insist on epistemic hygiene: every model must articulate what it cannot know",
+        "I treat domains as lenses, not silos: biosignals and business analytics share the same causal logic",
+        "I value philosophical rigor in technical work: engineering is applied epistemology"
+      ],
+      "it": [
+        "Privilegio struttura su accumulo: modelli trasferibili > trucchi domain-specific",
+        "Insisto sull'igiene epistemica: ogni modello deve articolare ciò che non può sapere",
+        "Tratto i domini come lenti, non silos: biosegnali e analytics aziendale condividono la stessa logica causale",
+        "Valorizzo rigore filosofico nel lavoro tecnico: l'ingegneria è epistemologia applicata"
+      ]
+    },
+    "why_diverse_domains": {
+      "en": "I work across biosignals, business intelligence, and finance not out of indecision, but to extract invariant patterns. Causal graphs, explainability constraints, reproducibility requirements—these transcend application context. My output is not domain expertise; it's transferable reasoning frameworks.",
+      "it": "Lavoro tra biosegnali, business intelligence e finanza non per indecisione, ma per estrarre pattern invarianti. Grafi causali, vincoli di spiegabilità, requisiti di riproducibilità—questi trascendono il contesto applicativo. Il mio output non è expertise di dominio; sono framework di ragionamento trasferibili."
+    },
+    "commitment": {
+      "en": "I'm not here to accumulate skills or chase trends. I'm here to influence how people reason about uncertainty, evidence, and decisions—using technology as the medium, not the message.",
+      "it": "Non sono qui per accumulare competenze o inseguire trend. Sono qui per influenzare come le persone ragionano su incertezza, evidenza e decisioni—usando la tecnologia come medium, non come messaggio."
+    }
   },
   "phd_extract": {
     "source": {
@@ -136,47 +174,47 @@
     "items": [
       {
         "title": {
-          "en": "Interpretable forecasting + driver analysis",
-          "it": "Forecasting interpretabile + driver analysis"
+          "en": "Causal reasoning under real constraints",
+          "it": "Ragionamento causale sotto vincoli reali"
         },
         "one_liner": {
-          "en": "Predictive models with explanation-first outputs (SHAP) to support operational decisions.",
-          "it": "Modelli predittivi con output explanation-first (SHAP) per supportare decisioni operative."
+          "en": "Moving beyond correlation: making causal assumptions explicit, testable, and challengeable. The goal is not 'finding causality' but articulating what we're assuming and where the reasoning can break.",
+          "it": "Oltre la correlazione: rendere le assunzioni causali esplicite, testabili e contestabili. L'obiettivo non è 'trovare causalità' ma articolare cosa assumiamo e dove il ragionamento può rompersi."
         },
-        "tags": ["Forecasting", "Explainability", "SHAP"]
+        "tags": ["Causal Inference", "DAGs", "Identification"]
       },
       {
         "title": {
-          "en": "Causal discovery / inference workflows",
-          "it": "Workflow di causal discovery / inferenza"
+          "en": "Models that explain themselves",
+          "it": "Modelli che si spiegano"
         },
         "one_liner": {
-          "en": "From causal graphs to decision support: make assumptions explicit and testable.",
-          "it": "Dai grafi causali al decision support: assunzioni esplicite e testabili."
+          "en": "Interpretability is not optional decoration; it's epistemic necessity. Models must articulate their logic, expose their drivers, and declare their limits. Otherwise, they're black boxes pretending to be knowledge.",
+          "it": "L'interpretabilità non è decorazione opzionale; è necessità epistemica. I modelli devono articolare la loro logica, esporre i loro driver e dichiarare i loro limiti. Altrimenti sono scatole nere che fingono di essere conoscenza."
         },
-        "tags": ["Causal Discovery", "Causal Inference"]
+        "tags": ["SHAP", "Explainability", "Transparency"]
       },
       {
         "title": {
-          "en": "Analytics delivery via web interfaces",
-          "it": "Delivery analytics via interfacce web"
+          "en": "Reproducibility as intellectual hygiene",
+          "it": "Riproducibilità come igiene intellettuale"
         },
         "one_liner": {
-          "en": "Microservices-oriented interfaces to ship analysis as usable tools, not notebooks.",
-          "it": "Interfacce orientate a microservizi per rilasciare analisi come strumenti usabili, non notebook."
+          "en": "If someone else can't rebuild your analysis from your code and data, you haven't done science—you've told a story. Explicit I/O, config-driven pipelines, and automated testing are philosophical commitments, not just engineering habits.",
+          "it": "Se qualcun altro non può ricostruire la tua analisi dal tuo codice e dati, non hai fatto scienza—hai raccontato una storia. I/O esplicito, pipeline config-driven e testing automatizzato sono impegni filosofici, non solo abitudini ingegneristiche."
         },
-        "tags": ["Django", "Microservices", "APIs"]
+        "tags": ["Reproducibility", "Pipelines", "Testing"]
       },
       {
         "title": {
-          "en": "Reproducible, modular pipelines",
-          "it": "Pipeline modulari e riproducibili"
+          "en": "Cross-domain pattern extraction",
+          "it": "Estrazione di pattern cross-domain"
         },
         "one_liner": {
-          "en": "Config-driven pipelines with explicit I/O, logging, and testing.",
-          "it": "Pipeline config-driven con I/O esplicito, logging e testing."
+          "en": "The same structural questions recur in biosignal analysis, business forecasting, and investment decisions. I'm not 'doing different things'—I'm applying the same epistemic framework to different substrate. The goal is transferable reasoning, not accumulated specialization.",
+          "it": "Le stesse domande strutturali ricorrono nell'analisi dei biosegnali, nel forecasting aziendale e nelle decisioni di investimento. Non sto 'facendo cose diverse'—applico lo stesso framework epistemico a substrati diversi. L'obiettivo è ragionamento trasferibile, non specializzazione accumulata."
         },
-        "tags": ["Pipelines", "Reproducibility", "Testing"]
+        "tags": ["Transfer Learning", "Invariant Patterns", "Cross-Domain"]
       }
     ]
   },
@@ -555,37 +593,37 @@
       "nav.contact": "Contact",
 
       "contract.title": "Reading Contract",
-      "contract.text": "This is not a portfolio; it is an exhaustive technical and research dossier.",
-      "contract.subtext": "NOTE = principles, governance, operating system, methods. EVIDENCE = verifiable facts (roles, projects, outputs, repositories, publications, demos, reading list).",
+      "contract.text": "This is not a portfolio. It is an epistemic-operational dossier: a document that reveals how I think, before what I've built.",
+      "contract.subtext": "NOTE = epistemic position, reasoning method, mental models. EVIDENCE = artifacts that prove coherence between thought and execution.",
 
-      "index.title": "DOCUMENT INDEX",
-      "index.note": "NOTE",
-      "index.evidence": "EVIDENCE",
-      "index.os": "Operating System",
-      "index.collab": "Collaboration Modes",
-      "index.focus": "Focus Now",
-      "index.capabilities": "Capabilities",
-      "index.toolbox": "Toolbox",
-      "index.future": "Future Plans",
-      "index.contexts": "Operational & Research Contexts",
-      "index.background": "Background",
-      "index.education": "Education",
-      "index.containers": "Containers",
-      "index.examples": "Project Examples",
-      "index.proof": "Proof",
-      "index.reading": "Reading",
-      "index.courses": "Courses",
-      "index.contact": "Contact",
+      "index.title": "📑 DOCUMENT INDEX",
+      "index.note": "📝 NOTE",
+      "index.evidence": "✅ EVIDENCE",
+      "index.os": "🎯 Working Method",
+      "index.collab": "🤝 Collaboration Modes",
+      "index.focus": "🔬 Focus Now",
+      "index.capabilities": "💼 Capabilities",
+      "index.toolbox": "🛠️ Toolbox",
+      "index.future": "🚀 Future Plans",
+      "index.contexts": "🌐 Operational & Research Contexts",
+      "index.background": "📍 Background",
+      "index.education": "🎓 Education",
+      "index.containers": "📦 Containers",
+      "index.examples": "💡 Project Examples",
+      "index.proof": "✅ Proof",
+      "index.reading": "📚 Reading",
+      "index.courses": "📖 Courses",
+      "index.contact": "📧 Contact",
 
-      "note.subtitle": "NOTE",
+      "note.subtitle": "📝 NOTE",
       "note.title": "Principles & Methods",
-      "note.lead": "Governance boundaries, operating system, and the methods used to turn data into decision-ready outputs.",
-      "evidence.subtitle": "EVIDENCE",
+      "note.lead": "How I think: epistemic position, reasoning method, and why I work across domains.",
+      "evidence.subtitle": "✅ EVIDENCE",
       "evidence.title": "Verifiable Artifacts & Context",
-      "evidence.lead": "Roles, containers, outputs, public artifacts, reading list, and academic coursework.",
+      "evidence.lead": "My journey: roles, projects, concrete outputs, public artifacts, reading list, and academic coursework.",
 
-      "contexts.title": "Operational & Research Contexts",
-      "contexts.disclaimer": "Listed for context; exposure does not imply employment or endorsement.",
+      "contexts.title": "🌐 Operational & Research Contexts",
+      "contexts.disclaimer": "Listed for context; presence does not imply current employment or endorsement.",
       "contexts.directWork": "DIRECT WORK",
       "contexts.exposure": "OPERATIONAL EXPOSURE",
 
@@ -615,29 +653,37 @@
       "reading.domainTitle": "Reading by domain",
       "reading.why": "Why it matters",
 
-      "hero.kicker": "Executive Brief",
+      "hero.kicker": "Epistemic Brief",
       "hero.pillarsLabel": "Pillars:",
       "hero.ctaProjects": "See Projects",
       "hero.ctaEmail": "Email",
       "hero.factCurrent": "Current",
       "hero.factLocation": "Location",
       "hero.factCollaboration": "Collaboration",
-      "hero.note": "Bioengineering foundation (signals, bioimaging, health IT) + interpretable ML and causal inference for decision support.",
+      "hero.note": "Engineer by training, philosopher by inclination. I use causal inference and interpretable ML to ask: what can we know, and what are we merely assuming?",
 
-      "focus.subtitle": "Current Work",
-      "focus.title": "Focus Now",
-      "focus.lead": "What I'm building right now and the methods I use to turn data into decision-ready outputs.",
+      "epistemic.subtitle": "🧠 Epistemic Position",
+      "epistemic.title": "How I Think",
+      "epistemic.lead": "The questions that drive my work, and why I traverse domains instead of specializing.",
+      "epistemic.questionsLabel": "Core questions",
+      "epistemic.methodLabel": "How I approach problems",
+      "epistemic.domainsLabel": "Why diverse domains?",
+      "epistemic.commitmentLabel": "Commitment",
 
-      "education.subtitle": "Training",
+      "focus.subtitle": "🔬 Current Work",
+      "focus.title": "Active Inquiries",
+      "focus.lead": "The structural questions I'm pursuing right now, expressed as methods rather than tools.",
+
+      "education.subtitle": "🎓 Training",
       "education.title": "Education",
-      "education.lead": "Degrees and training that shaped my research approach and engineering standards.",
+      "education.lead": "Degrees and training that shaped my approach to research and engineering.",
 
-      "about.subtitle": "Background",
-      "about.title": "About",
-      "about.lead": "A compact timeline of research and industry work, with the tooling that shaped my approach.",
+      "about.subtitle": "📍 Background",
+      "about.title": "Who I Am",
+      "about.lead": "I'm a thinking human being first: curious, systematic, and driven by the joy of understanding. My approach and what I care about.",
 
       "collaborators.title": "People I’ve worked with",
-      "collaborators.lead": "People I collaborated with in research or industry.",
+      "collaborators.lead": "Colleagues and collaborators in research and industry.",
       "collaborators.linkLabel": "Profile",
       "collaborators.sourcesLabel": "Sources",
       "collaborators.epistemicLabel": "Why it matters",
@@ -646,32 +692,32 @@
       "collaborators.group.consortium": "Consortium / program context",
       "collaborators.group.industrial": "Industry / operations context",
 
-      "os.title": "Operating System",
-      "collab.title": "Collaboration Modes",
+      "os.title": "🎯 Working Method",
+      "collab.title": "🤝 Collaboration Modes",
 
-      "capabilities.subtitle": "Services",
+      "capabilities.subtitle": "💼 Services",
       "capabilities.title": "Capabilities",
-      "capabilities.lead": "Services are scoped as deliverables: reproducible analysis, decision support, and production-ready interfaces (BI / health / wearables).",
+      "capabilities.lead": "What I can do for you: reproducible analysis, decision support, and production-ready interfaces (BI, health, wearables).",
 
-      "toolbox.title": "Toolbox",
+      "toolbox.title": "🛠️ Toolbox",
 
-      "projects.subtitle": "Pillars",
-      "projects.lead": "A container-first ecosystem: each pillar encodes governance boundaries, reusable assets, and the current status of delivery.",
+      "projects.subtitle": "📦 Pillars",
+      "projects.lead": "My projects organized in containers: each defines boundaries, reusable assets, and current status.",
       "projects.purposeLabel": "Purpose:",
       "projects.whatIBuildLabel": "What I build:",
       "projects.outputsLabel": "Outputs:",
       "projects.containedLabel": "Contained:",
 
-      "projectExamples.subtitle": "Examples",
+      "projectExamples.subtitle": "💡 Examples",
       "projectExamples.title": "Project Examples",
-      "projectExamples.lead": "Concrete builds that show what I actually ship inside the containers above.",
+      "projectExamples.lead": "Concrete projects: what I've actually built inside the containers.",
       "projectExamples.withinLabel": "Within:",
       "projectExamples.highlightsLabel": "Highlights:",
       "projectExamples.linkLabel": "Link",
 
-      "people.subtitle": "People",
+      "people.subtitle": "👥 People",
       "people.title": "People",
-      "people.lead": "People I collaborated with (details available on request).",
+      "people.lead": "Colleagues and collaborators I've worked with (details available on request).",
 
       "reading.nowTitle": "Now Reading",
       "reading.completedTitle": "Completed",
@@ -683,27 +729,27 @@
       "proof.badgeOnRequest": "Available on request",
       "proof.badgeTodo": "TODO",
 
-      "proof.subtitle": "Verification",
+      "proof.subtitle": "✅ Verification",
       "proof.title": "Selected Proof",
-      "proof.lead": "Links to public artifacts. Placeholders are intentionally marked TODO until a public URL exists.",
+      "proof.lead": "Links to my public artifacts. Placeholders are marked TODO until a public URL is available.",
 
-      "contact.subtitle": "Get in touch",
+      "contact.subtitle": "📧 Get in touch",
       "contact.title": "Contact",
-      "contact.lead": "Best channel: email. If you're evaluating collaboration, LinkedIn is the fastest context sync.",
+      "contact.lead": "Best way to reach me is email. For collaborations, LinkedIn is the fastest way to sync.",
       "contact.copyEmail": "Copy Email",
       "contact.sendEmail": "Send Email",
 
-      "future.subtitle": "Next Steps",
+      "future.subtitle": "🚀 Next Steps",
       "future.title": "Future Plans",
-      "future.lead": "What I'm building and where I'm investing my time.",
+      "future.lead": "What I'm working on now and where I'm investing my time.",
 
-      "reading.subtitle": "Learning",
+      "reading.subtitle": "📚 Learning",
       "reading.title": "Reading",
-      "reading.lead": "Books currently reading and completed that have shaped my approach.",
+      "reading.lead": "Books I'm reading or have completed that have influenced how I work.",
       "reading.currentLabel": "Currently Reading",
       "reading.completedLabel": "Completed",
 
-      "courses.subtitle": "Academic Training",
+      "courses.subtitle": "🎓 Academic Training",
       "courses.title": "University Courses",
       "courses.lead": "Exams and courses completed during my academic journey.",
       "courses.levelPhd": "PhD",
@@ -728,37 +774,37 @@
       "nav.contact": "Contatti",
 
       "contract.title": "Contratto di lettura",
-      "contract.text": "Questo non è un portfolio; è un dossier tecnico e di ricerca esaustivo.",
-      "contract.subtext": "NOTA = principi, governance, sistema operativo, metodi. EVIDENZE = fatti verificabili (ruoli, progetti, output, repository, pubblicazioni, demo, letture).",
+      "contract.text": "Questo non è un portfolio. È un dossier epistemico-operativo: un documento che rivela come penso, prima di cosa ho costruito.",
+      "contract.subtext": "NOTA = posizione epistemica, metodo di ragionamento, modelli mentali. EVIDENZE = artefatti che provano coerenza tra pensiero ed esecuzione.",
 
-      "index.title": "INDICE DOCUMENTO",
-      "index.note": "NOTA",
-      "index.evidence": "EVIDENZE",
-      "index.os": "Sistema operativo",
-      "index.collab": "Modalità di collaborazione",
-      "index.focus": "Focus ora",
-      "index.capabilities": "Competenze",
-      "index.toolbox": "Strumenti",
-      "index.future": "Piani futuri",
-      "index.contexts": "Contesti operativi e di ricerca",
-      "index.background": "Percorso",
-      "index.education": "Formazione",
-      "index.containers": "Container",
-      "index.examples": "Esempi di progetto",
-      "index.proof": "Evidenze",
-      "index.reading": "Letture",
-      "index.courses": "Corsi",
-      "index.contact": "Contatti",
+      "index.title": "📑 INDICE DOCUMENTO",
+      "index.note": "📝 NOTA",
+      "index.evidence": "✅ EVIDENZE",
+      "index.os": "🎯 Metodo di lavoro",
+      "index.collab": "🤝 Modalità di collaborazione",
+      "index.focus": "🔬 Focus ora",
+      "index.capabilities": "💼 Competenze",
+      "index.toolbox": "🛠️ Strumenti",
+      "index.future": "🚀 Piani futuri",
+      "index.contexts": "🌐 Contesti operativi e di ricerca",
+      "index.background": "📍 Percorso",
+      "index.education": "🎓 Formazione",
+      "index.containers": "📦 Container",
+      "index.examples": "💡 Esempi di progetto",
+      "index.proof": "✅ Evidenze",
+      "index.reading": "📚 Letture",
+      "index.courses": "📖 Corsi",
+      "index.contact": "📧 Contatti",
 
-      "note.subtitle": "NOTA",
+      "note.subtitle": "📝 NOTA",
       "note.title": "Principi e metodi",
-      "note.lead": "Confini di governance, sistema operativo e metodi per trasformare i dati in output utili alle decisioni.",
-      "evidence.subtitle": "EVIDENZE",
+      "note.lead": "Come penso: posizione epistemica, metodo di ragionamento e perché lavoro su più domini.",
+      "evidence.subtitle": "✅ EVIDENZE",
       "evidence.title": "Artefatti e contesto verificabili",
-      "evidence.lead": "Ruoli, container, output, artefatti pubblici, letture e corsi universitari.",
+      "evidence.lead": "Il mio percorso: ruoli ricoperti, progetti, output concreti, artefatti pubblici, letture e corsi universitari.",
 
-      "contexts.title": "Contesti operativi e di ricerca",
-      "contexts.disclaimer": "Elencati per contesto; l’esposizione non implica impiego o endorsement.",
+      "contexts.title": "🌐 Contesti operativi e di ricerca",
+      "contexts.disclaimer": "Elencati per contesto; la presenza in lista non implica impiego attuale o endorsement.",
       "contexts.directWork": "LAVORO DIRETTO",
       "contexts.exposure": "ESPOSIZIONE OPERATIVA",
 
@@ -788,29 +834,37 @@
       "reading.domainTitle": "Letture per dominio",
       "reading.why": "Perché conta",
 
-      "hero.kicker": "Sintesi esecutiva",
+      "hero.kicker": "Sintesi epistemica",
       "hero.pillarsLabel": "Pilastri:",
       "hero.ctaProjects": "Vedi progetti",
       "hero.ctaEmail": "Email",
       "hero.factCurrent": "Attuale",
       "hero.factLocation": "Sede",
       "hero.factCollaboration": "Collaborazione",
-      "hero.note": "Base bioingegneristica (segnali, bioimaging, health IT) + ML interpretabile e inferenza causale per supporto alle decisioni.",
+      "hero.note": "Ingegnere per formazione, filosofo per inclinazione. Uso inferenza causale e ML interpretabile per chiedere: cosa possiamo sapere, e cosa stiamo solo assumendo?",
 
-      "focus.subtitle": "Lavoro attuale",
-      "focus.title": "Focus ora",
-      "focus.lead": "Cosa sto costruendo adesso e i metodi che uso per trasformare i dati in output utili alle decisioni.",
+      "epistemic.subtitle": "🧠 Posizione epistemica",
+      "epistemic.title": "Come penso",
+      "epistemic.lead": "Le domande che guidano il mio lavoro, e perché attraverso domini invece di specializzarmi.",
+      "epistemic.questionsLabel": "Domande centrali",
+      "epistemic.methodLabel": "Come affronto i problemi",
+      "epistemic.domainsLabel": "Perché domini diversi?",
+      "epistemic.commitmentLabel": "Impegno",
 
-      "education.subtitle": "Formazione",
+      "focus.subtitle": "🔬 Lavoro attuale",
+      "focus.title": "Indagini attive",
+      "focus.lead": "Le domande strutturali che sto perseguendo ora, espresse come metodi piuttosto che strumenti.",
+
+      "education.subtitle": "🎓 Formazione",
       "education.title": "Formazione",
-      "education.lead": "Titoli e percorsi che hanno formato il mio approccio alla ricerca e gli standard ingegneristici.",
+      "education.lead": "Titoli e percorsi che hanno formato il mio approccio alla ricerca e all'ingegneria.",
 
-      "about.subtitle": "Percorso",
+      "about.subtitle": "📍 Percorso",
       "about.title": "Chi sono",
-      "about.lead": "Una timeline compatta di ricerca e industria, con gli strumenti che hanno plasmato il mio approccio.",
+      "about.lead": "Sono prima di tutto un essere umano pensante: curioso, sistematico e mosso dalla gioia di capire. Il mio approccio e ciò a cui tengo.",
 
-      "collaborators.title": "Persone con cui ho lavorato",
-      "collaborators.lead": "Persone con cui ho collaborato in ambito ricerca o industria.",
+      "collaborators.title": "👥 Persone con cui ho lavorato",
+      "collaborators.lead": "Colleghi e collaboratori in ambito ricerca e industria.",
       "collaborators.linkLabel": "Profilo",
       "collaborators.sourcesLabel": "Fonti",
       "collaborators.epistemicLabel": "Perché conta",
@@ -819,32 +873,32 @@
       "collaborators.group.consortium": "Contesto consorzio / programma",
       "collaborators.group.industrial": "Contesto industria / operations",
 
-      "os.title": "Sistema operativo",
-      "collab.title": "Modalità di collaborazione",
+      "os.title": "🎯 Metodo di lavoro",
+      "collab.title": "🤝 Modalità di collaborazione",
 
-      "capabilities.subtitle": "Servizi",
+      "capabilities.subtitle": "💼 Servizi",
       "capabilities.title": "Competenze",
-      "capabilities.lead": "Gli ingaggi sono definiti come deliverable: analisi riproducibili, supporto decisionale e interfacce pronte per l'uso (BI / sanità / wearables).",
+      "capabilities.lead": "Cosa posso fare per te: analisi riproducibili, supporto decisionale e interfacce pronte per l'uso (BI, sanità, wearables).",
 
-      "toolbox.title": "Strumenti",
+      "toolbox.title": "🛠️ Strumenti",
 
-      "projects.subtitle": "Pilastri",
-      "projects.lead": "Ecosistema container-first: ogni pilastro definisce confini di governance, asset riusabili e stato di delivery.",
+      "projects.subtitle": "📦 Pilastri",
+      "projects.lead": "I miei progetti organizzati in container: ciascuno definisce confini, asset riusabili e lo stato di avanzamento.",
       "projects.purposeLabel": "Scopo:",
       "projects.whatIBuildLabel": "Cosa costruisco:",
       "projects.outputsLabel": "Output:",
       "projects.containedLabel": "Contenuti:",
 
-      "projectExamples.subtitle": "Esempi",
+      "projectExamples.subtitle": "💡 Esempi",
       "projectExamples.title": "Esempi di progetto",
-      "projectExamples.lead": "Progetti concreti che mostrano cosa realizzo davvero dentro i container sopra.",
+      "projectExamples.lead": "Progetti concreti: cosa ho realizzato davvero all'interno dei container.",
       "projectExamples.withinLabel": "Dentro:",
       "projectExamples.highlightsLabel": "Punti chiave:",
       "projectExamples.linkLabel": "Link",
 
-      "people.subtitle": "Persone",
+      "people.subtitle": "👥 Persone",
       "people.title": "Persone",
-      "people.lead": "Persone con cui ho collaborato (dettagli su richiesta).",
+      "people.lead": "Colleghi e collaboratori con cui ho lavorato (dettagli disponibili su richiesta).",
 
       "reading.nowTitle": "In lettura",
       "reading.completedTitle": "Completati",
@@ -856,29 +910,29 @@
       "proof.badgeOnRequest": "Disponibile su richiesta",
       "proof.badgeTodo": "TODO",
 
-      "proof.subtitle": "Verifica",
+      "proof.subtitle": "✅ Verifica",
       "proof.title": "Evidenze",
-      "proof.lead": "Link ad artefatti pubblici. I placeholder sono marcati TODO finché non esiste un URL pubblico.",
+      "proof.lead": "Link ai miei artefatti pubblici. I placeholder sono marcati TODO finché non sarà disponibile un URL pubblico.",
 
-      "contact.subtitle": "Contatti",
+      "contact.subtitle": "📧 Contatti",
       "contact.title": "Contatti",
-      "contact.lead": "Canale migliore: email. Se stai valutando una collaborazione, LinkedIn è il modo più rapido per sincronizzare il contesto.",
+      "contact.lead": "Il modo migliore per contattarmi è via email. Per collaborazioni, LinkedIn è il canale più rapido per allinearci.",
       "contact.copyEmail": "Copia email",
       "contact.sendEmail": "Invia email",
 
-      "future.subtitle": "Prossimi passi",
+      "future.subtitle": "🚀 Prossimi passi",
       "future.title": "Obiettivi futuri",
-      "future.lead": "Cosa sto costruendo e dove sto investendo il mio tempo.",
+      "future.lead": "Su cosa sto lavorando ora e dove sto investendo il mio tempo.",
 
-      "reading.subtitle": "Apprendimento",
+      "reading.subtitle": "📚 Apprendimento",
       "reading.title": "Letture",
-      "reading.lead": "Libri in lettura e completati che hanno influenzato il mio approccio.",
+      "reading.lead": "Libri che sto leggendo o che ho completato e che hanno influenzato il mio modo di lavorare.",
       "reading.currentLabel": "In lettura",
       "reading.completedLabel": "Completati",
 
-      "courses.subtitle": "Formazione accademica",
+      "courses.subtitle": "🎓 Formazione accademica",
       "courses.title": "Corsi universitari",
-      "courses.lead": "Esami e corsi sostenuti durante il percorso accademico.",
+      "courses.lead": "Esami e corsi sostenuti durante il mio percorso accademico.",
       "courses.levelPhd": "Dottorato",
       "courses.levelMasters": "Laurea magistrale",
       "courses.levelBachelors": "Laurea triennale"
@@ -900,11 +954,34 @@
       "tools": ["Python", "Django", "Unity", "XGBoost", "SHAP", "K-means", "Bayesian Networks"]
     },
     {
-      "role": "Research & Development Bioengineer (PON TEX-STYLE)",
-      "organization": "University of Cagliari",
+      "role": {
+        "en": "Research & Development Bioengineer (PON TEX-STYLE)",
+        "it": "Bioingegnere R&S (PON TEX-STYLE)"
+      },
+      "organization": {
+        "en": "University of Cagliari",
+        "it": "Università di Cagliari"
+      },
       "period": "Oct 2020 – Oct 2021",
-      "focus": "Enabled Bluetooth communication for wearable systems in Android; built an immersive VR demonstrator (Oculus Quest 1) for a sensorized automotive environment; collected HRV and pressure data.",
-      "tools": ["Android", "Bluetooth", "Unity (C#)", "Oculus Quest"]
+      "focus": {
+        "en": "Enabled Bluetooth communication for wearable systems on Android; built an immersive VR demonstrator (Oculus Quest 1) for a sensorized automotive environment; collected HRV and pressure data. This experience reinforced my focus on integration constraints and clean, reproducible data capture.",
+        "it": "Ho abilitato la comunicazione Bluetooth per sistemi wearable su Android; ho realizzato un dimostratore VR immersivo (Oculus Quest 1) per un ambiente automotive sensorizzato; ho raccolto dati HRV e di pressione. Questa esperienza ha rafforzato il mio focus su vincoli di integrazione e acquisizione dati pulita e riproducibile."
+      },
+      "evidence_bullets": [
+        {
+          "en": "Bluetooth integration for wearable devices on Android.",
+          "it": "Integrazione Bluetooth per dispositivi wearable su Android."
+        },
+        {
+          "en": "Immersive VR demonstrator (Oculus Quest 1) for a sensorized automotive setting.",
+          "it": "Dimostratore VR immersivo (Oculus Quest 1) per un contesto automotive sensorizzato."
+        },
+        {
+          "en": "Data collection for HRV and pressure signals.",
+          "it": "Raccolta dati per segnali HRV e pressione."
+        }
+      ],
+      "tools": ["Android", "Bluetooth", "Unity (C#)", "Oculus Quest", "Wearables", "HRV", "Pressure Sensors", "Data Collection"]
     },
     {
       "role": "Research on post-stroke neuromotor telerehabilitation (DoMoMEA)",
